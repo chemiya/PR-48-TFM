@@ -1,0 +1,35 @@
+@mixin transition($args...) {
+	-webkit-transition: $args;
+	-moz-transition: $args;
+	-ms-transition: $args;
+	-o-transition: $args;
+	transition: $args;
+}
+
+@mixin prefixer ($property, $value) {
+	#{'-webkit-' + $property}: $value;
+	#{'-mz-' + $property}: $value;
+	#{'-o-' + $property}: $value;
+	#{'-ms-' + $property}: $value;
+	#{$property}: $value;
+}
+
+@mixin prefixer2 ($property, $value1, $value2) {
+	#{'-webkit-' + $property}: #{$value1 + ',' + $value2};
+	#{'-mz-' + $property}: #{$value1 + ',' + $value2};
+	#{$property}: #{$value1 + ',' + $value2};
+}
+
+@mixin keyframeprefix($moving) {
+	@-webkit-keyframes #{$moving} {
+		@content;
+    }
+	
+	@-moz-keyframes #{$moving} {
+		@content;
+    }
+	
+	@keyframes #{$moving} {
+		@content;
+    }
+}
