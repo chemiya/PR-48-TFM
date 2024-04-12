@@ -1,0 +1,51 @@
+Variables en base de datos;
+Liga;En variables dependientes:
+Temporada;"- En la Excel ""clasificación"", aparecen las variables acumuladas a lo largo de la liga, me refiero a goles marcados, partidos ganados. ¿Podríamos tener esas variables "
+Jornada;"también de forma ""no"" acumulada? Es decir, variables que midan lo que ha ocurrido en el partido de esa jornada, ¿cuántos goles han marcado en ese partido? "
+Equipo;¿cuál ha sido el resultado de ese partido?
+Posicion;
+Puntos;
+Goles a Favor;
+Goles en Contra;
+Local/Visitante;
+Resultado;
+Goles en Partido;En variables independientes:
+Cambios realizados partido;#NAME?
+Cambios realizados acumulados;#NAME?
+Cambios realizados portero partido;#NAME?
+Cambios realizados portero acumulados;#NAME?
+Cambios realizados defensa partido;#NAME?
+Cambios realizados defensa acumulados;#NAME?
+Cambios realizados centrocampista partido;#NAME?
+Cambios realizados centrocampista acumulados;#NAME?
+Cambios realizados delantero partido;#NAME?
+Cambios realizados delantero acumulados;#NAME?
+Media minuto cambio partido;#NAME?
+Media minuto cambio acumulado;#NAME?
+Cambio jugador mÃ¡s asistencias partido;- Variable dicotómica (0/1) que indique si se ha producido el cambio de jugador con mayor número de asistencias durante el partido
+Cambio jugador mÃ¡s goles partido;- Variable dicotómica (0/1) que indique si se ha producido el cambio de jugador con mayor número de goles marcados durante el partido
+Cambio jugador lesion partido;- Variable dicotómica (0/1) que indique si se ha producido el cambio de algún jugador por lesión durante el partido
+Cambio jugador amarilla partido;- Variable dicotómica (0/1) que indique si se ha producido el cambio de algún jugador por tarjeta amarilla durante el partido
+Cambio jugador roja partido;- Variable dicotómica (0/1) que indique si se ha producido el cambio de algún jugador por tarjeta roja durante el partido
+Titulares cambiados respecto jornada anterior;- Número de jugadores titulare que han cambiado respecto de la jornada anterior (en la primera jornada de cada temporada, dejar esta casilla vacia)
+Cambio goleador jornada anterior;- Variable dicotómica (0/1) que indique si se ha cambiado respecto de la jornada anterior algún jugador que en el partido anterior hubiera marcado algún gol
+Cambio amarilla jornada anterior;- Variable dicotómica (0/1) que indique si se ha cambiado respecto de la jornada anterior algún jugador que en el partido anterior hubiera tenido tarjeta amarilla
+Cambio roja jornada anterior;- Variable dicotómica (0/1) que indique si se ha cambiado respecto de la jornada anterior algún jugador que en el partido anterior hubiera tenido tarjeta roja
+Cambio lesion jornada anterior;- Variable dicotómica (0/1) que indique si se ha cambiado respecto de la jornada anterior algún jugador que en el partido anterior hubiera tenido lesión
+;
+;En variables de control:
+Lesiones en partido;#NAME?
+Lesiones acumuladas;#NAME?
+Amarillas partido;#NAME?
+Amarillas acumuladas;#NAME?
+Rojas partido;#NAME?
+Rojas acumuladas;#NAME?
+Posicion Local prepartido;
+Puntos local prepartido;
+Rival;
+Posicion rival;#NAME?
+Puntos rival;
+Edad media;#NAME?
+Peso medio;#NAME?
+Altura media;#NAME?
+Jornada intermedia;- Variable dicotómica (0/1) que indique si justo antes de esa jornada (partido) han tenido que jugar otro partido en alguna liga europea
