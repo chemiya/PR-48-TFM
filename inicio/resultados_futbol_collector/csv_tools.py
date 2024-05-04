@@ -17,6 +17,9 @@ def writeListOfObjectsToCSV(lista,fileName):
             wr.writerows([values])
 
 
+
+
+
 #escribe el header
 def writeHeader(output_object,fileName):
     with open(fileName,'w',newline='', encoding='utf-8') as resultFile:
@@ -28,6 +31,9 @@ def writeHeader(output_object,fileName):
         wr.writerows([res])
 
 
+
+
+
 #añade al final de un excel
 def appendLineToExistingFile(output_object,fileName):
     with open(fileName,'a',newline='', encoding='utf-8') as resultFile:
@@ -35,6 +41,10 @@ def appendLineToExistingFile(output_object,fileName):
         members = [attr for attr in dir(output_object) if not callable(getattr(output_object, attr)) and not attr.startswith("__")]
         values = [getattr(output_object, member) for member in members]
         wr.writerows([values])
+
+
+
+       
         
 def combineCsvList(file_list,file_name):
     combined_csv = pd.concat([pd.read_csv(f) for f in file_list])

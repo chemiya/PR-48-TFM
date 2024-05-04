@@ -1,0 +1,788 @@
+\section{Introducción}
+
+En este capítulo se explica cómo se ha desarrollado el proyecto con respecto a la planificación inicial. Se define su evolución con las tareas que se han realizado en cada \textit{sprint} ya que se ha aplicado el marco de trabajo ágil Scrum. Además se exponen los problemas encontrados en los \textit{sprints}, los riesgos que han aparecido y qué mejoras se han propuesto en las \textit{Sprint Review}. 
+
+\section{Seguimiento del proyecto}
+Para cada tarea realizada en el proyecto se ha definido un código para clasificarla según el tipo del que sea:
+\begin{itemize}
+    \item \textbf{DOC.} Tareas relacionadas con la documentación del proyecto.
+     \item \textbf{DEV.} Tareas relacionadas con el desarrollo de la aplicación del proyecto.
+     \item \textbf{TEST.} Tareas relacionadas con la realización de pruebas sobre la aplicación del proyecto.
+     \item \textbf{BUG.} Tareas relacionadas con la corrección de errores en la aplicación del proyecto.
+     \item \textbf{REU.} Tareas relacionadas con reuniones con los tutores.
+\end{itemize}
+
+Para cada tarea dentro de cada \textit{sprint} se define su identificador único, su tipo, una descripción de en qué consiste la tarea, el tiempo empleado para completarla y su estado al finalizar el \textit{sprint}. Los estados que puede tener una tarea son:
+\begin{itemize}
+    \item \textbf{No iniciada.} Al finalizar el \textit{sprint}, esta tarea no se ha comenzado y por lo tanto no se ha realizado ningún trabajo de ella.
+    \item \textbf{En progreso.} Al finalizar el \textit{sprint}, esta tarea se ha comenzado y se ha realizado trabajo de ella pero no se ha completado.
+    \item \textbf{Completada.} Al finalizar el \textit{sprint}, esta tarea se ha finalizado.
+\end{itemize}
+
+
+
+\subsection{Sprint 1: 30/1/2023 - 16/2/2023}
+Al comenzar el \textit{sprint} 1 se ha realizado un análisis de las posibles opciones que hay para este proyecto. Se han valorado las diferentes ideas propuestas y se ha estudiado su viabilidad y posibles problemas a enfrentar. Se ha llevado a cabo una reunión con los tutores para comentar estas ideas y escoger la idea que se desarrollaría en el proyecto. Una vez escogida la idea, se han clarificado los detalles del proyecto y se han concretado los objetivos que se pretenden lograr con este proyecto. A continuación se han empezado a realizar las primeras partes de la documentación. Se ha realizado una primera versión de los capítulos de introducción, planificación, requisitos, análisis y diseño. 
+
+Se han priorizado las secciones de la documentación sobre los Casos de Uso, Modelo de Dominio, Diseño de la Base de Datos y Diseño de la Interfaz Gráfica debido a que con estas secciones realizadas se podría empezar en el siguiente \textit{sprint} a desarrollar la aplicación. 
+
+Este \textit{sprint} ha tenido una duración de 80 horas.
+
+
+En las Tablas \ref{table:sprint1A} y \ref{table:sprint1B} se pueden ver las tareas que se han realizado en este \textit{sprint}.
+
+
+
+
+\begin{table}[]
+  \centering
+\begin{tabular}{
+  |p{\dimexpr.18\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 1
+  |p{\dimexpr.09\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 2
+  |p{\dimexpr.42\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |p{\dimexpr.15\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |p{\dimexpr.16\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |% column 3
+  }
+  \hline
+  \textbf{Identificador} & \textbf{Tipo} & \textbf{Descripción}                                             & \textbf{Tiempo Empleado} & \textbf{Estado} \\ \hline
+  T001                   & DOC           & Búsqueda y análisis de ideas para el proyecto.                   & 6h                       & Completada      \\ \hline
+
+  T002                   & REU           & Reunión de arranque con los tutores.                             & 2h                       & Completada      \\ \hline
+
+
+  T003                   & DOC           & Documentar resumen del proyecto.                                  & 2h                       & Completada      \\ \hline
+
+  
+
+  T004                      & DOC           & Documentar contexto en el capítulo de introducción.               & 2h                     &    Completada             \\ \hline
+
+  T005                      & DOC           & Documentar objetivos en el capítulo de introducción.              & 2h                     &   Completada              \\ \hline
+
+  T006                      & DOC           & Documentar motivación en el capítulo de introducción.             & 1h                       &   Completada              \\ \hline
+
+  T007                      & DOC           & Documentar aplicaciones similares en el capítulo de introducción. & 1h                       &   Completada              \\ \hline
+
+  T007                      & DOC           & Documentar estructura de la memoria en el capítulo de introducción. & 1h                       &   Completada              \\ \hline
+
+
+
+
+
+
+
+
+
+
+  T008                      & DOC           & Documentar introducción en el capítulo de planificación.                                                               &     1h                     &    Completada             \\ \hline
+
+  T009                    &    DOC            & Documentar Scrum en el capítulo de planificación.                                                                &     2h                     &     Completada            \\ \hline
+
+  T010                      &    DOC            & Documentar adaptación de Scrum al proyecto en el capítulo de planificación.                                                                &      1h                    &     Completada            \\ \hline
+
+  T011                       &    DOC            & Documentar análisis de riesgos en el capítulo de planificación.                                                                &          2h                &      Completada           \\ \hline
+
+  T012                       &   DOC             & Documentar presupuesto en el capítulo de planificación.                                                                & 2h                        &         Completada        \\ \hline
+
+  T013                      &    DOC            & Documentar \textit{Product Backlog} inicial en el capítulo de planificación.                                                                &         2h                 &     Completada            \\ \hline
+
+ 
+
+
+
+
+
+
+
+
+  T014                     &     DOC           & Documentar introducción en el capítulo de requisitos.                                                                &       1h                   & Completada               \\ \hline
+
+  T015                      &    DOC            & Desarrollar y documentar Requisitos Funcionales, No Funcionales y de Información en el capítulo de requisitos.                                                                &        4h                  &              Completada   \\ \hline
+
+  T016                      &    DOC            & Desarrollar y documentar Actores Principales en el capítulo de requisitos.                                                               &        2h                  &               Completada  \\ \hline
+
+  T017                      &    DOC            & Desarrollar y documentar Diagrama de Casos de Uso en el capítulo de requisitos.                                                                &         3h                 &              Completada   \\ \hline
+
+  
+
+
+
+ 
+
+
+ 
+\end{tabular}
+\caption{Tareas de \textit{sprint} 1.}
+\label{table:sprint1A}
+\end{table}
+
+
+\begin{table}[]
+  \centering
+\begin{tabular}{
+  |p{\dimexpr.18\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 1
+  |p{\dimexpr.09\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 2
+  |p{\dimexpr.42\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |p{\dimexpr.15\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |p{\dimexpr.16\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |% column 3
+  }
+  \hline
+  \textbf{Identificador} & \textbf{Tipo} & \textbf{Descripción}                                             & \textbf{Tiempo Empleado} & \textbf{Estado} \\ \hline
+ 
+  T018                   & DOC           & Desarrollar y documentar Descripción de los Casos de Uso en el capítulo de requisitos.                   & 6h                       & Completada      \\ \hline
+
+  T019                      &    DOC            & Documentar introducción en el capítulo de análisis.                                                                 &         1h                 &          Completada       \\ \hline
+
+  T020                      &    DOC            & Desarrollar y documentar Modelo de Dominio en el capítulo de análisis.                                                                &         5h                 &         Completada        \\ \hline
+
+  T021                      &    DOC            & Desarrollar y documentar Modelo de Análisis en el capítulo de análisis.                                                                &         5h                 &         Completada        \\ \hline
+
+  T022                      &    DOC            & Desarrollar y documentar Realización de Casos de Uso de Análisis en el capítulo de análisis.                                                                &         5h                 &         Completada        \\ \hline
+
+
+  T023                      &    DOC            & Documentar introducción en el capítulo de diseño.                                                                &        1h                  &           Completada      \\ \hline
+
+  T024                      &    DOC            & Desarrollar y documentar Arquitectura Lógica del Sistema en el capítulo de diseño.                                                                &          2h                &            Completada     \\ \hline
+
+  T025                      &    DOC            & Desarrollar y documentar Arquitectura del Cliente y del Servidor en el capítulo de diseño.                                                                &        2h                  &            Completada     \\ \hline
+
+
+
+
+
+
+  T026                      &    DOC            & Desarrollar y documentar Patrones de Diseño en el capítulo de diseño.                                                                &         3h                 &          Completada       \\ \hline
+
+  T027                      &    DOC            & Desarrollar y documentar Arquitectura Física del Sistema en el capítulo de diseño.                                                                &          2h                &            Completada     \\ \hline
+
+  T028                      &    DOC            & Desarrollar y documentar Diseño de la Base de Datos en el capítulo de diseño.                                                                &        4h                  &            Completada     \\ \hline
+
+  T029                      &    DOC            & Desarrollar y documentar Diseño de la Interfaz Gráfica en el capítulo de diseño.                                                                &        7h                  &           Completada      \\ \hline
+
+
+
+ 
+\end{tabular}
+\caption{Tareas de \textit{sprint} 1.}
+\label{table:sprint1B}
+\end{table}
+
+
+
+
+
+
+    
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Sprint 2: 16/2/2023 - 5/3/2023}
+Durante el \textit{sprint} 2 se ha dedicado más tiempo a avanzar en el desarrollo de las interfaces de la aplicación. Se han desarrollado las principales funcionalidades de la aplicación en base a la primera versión de los capítulos realizados de la documentación en el \textit{sprint} previo. Con estas secciones iniciales de la documentación donde se explicaba de manera general la aplicación, se ha podido empezar a desarrollar muchas de las interfaces de la aplicación.
+
+Para el desarrollo de identificación y registro han aparecido numerosos problemas con la utilización de JWT para que las contraseñas de los usuarios se almacenasen de manera segura. Entre estos problemas cabe destacar que cuando un Usuario se registraba en la aplicación, la contraseña se encriptaba de una manera distinta cada vez. Esto se ha resuelto definiendo una clave secreta para que la contraseña se encriptase siempre siguiendo un patrón establecido para que después se pudiese recuperar. 
+
+Para las interfaces donde se debían cargar imágenes de un elemento como un alimento, una receta, un Usuario o una publicación se han encontrado varios problemas para almacenar estas imágenes en Cloudinary. Para conseguir esta funcionalidad se han realizado varias pruebas y se han probado numerosas opciones. Finalmente se ha conseguido almacenar la imagen en Cloudinary enviando la imagen desde el \textit{frontend} al \textit{backend} y desde aquí enviando una petición POST para almacenar la imagen.
+
+En la \textit{Sprint Review} se ha realizado una demostración del incremento realizado durante el \textit{sprint} y se han propuesto numerosas mejoras sobre la aplicación como mostrar todos los usuarios, alimentos o recetas en los buscadores al inicio cuando el Usuario no haya introducido ningún valor para buscar. 
+
+En este \textit{sprint} ha aparecido el riesgo \textit{R-01 Falta de cualificación con las tecnologías utilizadas} ya que se desconocía como se iban a almacenar las fotos cargadas en la aplicación en la nube mediante Cloudinary. Se ha aplicado un plan de contingencia que ha consistido en consultar en internet mediante vídeos y foros como almacenar y recuperar fotos en Cloudinary.
+
+Este \textit{sprint} ha tenido una duración de 80 horas.
+
+En la Tabla \ref{table:sprint2} se pueden ver las tareas que se han realizado en este \textit{sprint}.
+
+
+\begin{table}[]
+    \centering
+\begin{tabular}{
+    |p{\dimexpr.18\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 1
+    |p{\dimexpr.09\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 2
+    |p{\dimexpr.42\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+    |p{\dimexpr.15\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+    |p{\dimexpr.16\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+    |% column 3
+    }
+    \hline
+    \textbf{Identificador} & \textbf{Tipo} & \textbf{Descripción}                                             & \textbf{Tiempo Empleado} & \textbf{Estado} \\ \hline
+    
+
+
+    T030                      &    DEV            & Desarrollo de la interfaz de identificación.                                                               &        3h                  &           Completada      \\ \hline
+
+    T031                      &    DEV            & Desarrollo de la interfaz de registro.                                                                &        3h                  &           Completada      \\ \hline
+
+    T032                   & DEV           & Desarrollo de la interfaz de descripción de la aplicación.                   & 4h                       & Completada      \\ \hline
+
+    T033                   & DEV           & Desarrollo de la interfaz de muro de publicaciones.                   & 3h                       & Completada      \\ \hline
+
+
+
+
+    T034                   & DEV           & Desarrollo de la interfaz de perfil de usuario.                   & 3h                       & Completada      \\ \hline
+
+    T035                   & DEV           & Desarrollo de la interfaz de editar usuario.                   & 4h                       & Completada      \\ \hline
+
+
+    T036                   & DEV           & Desarrollo de la interfaz de seguidores del usuario.                   & 1h                       & Completada      \\ \hline
+
+    T037                   & DEV           & Desarrollo de la interfaz de seguidos del usuario.                  & 1h                       & Completada      \\ \hline
+
+    T038                   & DEV           & Desarrollo de la interfaz de recetas favoritas.                   & 1h                       & Completada      \\ \hline
+
+
+
+
+
+    T039                   & DEV           & Desarrollo de la interfaz de detalles de una receta.                   & 4h                       & Completada      \\ \hline
+
+    T040                   & DEV           & Desarrollo de la interfaz de detalles de un usuario.                   & 4h                       & Completada      \\ \hline
+
+    T041                   & DEV           & Desarrollo de la interfaz de detalles de una publicación.                   & 4h                       & Completada      \\ \hline
+
+    T042                   & DEV           & Desarrollo de la interfaz de detalles de un alimento.                   & 4h                       & Completada      \\ \hline
+
+    T043                   & DEV           & Desarrollo de la interfaz de crear receta.                  & 6h                       & Completada      \\ \hline
+
+    T044                   & DEV           & Desarrollo de la interfaz de crear publicación.                   & 5h                       & Completada      \\ \hline
+
+
+    
+
+    T045                   & DEV           & Desarrollo de la interfaz de crear alimento.                  & 5h                       & Completada      \\ \hline
+
+    T046                   & DEV           & Desarrollo de la interfaz de buscar receta.                  & 5h                       & Completada      \\ \hline
+
+    T047                   & DEV           & Desarrollo de la interfaz de buscar usuario.                  & 5h                       & Completada      \\ \hline
+
+    T048                   & DEV           & Desarrollo de la interfaz de buscar alimento.                  & 5h                       & Completada      \\ \hline
+
+    T049                   & DEV           & Desarrollo de la interfaz de vista de administrador.                  & 10h                       & Completada      \\ \hline
+
+
+
+
+   
+  \end{tabular}
+  \caption{Tareas de \textit{sprint} 2.}
+\label{table:sprint2}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Sprint 3: 5/3/2023 - 22/3/2023}
+En este \textit{sprint} se ha corregido el resumen, el capítulo de introducción y el capítulo de requisitos que son de los más importantes en la memoria. Respecto a las correcciones del capítulo de requisitos, se han modificado los Requisitos Funcionales, No Funcionales y de Información definidos en el \textit{sprint} 1 para definirlos de una manera más clara y que se ajusten a lo que se va a desarrollar en la aplicación. De manera similar, el Diagrama de Casos de Uso y la Descripción de los Casos de Uso también se han corregido para exponer más claramente la funcionalidad de la aplicación. El hecho de haber desarrollado en el \textit{sprint} 2 las interfaces ha ayudado a refinar el capítulo de requisitos.
+
+Se ha documentado el capítulo de tecnologías utilizadas debido a que ya se tienen claras las tecnologías que se van a utilizar en el proyecto. Se han corregido las interfaces de la aplicación de identificación, registro y descripción de la aplicación.
+
+Para la interfaz de descripción de la aplicación se han corregido los textos que se mostraban, ya que está vista funciona como una \textit{landing page} para atraer a los usuarios. Se han definido textos que describen más claramente las ventajas de la aplicación y se han organizado las secciones de esta interfaz por orden de importancia. 
+
+Para la interfaz de registro, se ha corregido la validación del formulario, ya que no pueden existir dos usuarios con el mismo \textit{email} o con el mismo \textit{username}. Para conseguirlo, cada vez que se pulsa una tecla en el campo correspondiente se realiza una comprobación para ver si existe un Usuario con ese \textit{email} o \textit{username} introducido. 
+
+Este \textit{sprint} ha tenido una duración de 30 horas.
+
+En la Tabla \ref{table:sprint3} se pueden ver las tareas que se han realizado en este \textit{sprint}.
+
+\begin{table}[]
+  \centering
+\begin{tabular}{
+  |p{\dimexpr.18\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 1
+  |p{\dimexpr.09\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 2
+  |p{\dimexpr.42\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |p{\dimexpr.15\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |p{\dimexpr.16\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |% column 3
+  }
+  \hline
+  \textbf{Identificador} & \textbf{Tipo} & \textbf{Descripción}                                             & \textbf{Tiempo Empleado} & \textbf{Estado} \\ \hline
+
+  T050                   & REU           & Reunión de seguimiento con los tutores.                             & 1h                       & Completada      \\ \hline
+ 
+  T051                   & DOC          & Corregir errores del resumen.                   & 2h                       & Completada      \\ \hline
+
+  T052                   & DOC           & Corregir errores contexto, objetivos, motivación, aplicaciones similares y estructura de la memoria del capítulo introducción.                  & 4h                       & Completada      \\ \hline
+
+  T053                   & DOC           & Corregir errores introducción, Requisitos Funcionales, No Funcionales y de Información, Actores Principales, Diagrama de Casos de Uso y Descripción de los Casos de Uso del capítulo de requisitos.                  & 5h                       & Completada      \\ \hline
+
+  T054                   & DOC           & Documentar introducción en el capítulo de tecnologías utilizadas.            & 1h                       & Completada      \\ \hline
+
+  T055                   & DOC           & Documentar base de datos en el capítulo de tecnologías utilizadas.            & 3h                       & Completada      \\ \hline
+
+  T056                   & DOC           & Documentar \textit{frontend} en el capítulo de tecnologías utilizadas.            & 2h                       & Completada      \\ \hline
+
+  T057                   & DOC           & Documentar \textit{backend} en el capítulo de tecnologías utilizadas.            & 2h                       & Completada      \\ \hline
+
+  T058                   & DOC           & Documentar tecnologías utilizadas en el desarrollo del proyecto en el capítulo de tecnologías utilizadas.            & 3h                       & Completada      \\ \hline
+
+
+
+
+
+  T059                      &    BUG            & Correcciones de la interfaz de identificación.                                                                &        1.75h                  &           Completada      \\ \hline
+
+    T060                      &    BUG           & Correcciones de la interfaz de registro.                                                                &        1.75h                  &           Completada      \\ \hline
+
+    T061                   & BUG           & Correcciones de la interfaz de descripción de la aplicación.                   & 2.75h                       & Completada      \\ \hline
+
+
+
+
+
+    T062                      &    TEST            & Pruebas de la interfaz de identificación.                                                                &        0.25h                  &           Completada      \\ \hline
+
+    T063                      &    TEST           & Pruebas de la interfaz de registro.                                                                &        0.25h                  &           Completada      \\ \hline
+
+    T064                   & TEST           & Pruebas de la interfaz de descripción de la aplicación.                   & 0.25h                       & Completada      \\ \hline
+ 
+\end{tabular}
+\caption{Tareas de \textit{sprint} 3.}
+\label{table:sprint3}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Sprint 4: 22/3/2023 - 8/4/2023}
+Este \textit{sprint} se ha dedicado a corregir los primeros capítulos de la memoria entre los que se encuentran la planificación y análisis. En el capítulo de análisis se han realizado correcciones sobre el Modelo de Dominio, principalmente añadiendo nuevos atributos a las diferentes clases y creando ciertas relaciones entre clases que no existían y que al desarrollar las interfaces se han descubierto.
+
+Además se ha documentado el capítulo de implementación y pruebas debido a que se han realizado grandes correcciones en la interfaces de la aplicación y por lo tanto se deben ir realizando pruebas de las interfaces completas.
+
+
+Para la interfaz de editar los datos del usuario, se ha encontrado el problema de que si no se editaba ningún campo el Usuario también podía pulsar de editar y por lo tanto no se actualizaba ningún campo. Para solucionar esto se ha realizado una validación de qué campos del formulario había editado el Usuario de manera que cuando el Usuario editase algún campo se activase el botón de guardar los cambios.
+
+En la \textit{Sprint Review} se ha realizado una demostración del incremento realizado durante el \textit{sprint} y se han propuesto numerosas mejoras sobre la aplicación como dejar la barra de navegación fija, hacer más visibles los botones para crear una publicación o una receta y dejar márgenes mayores en las interfaces para que las vistas se ajusten mejor a los dispositivos móviles.
+
+En este \textit{sprint} ha aparecido el riesgo \textit{R-03 Desarrollo de la interfaz de la aplicación incorrecta} debido a que al realizar pruebas con potenciales usuarios de la aplicación, se ha detectado que no comprendían correctamente las vistas de la aplicación. Se ha aplicado un plan de contingencia que ha consistido en modificar las interfaces para que los usuarios las comprendiesen mejor por lo que se ha simplificado y se ha mejorado la visibilidad de los elementos más importantes.
+
+Este \textit{sprint} ha tenido una duración de 30 horas.
+
+En las Tablas \ref{table:sprint4A} y \ref{table:sprint4B} se pueden ver las tareas que se han realizado en este \textit{sprint}.
+
+\begin{table}[]
+  \centering
+\begin{tabular}{
+  |p{\dimexpr.18\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 1
+  |p{\dimexpr.09\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 2
+  |p{\dimexpr.42\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |p{\dimexpr.15\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |p{\dimexpr.16\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |% column 3
+  }
+  \hline
+  \textbf{Identificador} & \textbf{Tipo} & \textbf{Descripción}                                             & \textbf{Tiempo Empleado} & \textbf{Estado} \\ \hline
+  T065                   & REU           & Reunión de seguimiento con los tutores.                             & 2h                       & Completada      \\ \hline
+
+  T066                   & DOC           & Corregir errores introducción, Scrum, adaptación de Scrum al proyecto, análisis de riesgos, presupuesto y \textit{Product Backlog} inicial del capítulo de planificación.                  & 3h                       & Completada      \\ \hline
+
+  T067                   & DOC           & Corregir errores introducción, Modelo de Dominio, Modelo de Análisis y Realización de Casos de Uso de Análisis del capítulo de análisis.                  & 5h                       & Completada      \\ \hline
+
+  
+  T068                   & DOC           & Documentar introducción en el capítulo de implementación y pruebas.            & 1h                       & Completada      \\ \hline
+
+  T069                   & DOC           & Documentar estructura del código de \textit{frontend} en el capítulo de implementación y pruebas.            & 2h                       & Completada      \\ \hline
+
+  T070                   & DOC           & Documentar estructura del código de \textit{backend} en el capítulo de implementación y pruebas.            & 2h                       & Completada      \\ \hline
+
+  T071                   & DOC           & Documentar pruebas en el capítulo de implementación y pruebas.            & 2h                       & Completada      \\ \hline
+
+  T072                   & DOC           & Documentar problemas y dificultades encontradas en el capítulo de implementación y pruebas.            & 2h                       & Completada      \\ \hline
+
+  T073                   & DOC           & Desarrollar y documentar Casos de Prueba en el capítulo de implementación y pruebas.            & 3h                       & Completada      \\ \hline
+
+
+
+
+
+
+
+  T074                   & BUG           & Correcciones de la interfaz de muro de publicaciones.                   & 0.75h                       & Completada      \\ \hline
+
+  T075                   & BUG           & Correcciones de la interfaz de perfil de usuario.                   & 1.75h                       & Completada      \\ \hline
+
+  T076                   & BUG           & Correcciones de la interfaz de editar usuario.                   & 1.75h                       & Completada      \\ \hline
+
+
+  T077                   & BUG           & Correcciones de la interfaz de seguidores del usuario.                   & 0.75h                       & Completada      \\ \hline
+
+  T078                   & BUG           & Correcciones de la interfaz de seguidos del usuario.                   & 0.75h                       & Completada      \\ \hline
+
+  T079                   & BUG           & Correcciones de la interfaz de recetas favoritas.                   & 0.75h                       & Completada      \\ \hline
+
+
+
+
+
+
+ 
+ 
+
+\end{tabular}
+\caption{Tareas de \textit{sprint} 4.}
+\label{table:sprint4A}
+\end{table}
+
+
+
+\begin{table}[]
+  \centering
+\begin{tabular}{
+  |p{\dimexpr.18\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 1
+  |p{\dimexpr.09\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 2
+  |p{\dimexpr.42\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |p{\dimexpr.15\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |p{\dimexpr.16\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |% column 3
+  }
+  \hline
+  \textbf{Identificador} & \textbf{Tipo} & \textbf{Descripción}                                             & \textbf{Tiempo Empleado} & \textbf{Estado} \\ \hline
+ 
+
+
+
+
+
+  T080                   & TEST           & Pruebas de la interfaz de muro de publicaciones.                   & 0.25h                       & Completada      \\ \hline
+
+  T081                   & TEST           & Pruebas de la interfaz de perfil de usuario.                   & 0.25h                       & Completada      \\ \hline
+
+  T082                   & TEST           & Pruebas de la interfaz de editar usuario.                   & 0.25h                       & Completada      \\ \hline
+
+
+  T083                   & TEST           & Pruebas de la interfaz de seguidores del usuario.                   & 0.25h                       & Completada      \\ \hline
+
+  T084                   & TEST           & Pruebas de la interfaz de seguidos del usuario.                   & 0.25h                       & Completada      \\ \hline
+
+  T085                   & TEST           & Pruebas de la interfaz de recetas favoritas.                   & 0.25h                       & Completada      \\ \hline
+ 
+ 
+
+\end{tabular}
+\caption{Tareas de \textit{sprint} 4.}
+\label{table:sprint4B}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Sprint 5: 8/4/2023 - 25/4/2023}
+Este \textit{sprint} se han corregido los capítulos de diseño y tecnologías utilizadas. En el capítulo de diseño principalmente se han realizado correcciones sobre el Diseño de la Base de Datos para que el Diseño Lógico de la Base de Datos se ajuste a las correcciones introducidas en Modelo de Dominio. La Arquitectura Lógica del Sistema y los Patrones de Diseño se han corregido en este capítulo para que reflejen el estado actual de la aplicación desarrollada.
+
+Además se han corregido las vistas de la aplicación que más funcionalidad tienen y por tanto requerían más trabajo. Estas vistas son las que muestran los detalles de un elemento como una receta, publicación, alimento o Usuario y las vistas que se usan para crear elementos como los alimentos, recetas o publicaciones.
+
+Para la vista de creación de una receta se han corregido numerosos problemas como la validación de que no se añadiese el mismo alimento dos veces a los alimentos necesarios para su preparación. Esto se pudo solucionar recorriendo los alimentos ya seleccionados y comprobando que el alimento nuevo a añadir no se encontraba entre ellos. También se han encontrado problemas en cómo se mostraban los pasos registrados en la receta en pantallas de dispositivos móviles. Esto supuso un gran contratiempo ya que las correcciones realizadas no arreglaban el problema. Se ha optado por cambiar ligeramente la interfaz para que los pasos registrados se mostrasen de manera ordenada también en dispositivos móviles.
+
+En este \textit{sprint} ha aparecido el riesgo \textit{R-12 Aparición de bugs con complicada solución} debido que como se ha comentado se han encontrado problemas a la hora de mostrar los pasos registrados de una receta en pantallas de dispositivos móviles. Se ha aplicado un plan de contingencia que ha consistido en buscar soluciones alternativas para este problema, de manera que se ha cambiado ligeramente la interfaz para que los pasos se mostraran correctamente. 
+
+Este \textit{sprint} ha tenido una duración de 30 horas.
+
+En la Tabla \ref{table:sprint5} se pueden ver las tareas que se han realizado en este \textit{sprint}.
+
+\begin{table}[]
+  \centering
+\begin{tabular}{
+  |p{\dimexpr.18\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 1
+  |p{\dimexpr.09\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 2
+  |p{\dimexpr.42\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |p{\dimexpr.15\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |p{\dimexpr.16\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |% column 3
+  }
+  \hline
+  \textbf{Identificador} & \textbf{Tipo} & \textbf{Descripción}                                             & \textbf{Tiempo Empleado} & \textbf{Estado} \\ \hline
+  T086                   & REU           & Reunión de seguimiento con los tutores.                             & 1h                       & Completada      \\ \hline
+
+  T087                   & DOC           & Corregir introducción, Arquitectura Lógica del Sistema, patrones de diseño, Arquitectura Física del Sistema, Diseño de la Base de Datos y Diseño de la Interfaz Gráfica del capítulo de diseño.                 & 4h                       & Completada      \\ \hline
+
+  T088                   & DOC          & Corregir errores de la introducción, base de datos, \textit{frontend}, \textit{backend} y desarrollo del proyecto del capítulo tecnologías utilizadas.               & 3h                       & Completada      \\ \hline
+
+
+
+
+
+
+
+  T089                   & BUG           & Correcciones de la interfaz de detalles de la receta.                   & 2.75h                       & Completada      \\ \hline
+
+  T090                   & BUG           & Correcciones de la interfaz de detalles del usuario.                   & 2.75h                       & Completada      \\ \hline
+
+  T091                   & BUG           & Correcciones de la interfaz de detalles de la publicación.                   & 1.75h                       & Completada      \\ \hline
+
+  T092                   & BUG           & Correcciones de la interfaz de detalles del alimento.                   & 1.75h                       & Completada      \\ \hline
+
+
+  T093                   & BUG           & Correcciones de la interfaz de crear receta.                  & 3.75h                       & Completada      \\ \hline
+
+  T094                   & BUG           & Correcciones de la interfaz de crear publicación.                   & 3.75h                       & Completada      \\ \hline
+
+  T095                   & BUG           & Correcciones de la interfaz de crear alimento.                  & 3.75h                       & Completada      \\ \hline
+
+
+
+
+
+
+  T096                   & TEST           & Pruebas de la interfaz de detalles de la receta.                   & 0.25h                       & Completada      \\ \hline
+
+  T097                   & TEST           & Pruebas de la interfaz de detalles del usuario.                   & 0.25h                       & Completada      \\ \hline
+
+  T098                   & TEST           & Pruebas de la interfaz de detalles de la publicación.                   & 0.25h                       & Completada      \\ \hline
+
+  T099                   & TEST           & Pruebas de la interfaz de detalles del alimento.                   & 0.25h                       & Completada      \\ \hline
+
+
+  T100                   & TEST           & Pruebas de la interfaz de crear receta.                  & 0.25h                       & Completada      \\ \hline
+
+  T101                   & TEST           & Pruebas de la interfaz de crear publicación.                   & 0.25h                       & Completada      \\ \hline
+
+  T102                   & TEST           & Pruebas de la interfaz de crear alimento.                  & 0.25h                       & Completada      \\ \hline
+  
+
+\end{tabular}
+\caption{Tareas de \textit{sprint} 5.}
+\label{table:sprint5}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Sprint 6: 25/4/2023 - 12/5/2023}
+En este \textit{sprint} se han realizado los últimos capítulos de la documentación que son el de seguimiento y conclusiones. Además se ha realizado el apéndice de manuales y se han realizado las últimas correcciones en las interfaces de la aplicación dedicadas a la búsqueda de elementos como recetas, alimentos o usuarios. Además, se ha corregido la vista de Administrador.
+
+Para la interfaz de vista de Administrador se han corregido varios detalles en las tablas que muestran los usuarios, alimentos, recetas y publicaciones almacenadas en la aplicación. Cabe destacar que para la tabla que mostraba las publicaciones almacenadas en la aplicación no se mostraba el nombre del Usuario que la había realizado. Este error se debía a que el \textit{frontend} no sabía interpretar correctamente los datos que le mandaba el \textit{backend} y por lo tanto había campos que no se almacenaban. Esto se ha corregido estableciendo que tanto el \textit{frontend} como el \textit{backend} llamasen cada dato que se comunicaban del mismo modo.
+
+Este \textit{sprint} ha tenido una duración de 30 horas.
+
+En la Tabla \ref{table:sprint6} se pueden ver las tareas que se han realizado en este \textit{sprint}.
+
+\begin{table}[]
+  \centering
+\begin{tabular}{
+  |p{\dimexpr.18\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 1
+  |p{\dimexpr.09\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 2
+  |p{\dimexpr.42\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |p{\dimexpr.15\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |p{\dimexpr.16\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |% column 3
+  }
+  \hline
+  \textbf{Identificador} & \textbf{Tipo} & \textbf{Descripción}                                             & \textbf{Tiempo Empleado} & \textbf{Estado} \\ \hline
+
+  T103                   & DOC          & Corregir errores de la introducción, estructura del código de \textit{frontend}, estructura del código de \textit{backend}, pruebas, problemas y dificultades encontradas y Casos de Prueba del capítulo implementación y pruebas.                & 3h                       & Completada      \\ \hline
+
+  T104                   & REU           & Reunión de seguimiento con los tutores.                             & 1h                       & Completada      \\ \hline
+
+  T105                   & DOC           & Documentar el trabajo realizado en los \textit{sprints} en el capítulo de seguimiento.            & 7h                       & Completada      \\ \hline
+
+ 
+
+  T106                   & DOC           & Documentar conclusiones en el capítulo de conclusiones.           & 3h                       & Completada      \\ \hline
+  T107                   & DOC           & Documentar líneas de trabajo futuras en el capítulo de conclusiones.           & 1h                       & Completada      \\ \hline
+
+
+
+  T108                   & DOC           & Documentar el manual de despliegue en el apéndice de manuales.        & 2h                       & Completada      \\ \hline
+
+  T109                   & DOC           & Documentar el manual de Usuario en el apéndice de manuales.        & 3h                       & Completada      \\ \hline
+
+
+
+
+
+
+  T110                   & BUG           & Correcciones de la interfaz de buscar receta.                  & 1.75h                       & Completada      \\ \hline
+
+  T111                   & BUG           & Correcciones de la interfaz de buscar usuario.                  & 1.75h                       & Completada      \\ \hline
+
+  T112                   & BUG           & Correcciones de la interfaz de buscar alimento.                  & 1.75h                       & Completada      \\ \hline
+
+
+
+  T113                   & BUG           & Correcciones de la interfaz de vista de administrador                  & 2.75h                       & Completada      \\ \hline
+
+
+
+
+  T114                   & TEST           & Pruebas de la interfaz de buscar receta.                  & 0.25h                       & Completada      \\ \hline
+
+  T115                   & TEST           & Pruebas de la interfaz de buscar usuario.                  & 0.25h                       & Completada      \\ \hline
+
+  T116                   & TEST           & Pruebas de la interfaz de buscar alimento.                  & 0.25h                       & Completada      \\ \hline
+
+
+
+  T117                   & TEST           & Pruebas de la interfaz de vista de administrador.                  & 0.25h                       & Completada      \\ \hline
+  
+
+\end{tabular}
+\caption{Tareas de \textit{sprint} 6.}
+\label{table:sprint6}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Sprint 7: 12/5/2023 - 29/5/2023}
+En este \textit{sprint} se han revisado los capítulos de seguimiento y conclusiones y el apéndice de manuales. Se han corregido los errores encontrados y se han actualizado estos capítulos según las últimas correcciones en la aplicación.
+
+En este \textit{sprint} ha aparecido el riesgo \textit{R-10 Falta de tiempo para trabajar en el proyecto} debido que en estas fechas se realizaban los exámenes de las asignaturas. Se ha aplicado un plan de contingencia que ha consistido en posponer al siguiente \textit{sprint} las tareas que no se han podido realizar en este \textit{sprint}.
+
+Este \textit{sprint} tenía una duración planificada de 10 horas pero finalmente ha tenido una duración de 6 horas ya que no se han podido realizar todas las tareas.
+
+En la Tabla \ref{table:sprint7}  se pueden ver las tareas que se han realizado en este \textit{sprint}.
+\begin{table}[]
+  \centering
+\begin{tabular}{
+  |p{\dimexpr.18\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 1
+  |p{\dimexpr.09\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 2
+  |p{\dimexpr.42\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |p{\dimexpr.15\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |p{\dimexpr.16\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |% column 3
+  }
+  \hline
+  \textbf{Identificador} & \textbf{Tipo} & \textbf{Descripción}                                             & \textbf{Tiempo Empleado} & \textbf{Estado} \\ \hline
+
+  T118                   & DOC           & Corregir el trabajo realizado en los \textit{sprints} en el capítulo de seguimiento.            & 4h                       & Completada      \\ \hline
+
+  T119                   & DOC           & Corregir conclusiones y líneas de trabajo futuras en el capítulo de conclusiones.           & 0h                       & No Iniciada     \\ \hline
+
+  T120                   & DOC           & Corregir el manual de Usuario y de despliegue en el apéndice de manuales.        & 2h                       & En Progreso      \\ \hline
+ 
+
+ 
+\end{tabular}
+\caption{Tareas de \textit{sprint} 7.}
+\label{table:sprint7}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Sprint 8: 29/5/2023 - 15/6/2023}
+En este último \textit{sprint} se ha comprobado que todo el trabajo final sea correcto. Para ello se ha revisado la memoria para comprobar que no contenga errores. Además se ha probado la aplicación a fondo para comprobar que toda la funcionalidad cumple con lo requerido, que todas las vistas funcionan correctamente y que se almacenan los datos de la manera deseada.
+
+Este \textit{sprint} tenía una duración planificada de 10 horas pero finalmente ha tenido una duración de 14 horas ya que se han tenido que completar las tareas pendientes del \textit{sprint} anterior.
+
+En la Tabla \ref{table:sprint8} se pueden ver las tareas que se han realizado en este \textit{sprint}.
+
+\begin{table}[]
+  \centering
+\begin{tabular}{
+  |p{\dimexpr.18\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 1
+  |p{\dimexpr.09\linewidth-2\tabcolsep-1.3333\arrayrulewidth}% column 2
+  |p{\dimexpr.42\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |p{\dimexpr.15\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |p{\dimexpr.16\linewidth-2\tabcolsep-1.3333\arrayrulewidth}
+  |% column 3
+  }
+  \hline
+  \textbf{Identificador} & \textbf{Tipo} & \textbf{Descripción}                                             & \textbf{Tiempo Empleado} & \textbf{Estado} \\ \hline
+
+  
+  T119                   & DOC           & Corregir conclusiones y líneas de trabajo futuras en el capítulo de conclusiones.           & 2h                       & Completada      \\ \hline
+
+  T120                   & DOC           & Corregir el manual de Usuario y de despliegue en el apéndice de manuales.        & 2h                       & Completada      \\ \hline
+
+
+  T121                   & DOC           & Revisión final de la memoria.       & 7h                       & Completada      \\ \hline
+
+  T122                   & TEST           & Prueba final de la aplicación.       & 3h                       & Completada      \\ \hline
+
+\end{tabular}
+\caption{Tareas de \textit{sprint} 8.}
+\label{table:sprint8}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+

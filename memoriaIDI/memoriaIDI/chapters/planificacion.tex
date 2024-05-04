@@ -1,0 +1,391 @@
+
+
+
+\section{Planificación}
+Este proyecto se pretende realizar en 5 semanas, comenzando el 6 de mayo de 2024 y finalizando el 9 de junio de 2024, empleando 38 horas por semana lo que dará un total de 190 horas que es el tiempo que se propone por parte de los profesores para realizar este trabajo. La planificación de este proyecto se hará por cada semana detallando el trabajo a realizar en cada una de ellas. En los siguientes puntos se detalla el trabajo y las tareas que se pretenden realizar en cada semana. En cada una de estas tareas se incluye la parte asociada a documentar el trabajo realizado para elaborar el informe final.
+
+
+\begin{itemize}
+  \item \textbf{Semana previa al inicio: 29 de abril a 5 de mayo.}
+  Esta semana previa al inicio del proyecto pretende dedicarse a la elaboración de los \textit{scripts} que realizarán el \textit{scraping} para obtener los datos. Además, en esta semana se debe empezar a analizar artículos relacionados con el trabajo que se pretende desarrollar para poder recoger buenas prácticas e ideas básicas. Un desglose más detallado de las tareas es:
+  \begin{itemize}
+    \item Diseñar el modelo de datos.
+    \item Realizar los \textit{scripts} que obtengan los datos mediante el \textit{scraping}.
+    \item Validar que los datos obtenidos son correctos.
+    \item Revisar artículos relacionados con el trabajo que se pretende realizar.
+  \end{itemize}
+
+  \item \textbf{Semana 1: 6 de mayo a 12 de mayo.}
+  Esta semana se dedicará a la limpieza, transformación y análisis de los datos obtenidos mediante \textit{scraping} para que los modelos puedan utilizarlos. Por otro lado, en esta semana también se deben de terminar de analizar los artículos que queden pendientes de leer. Un desglose más detallado de las tareas es:
+  \begin{itemize}
+    \item Realizar una limpieza sobre los datos obtenidos.
+    \item Realizar las transformaciones necesarias sobre los datos obtenidos para que puedan ser utilizados por los modelos.
+    \item Analizar los datos obtenidos mediante un dashboard para detectar patrones.
+    \item Terminar de revisar los artículos relacionados con el trabajo que se pretende realizar y resumir los conocimientos obtenidos.
+  \end{itemize}
+  
+  \item \textbf{Semana 2: 13 de mayo a 19 de mayo.}
+  Esta semana se dedicará a establecer y crear los modelos que se pretenden probar. Un desglose más detallado de las tareas es:
+  \begin{itemize}
+    \item Definir de manera teórica los diferentes modelos que se pretenden evaluar.
+    \item Definir las métricas que se utilizarán para evaluar los modelos creados.
+    \item Crear y entrenar los modelos sobre el conjunto de datos obtenido previamente.
+  \end{itemize}
+
+  \item \textbf{Semana 3: 20 de mayo a 26 de mayo.}
+  Esta semana se dedicará a optimizar los parámetros de los modelos creados. Un desglose más detallado de las tareas es:
+  \begin{itemize}
+    \item Optimizar los parámetros sobre los modelos creados.
+    \item Obtener los valores de las métricas seleccionadas para los modelos creados.
+  \end{itemize}
+
+  \item \textbf{Semana 4: 27 de mayo a 2 de junio.}
+  Esta semana se dedicará a la selección del mejor modelo de entre todos los creados y evaluar su precisión sobre partidos que se vayan a jugar. Un desglose más detallado de las tareas es:
+  \begin{itemize}
+    \item Analizar la precisión y diferentes métricas obtenidas sobre los diferentes modelos.
+    \item Justificar y seleccionar el modelo con una mayor precisión.
+    \item Evaluar la precisión y el rendimiento del modelo sobre partidos por jugarse.
+  \end{itemize}
+
+  \item \textbf{Semana 5: 3 de junio a 9 de junio.}
+  Esta semana se dedicará a la revisión de todos los entregables del proyecto y corrección de fallos detectados. Un desglose más detallado de las tareas es:
+  \begin{itemize}
+    \item Revisar la documentación a entregar e incorporar las partes que queden pendientes.
+    \item Revisar el código desarrollado, comprobar si existen errores y realizar su limpieza para que sea limpio.
+  \end{itemize}
+  
+  \end{itemize}
+
+  Los días 10, 11 y 12 de junio se dejan como margen de tiempo hasta la entrega para si surgen imprevistos que hagan que el proyecto se retrase, partiendo de la premisa de que el informe final de este proyecto se debe entregar el 13 de junio.
+
+
+
+\section{Análisis de riesgos}
+A continuación, se detallan los riesgos más importantes que pueden aparecer durante el desarrollo del proyecto, estos son los que tienen más probabilidades de suceder y que más impacto sobre el proyecto tendrían. Para cada uno de ellos, se establecen planes de mitigación para reducir la probabilidad de que ocurran y planes de contingencia para reducir su impacto en el proyecto si finalmente se ponen de manifiesto.
+
+
+
+
+
+
+
+ \renewcommand\tabularxcolumn[1]{m{#1}}
+ Las Tablas \ref{table:R-01} a \ref{table:R-05} muestran los riesgos encontrados para el proyecto. 
+
+ \begin{table}[H]
+  \centering
+\begin{tabularx}{1\textwidth} { 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  |  }
+ \hline
+ Identificador & R-01 \\
+ \hline
+ Título & Problemas al obtener los datos. \\
+ \hline
+ Descripción  & Es posible que aparezcan problemas al extraer los datos de la página web seleccionada mediante \textit{scraping}.  \\
+\hline
+ Probabilidad  & Media.  \\
+ \hline
+ Impacto  & Alto.   \\
+ \hline
+ Plan de mitigación  & \begin{itemize}
+     \item Formarse en la tecnología que se utiliza para realizar el \textit{scraping}.
+      \item Buscar páginas web que tengan los mismos datos y que puedan servir como suplentes en caso de que la página web considerada como primera opción no permita la extracción de los datos.
+ \end{itemize}   \\
+ 
+
+  \hline
+
+  Plan de contingencia  & \begin{itemize}
+     \item Aplicar alternativas en el código para obtener los datos.
+     \item Obtener los datos deseados desde otra de las páginas que se propusieron como suplentes.
+      
+ \end{itemize}   \\
+ 
+
+  \hline
+\end{tabularx}
+\caption{R-01. Problemas al obtener los datos.}
+\label{table:R-01}
+\end{table}
+
+
+
+
+
+
+\begin{table}[H]
+  \centering
+\begin{tabularx}{1\textwidth} { 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  |  }
+ \hline
+  Identificador & R-02 \\
+ \hline
+ Título & Poco tiempo para trabajar en el proyecto. \\
+ \hline
+ Descripción  & Debido a que el único responsable del proyecto también trabaja en una empresa y otras causas, es posible que no se disponga del suficiente tiempo para desarrollar este proyecto.   \\
+\hline
+ Probabilidad  & Alta.   \\
+ \hline
+ Impacto  & Alto.   \\
+ \hline
+ Plan de mitigación  & \begin{itemize}
+     \item Comenzar el desarrollo del proyecto lo antes posible. 
+   \item  Identificar las tareas más importantes a realizar.
+      \item Planificar que tareas se deben realizar en cada semana y como debe ir avanzando el proyecto.
+\textit{sprints}.
+    
+ \end{itemize}   \\
+ \hline
+ Plan de contingencia  & \begin{itemize}
+     \item Centrarse en realizar las tareas más importantes. 
+     \item Detectar partes que conlleven un esfuerzo y tiempo importante y que proporcionen menor beneficio y posponerlas.
+
+      
+ \end{itemize}   \\
+ 
+
+  \hline
+\end{tabularx}
+\caption{R-02. Poco tiempo para trabajar en el proyecto.}
+\label{table:R-02}
+\end{table}
+
+
+
+
+
+\begin{table}[H]
+  \centering
+\begin{tabularx}{1\textwidth} { 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  |  }
+ \hline
+  Identificador & R-03 \\
+ \hline
+ Título & Fallo en el equipo de trabajo donde se realiza el proyecto. \\
+ \hline
+ Descripción  & El equipo de trabajo con el que se desarrolla el proyecto, tanto el código como la documentación, deja de funcionar o su funcionamiento se ve afectado lo que dificulta trabajar con él.  \\
+\hline
+ Probabilidad  & Baja.   \\
+ \hline
+ Impacto  & Alto.  \\
+ \hline
+ Plan de mitigación  & \begin{itemize}
+     \item Tener preparado un equipo suplente por si el equipo principal sufre fallos. 
+      \item Realizar copias de seguridad habitualmente para mantener los datos del proyecto a salvo.
+ \end{itemize}   \\
+ \hline
+  Plan de contingencia  & \begin{itemize}
+     \item Obtener un equipo de trabajo con el que se pueda seguir trabajando y arreglar el averiado.
+     \item Hacer las tareas que se puedan realizar sin el equipo original y después cuando se obtenga un nuevo equipo, incorporar este contenido.
+
+     
+      
+ \end{itemize}   \\
+ 
+
+  \hline
+\end{tabularx}
+\caption{R-03. Fallo en el equipo de trabajo donde se realiza el proyecto.}
+\label{table:R-03}
+\end{table}
+
+
+
+
+
+\begin{table}[H]
+  \centering
+\begin{tabularx}{1\textwidth} { 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  |  }
+ \hline
+  Identificador & R-04 \\
+ \hline
+ Título & Problemas con la conexión a internet. \\
+ \hline
+ Descripción  & La conexión a internet es probable que sea lenta o se pierda en alguna ocasión debido a la localización donde el alumno desarrolla el proyecto.  \\
+\hline
+ Probabilidad  & Baja.    \\
+ \hline
+ Impacto  & Medio.  \\
+ \hline
+ Plan de mitigación  & \begin{itemize}
+     \item Establecer lugares alternativos donde se tenga conexión a internet. 
+      \item Establecer tareas que se puedan realizar sin conexión a internet.
+ \end{itemize}   \\
+ \hline
+ Plan de contingencia  & \begin{itemize}
+     \item Realizar tareas que no necesiten conexión a internet.
+     \item Retrasar las tareas que requieran conexión a internet.
+     \item Desplazarse otro lugar con conexión a internet.
+     
+      
+ \end{itemize}   \\
+ 
+
+  \hline
+\end{tabularx}
+\caption{R-04. Problemas con la conexión a internet.}
+\label{table:R-04}
+\end{table}
+
+
+
+
+
+\begin{table}[H]
+  \centering
+\begin{tabularx}{1\textwidth} { 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  |  }
+ \hline
+  Identificador & R-05 \\
+ \hline
+ Título & Enfermedad del alumno. \\
+ \hline
+ Descripción  & El alumno puede sufrir problemas de salud debido a su historial pasado lo que puede retrasar la consecución del proyecto.  \\
+\hline
+ Probabilidad  & Media.    \\
+ \hline
+ Impacto  & Medio.   \\
+ \hline
+ Plan de mitigación  & \begin{itemize}
+     \item Llevar buenos hábitos cuidando la salud y evitar lugares con virus o personas que estén contagiadas.
+      \item Planificar márgenes de tiempo y flexibilidad en la planificación para que si aparecen imprevistos se tenga tiempo de sobra para finalizar el trabajo.
+
+ \end{itemize}   \\
+ \hline
+  Plan de contingencia  & \begin{itemize}
+     \item Adaptar las tareas que no se hayan podido finalizar a las siguientes semanas.
+     \item Reducir el alcance del proyecto y la funcionalidad que se quiere implementar.
+      
+ \end{itemize}   \\
+ 
+
+  \hline
+\end{tabularx}
+\caption{R-05. Enfermedad del alumno.}
+\label{table:R-05}
+\end{table}
+
+
+
+
+
+
+
+Una vez descritos los riesgos y definido para cada uno su impacto, probabilidad y planes de mitigación y contingencia, se puede crear una matriz de riesgos. Esta matriz es una herramienta que se define para determinar la probabilidad e impacto de un riesgo, lo que ayuda a definir la prioridad asociada a cada riesgo y para así gestionarlos de la mejor manera posible \cite{matriz-riesgos}.
+
+La Tabla \ref{table:Matriz} muestra una Matriz de Riesgos.
+
+\begin{table}[H]
+  \centering
+\begin{tabularx}{1\textwidth} { 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\centering\arraybackslash}X |
+   >{\centering\arraybackslash}X |}
+ \hline
+ Probabilidad   /
+ impacto & Bajo & Medio & Alto \\
+ \hline
+ Baja  & Monitorizar  & Monitorizar & Aplicar los planes de mitigación   \\
+\hline
+Media   & Monitorizar  & Aplicar los planes de mitigación   & Aplicar los planes de mitigación y tener preparados los planes de contingencia para si son necesario aplicarlos \\
+\hline
+ Alta  & Aplicar los planes de mitigación    & Aplicar los planes de mitigación y tener preparados los planes de contingencia para si son necesario aplicarlos  &  Aplicar los planes de mitigación y tener preparados los planes de contingencia para si son necesario aplicarlos  \\
+\hline
+\end{tabularx}
+\caption{Matriz de Riesgos.}
+\label{table:Matriz}
+\end{table}
+
+De esta forma, se pueden situar los riesgos definidos para este proyecto en la matriz de riesgos y así se podrá definir la prioridad de cada uno de ellos para establecer cómo actuar en función del impacto y la probabilidad que tienen.
+
+La Tabla \ref{table:MatrizSituacion} sitúa los riesgos del proyecto en la Matriz de Riesgos.
+
+
+\begin{table}[H]
+  \centering
+\begin{tabularx}{\textwidth} { 
+  | >{\raggedright\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\raggedleft\arraybackslash}X |
+   >{\raggedleft\arraybackslash}X |}
+ \hline
+ Probabilidad   /
+ impacto & Bajo & Medio & Alto \\
+ \hline
+ Baja  &  & R4 &  R3  \\
+\hline
+Media   &   & R5   & R1 \\
+\hline
+ Alta  &     &  & R2   \\
+\hline
+\end{tabularx}
+\caption{Situación de los riesgos del proyecto en la matriz de riesgos.}
+\label{table:MatrizSituacion}
+\end{table}
+
+
+\section{Alcance}
+El alcance de este proyecto abarca la evaluación y aplicación de diversas técnicas de inteligencia artificial para predecir el rendimiento de equipos de fútbol basándose en la rotación de jugadores. En primer lugar, se definirá la metodología y se seleccionarán las técnicas más correctas para el análisis de datos relacionados con la rotación de jugadores y el rendimiento deportivo. Este apartado incluirá la recopilación, preprocesamiento y análisis de los datos de las ligas, equipos y jugadores de fútbol seleccionados. Para la parte del análisis de los datos, se realizará un pequeño dashboard que permita sacar conclusiones y detectar patrones sobre los datos para así facilitar su comprensión.
+
+Las ligas sobre las que se obtendrán y utilizarán los datos serán LaLiga EA Sports (primera división española), LaLiga Hypermotion (segunda división española), Premier League (primera división inglesa), Bundesliga (primera división alemana) y Serie A (primera división italiana).
+
+Además, el alcance del proyecto se pretende que también implique la implementación y ajuste de modelos de inteligencia artificial para la predicción del rendimiento deportivo en función de la rotación de jugadores. Para ello, se explorarán diversas técnicas de inteligencia artificial y \textit{machine learning}, como redes neuronales, árboles de decisión, y métodos de aprendizaje automático supervisado y no supervisado, con el objetivo de detectar aquellas que mejor se adapten a las características de este problema. Sobre cada una de ellas, se realizará una optimización de parámetros para mejorar todo lo posible su precisión.
+Finalmente, se realizará una evaluación de los modelos desarrollados, utilizando métricas de rendimiento para definir su eficacia y precisión en la predicción del rendimiento de los equipos. Después de esto, se seleccionará el mejor modelo y se evaluará su rendimiento en la actualidad aplicándolo sobre partidos que estén por jugarse.
+
+Además de todos estos aspectos comentados, se documentarán y analizarán todas las tareas realizadas en el proyecto, con el objetivo de ofrecer recomendaciones para la gestión de la rotación de jugadores en equipos de fútbol, así como posibles áreas de mejora y futuras investigaciones para este proyecto.
+
+
+ 
+    
+   
+
+
+  \section{Metodología}
+  La metodología de este proyecto tiene como base un enfoque que comprende varias etapas clave. En primer lugar, se realizará una revisión de diferentes artículos sobre técnicas de inteligencia artificial aplicadas al análisis de datos deportivos, centrándose especialmente en la predicción del rendimiento de equipos de fútbol basándose en la rotación de los jugadores. Esta revisión ayudará a identificar las mejores prácticas y los enfoques que pueden ser más relevantes para el desarrollo del proyecto.
+
+  Posteriormente, se llevará a cabo la recopilación y preparación de datos, donde se recogerán conjuntos de datos históricos que abarquen información relevante sobre la rotación de jugadores y el rendimiento deportivo de equipos de fútbol en las ligas seleccionadas. Esta etapa incluye la limpieza de datos, la selección de características pertinentes, la preparación de los datos para su análisis posterior y un breve análisis sobre ellos para detectar patrones.
+
+  Una vez preparados los datos, se realizará la implementación y evaluación de modelos de inteligencia artificial. Se probarán diversas técnicas de modelado, incluyendo redes neuronales, árboles de decisión, y métodos de aprendizaje supervisado y no supervisado. Los modelos se entrenarán y ajustarán utilizando los datos que hemos obtenido previamente, y se evaluará su rendimiento utilizando diferentes métricas. Esta fase permitirá detectar los modelos más eficaces y precisos para predecir el rendimiento deportivo basado en la rotación de jugadores.
+  
+
+
+
+
+  \section{Obtención de los datos}
+
+  Para la obtención de los datos, se creará un \textit{script} en Python que extraiga los datos de la página de Resultados De Fútbol \cite{resultadosfutbol} mediante \textit{scraping}.
+
+  El \textit{scraping} \cite{scraping} es una técnica utilizada para extraer automáticamente información de sitios web de forma automatizada. Consiste en el análisis y la recopilación de datos de páginas web. Estos programas acceden a la página web de la que se desean obtener los datos, identifican los componentes clave dentro del código HTML y extraen su información para su posterior procesamiento o análisis. El \textit{scraping} es una herramienta útil para obtener datos en gran volumen de manera rápida y eficiente, y es aplicada en variedad de aplicaciones. En este proyecto se ha utilizado esta técnica para obtener los datos ya que no se ha podido encontrar ningún conjunto de datos que recoja información sobre los datos históricos de los partidos en las ligas seleccionadas. Además, mediante el \textit{scraping}, se puede fácilmente ir incorporando a los datos utilizados para crear los modelos los nuevos datos asociados a los últimos partidos jugados.
+  
+
+  \section{Tecnologías utilizadas}
+
+  A continuación, se detallan las tecnologías base que se utilizaran en el proyecto. Sin embargo, estas tecnologías durante el desarrollo del proyecto pueden variar:
+
+
+  \begin{itemize}
+    \item \textbf{PowerBi:}
+     es una plataforma de análisis empresarial que ha sido desarrollada por Microsoft que permite a los usuarios visualizar y extraer conclusiones de los datos de manera intuitiva y efectiva. Permite la conexión con una amplia variedad de fuentes de datos para que luego se puedan transformar y modelar estos datos en paneles interactivos. Con Power BI, se pueden crear visualizaciones personalizadas, como gráficos, tablas y mapas, para explorar y analizar los datos de manera dinámica lo que permite detectar patrones de manera visual. En este proyecto se utiliza esta tecnología para realizar un primer análisis sobre los datos obtenidos y detectar posibles patrones \cite{powerbi}. 
+    \item \textbf{Python:}
+     es un lenguaje de programación versátil y de alto nivel que tiene una enorme popularidad en diversos campos, destacando en la ciencia de datos. Este lenguaje incorpora diferentes bibliotecas que permiten realizar diferentes tareas lo que le convierte en uno de los lenguajes con más funcionalidades diferentes \cite{python}. Una de las bibliotecas más utilizadas en Python es BeautifulSoup para realizar tareas de \textit{scraping}. Esta biblioteca permite analizar y extraer datos de páginas web de manera sencilla y eficiente, ayudando al programador a realizar la manipulación de la estructura HTML de los sitios web para obtener la información que se desee sobre el sitio. Con BeautifulSoup, se pueden crear \textit{scripts} que naveguen por el contenido de una página web, identifiquen elementos específicos y que permitan extraer datos de manera automatizada \cite{beautifulsoup}. Por otro lado, Python es mundialmente utilizado en el campo de la inteligencia artificial y el \textit{machine learning} por bibliotecas como scikit-learn. Esta es una biblioteca que ofrece una diversa gama de herramientas para la creación de algoritmos de \textit{machine learning} como se pretende en este proyecto. Con scikit-learn, se pueden crear y entrenar modelos de \textit{machine learning} de forma eficiente, utilizando algoritmos ya definidos y técnicas avanzadas de análisis de datos \cite{scikit}. Además, Python ofrece la biblioteca pandas, que facilita la manipulación y el análisis de datos estructurados mediante la introducción de los DataFrames. Estos son estructuras de datos bidimensionales que tienen la capacidad de almacenar y manipular datos de manera eficiente, de manera similar a una tabla de base de datos o una hoja de cálculo. Con pandas, se pueden cargar datos desde multitud de fuentes, realizar operaciones de limpieza y transformación de datos, y realizar análisis estadísticos y exploratorios de manera rápida. Esto hace que pandas sea una herramienta indispensable para el almacenamiento y la manipulación de datos en proyectos de ciencia de datos y análisis de datos en Python como es en este caso \cite{pandas}.
+    
+    \item \textbf{Keras:}
+    es una API de alto nivel para la construcción, entrenamiento y evaluación de modelos de redes neuronales mediante Python. Destaca por su facilidad de uso y su enfoque en la creación rápida y sencilla de modelos de aprendizaje profundo. Ofrece una sintaxis simple y una abstracción de alto nivel que permite crear modelos complejos de manera rápida, lo que lo convierte en una herramienta excelente que brinda flexibilidad y potente para trabajar en una amplia gama de proyectos de inteligencia artificial y aprendizaje profundo. Esta tecnología se utiliza en este proyecto para crear modelos de redes neuronales que pueden tener un buen rendimiento sobre el conjunto de datos proporcionado \cite{keras}.
+
+    \item \textbf{Tensorflow:}
+    es una biblioteca de aprendizaje automático de código abierto que ha sido desarrollada por Google que proporciona una plataforma flexible y escalable para construir, entrenar y desplegar modelos de aprendizaje profundo. Esta tecnología destaca por su capacidad para trabajar con inmensos volúmenes de datos y su eficiencia en la ejecución en variedad de plataformas. TensorFlow ofrece una amplia gama de herramientas y funcionalidades, incluyendo la construcción de redes neuronales convolucionales, recurrentes y generativas, así como la experimentación con técnicas avanzadas. Por lo tanto, TensorFlow es una opción popular para proyectos de inteligencia artificial y aprendizaje automático en diversas industrias. Esta tecnología se utiliza en este proyecto para la creación de modelos más avanzados que pueden tener un rendimiento elevado sobre los datos proporcionados \cite{tensorflow}.
+    
+    
+    \end{itemize}

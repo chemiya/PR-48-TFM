@@ -88,8 +88,10 @@ class PartidosEquipo:
 
 #Recupera los ID de los equipos para una liga dada 
 def getTeamsFromLeague(league,season,session):
+    
     teams = dict()
     url = URL_BASE + league + str(season)
+    escribir_log("Entro en getTeamsFromLeague con "+str(url))
 
     try:
         page = session.get(url)
@@ -105,14 +107,25 @@ def getTeamsFromLeague(league,season,session):
     
         valor = team.find('img').attrs['title']
 
+
+        escribir_log("Obtenido: "+str(clave)+"/"+str(valor))
+
         teams[clave] = valor
 
     return teams
 
+
+
+
+
+
+
 #Recupera informacion de un equipo en una temporada
 def getTeamInfo(team,season,session):
+    
     equipo = Equipo()
     url = URL_BASE + team + '/' + str(season)
+    escribir_log("Entro en getTeamInfo con "+str(url))
 
     try:
         page = session.get(url)
@@ -150,13 +163,21 @@ def getTeamInfo(team,season,session):
     equipo.entrenador = entrenador
     equipo.ubicacion = "revisar"
 
+    escribir_log("Obtenido: "+str(equipo.temporada)+"/"+str(equipo.foto)+"/"+str(equipo.nombre)+"/"+str(equipo.estadio)+"/"+str(equipo.entrenador)+"/")
+
     return equipo
     
+
+
+
+
 #Recupera la alineacion de cada equipo para una jornada
 def getAlineacion(teamLocal, teamVisitante, season,session):
     url = URL_BASE + "partido/" + teamLocal + '/' + teamVisitante + '/' + str(season)
     alineacion_local = []
     alineacion_visitante =[]
+
+    escribir_log("Entro en getAlineacion con "+str(url))
 
     try:
         page = session.get(url)
@@ -362,6 +383,8 @@ def getClasificacion(league,season,group,jornada,session):
     url = URL_BASE + league + str(season) + '/grupo' + group + '/jornada' + str(jornada)
     lista = []
 
+    escribir_log("Entro en getClasificacion con "+str(url))
+
     try:
         page = session.get(url)
     except Exception as x:
@@ -406,6 +429,8 @@ def getClasificacion(league,season,group,jornada,session):
         gcontra=equipo.find(class_='c')
         gcontra=gcontra.string
 
+        escribir_log("Obtenido: "+str(nombre)+"/"+str(puntos)+"/"+str(posicion)+"/"+str(pjugados)+"/"+str(ganados)+"/"+str(empatados)+"/"+str(perdidos)+"/"+str(gfavor)+"/"+str(gcontra))
+
         j=EquipoClasificaion()
         j.temporada=season
         j.jornada=jor
@@ -426,6 +451,8 @@ def getClasificacion(league,season,group,jornada,session):
 def getPartidos(league,season,group,session):
     url = URL_BASE + league + str(season) + '/grupo' + group + '/calendario'
     lista =[]
+
+    escribir_log("Entro en getPartidos con "+str(url))
 
     try:
         page = session.get(url)
@@ -473,12 +500,21 @@ def getPartidos(league,season,group,session):
                 p.resultado=resultado.string.strip(' ')
             lista.append(p)
 
+            escribir_log("Obtenido: "+str(p.temporada)+"/"+str(p.jornada)+"/"+str(p.fecha)+"/"+str(p.local)+"/"+str(p.visitante)+"/"+str(p.foto_local)+"/"+str(p.foto_visitante)+"/"+str(p.resultado))
+
     return lista
+
+
+
+
+
 
 #recupera la plantilla de un equipo de una liga
 def getPlantilla(team,season,session):
     url = URL_BASE + 'plantilla/' + team + '/' + str(season)
     lista = []
+
+    escribir_log("Entro en getPlantilla con "+str(url))
 
     try:
         page = session.get(url)
@@ -557,12 +593,21 @@ def getPlantilla(team,season,session):
         j.posicion=posicion
 
         lista.append(j)
+
+
+        escribir_log("Obtenido: "+str(j.temporada)+"/"+str(j.foto)+"/"+str(j.pais)+"/"+str(j.equipo)+"/"+str(j.equipo)+"/"+str(j.nombre)+"/"+str(j.edad)+"/"+str(j.goles)+"/"+str(j.rojas)+"/"+str(j.amarillas)+"/"+str(j.posicion))
     return lista
+
+
+
+
 
 #recupera la lista de partidos de un equipo en una temporada
 def getAllMatchesByTeam(team, season,session):
     url = URL_BASE + 'partidos/' + team + '/' + str(season)
     lista =[]
+
+    escribir_log("Entro en getAllMatchesByTeam con "+str(url))
 
     try:
         page = session.get(url)
@@ -604,10 +649,13 @@ def getAllMatchesByTeam(team, season,session):
             o.local = local
             o.visitante = visitante
             o.resultado = resultado
+            escribir_log("Obtenido: "+str(o.liga)+"/"+str(o.fecha)+"/"+str(o.estado)+"/"+str(o.local)+"/"+str(o.visitante)+"/"+str(o.resultado))
 
             lista.append(o)
 
     return lista
+
+
 
 #TODO Not implemented yet
 def getAllLeagues():
@@ -629,6 +677,7 @@ def getAllLeagues():
     return lista
 
 def getAllTeamsInfo(league,season,teams_dict,session):
+    escribir_log("Entro en getAllTeamsInfo")
     teams = teams_dict.keys()
 
     teams_output = dict()
@@ -636,7 +685,9 @@ def getAllTeamsInfo(league,season,teams_dict,session):
         output_object = getTeamInfo(team,season,session)
         setattr(output_object,'id_equipo',team)
         setattr(output_object,'nombre',teams_dict[team])
-        
+
+
+        escribir_log("Obtenida informacion de :"+str(teams_dict[team]))
         teams_output[team] = output_object
 
     return teams_output
@@ -655,15 +706,22 @@ def writeListOfObjectsToCSV(lista,fileName):
         for obj in lista:
             values = [getattr(obj, member) for member in members]
             wr.writerows([values])
-    
+
+
+
+def escribir_log(mensaje):
+    with open('archivo_log.txt', 'a') as archivo_log:
+        archivo_log.write(mensaje + '\n')
+
+
 
 #date_string = '26 ene 20'
 #date_object = datetime.strptime(date_string,'%d %b %y')
-#print(date_object)
+#escribir_log(date_object)
 
 #lista = getAllMatchesByTeam('Paris-Saint-Germain-Fc','2020')
 
-#print(lista)
+#escribir_log(lista)
 
 #alineacion_object = getAlineacion('barcelona','betis','2020')
 #cambios = 0
@@ -671,10 +729,10 @@ def writeListOfObjectsToCSV(lista,fileName):
 #    if(jugador.cambio is not "" and jugador.estado == "Titular" and jugador.equipo == 'betis'):
 #        cambios = cambios + 1
 #
-#print(cambios)
+#escribir_log(cambios)
 #
 #teams=getTeamsFromLeague('primera','2020')
-#print(teams)
+#escribir_log(teams)
 #lista=[]
 #for team in teams:
 #    for team2 in teams:
@@ -686,8 +744,8 @@ def writeListOfObjectsToCSV(lista,fileName):
 #lista = getPartidos('primera','2020','1')
 #lista = getPlantilla('betis','2020')
 
-#print(alineacion_local)
+#escribir_log(alineacion_local)
 
 #maximo = max(alineacion_local, key=lambda jugador: jugador.asistencia)
-#print(maximo)
+#escribir_log(maximo)
 #writeListOfObjectsToCSV(lista,'output1.csv')

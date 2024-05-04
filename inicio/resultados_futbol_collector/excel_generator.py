@@ -39,16 +39,28 @@ class Cambio_Minuto_Posiciones:
 
 def createExcelObject(league,season,ruta):
     season = str(season)
-    print(league + '_' + season)
+    escribir_log(league + '_' + season)
     s = requests.session()
+
+
+
+
     #coge los datos de los equipos de la liga
     teams_dict = dc.getTeamsFromLeague(league,season,s)
+    escribir_log("Obtenidos equipos")
     teams = teams_dict.keys()
     jornadas = (len(teams)*2)-2
     primera_ejecucion = 1
 
+
+
+
     #coge los datos de un equipo
     teams_info_dict = dc.getAllTeamsInfo(league,season,teams_dict,s)
+    escribir_log("Obtenida informacion de los equipos")
+
+
+
 
     #Diccionario con todas las plantillas de cada equipo de la temporada
     datos_acumulados = dict()
@@ -60,19 +72,33 @@ def createExcelObject(league,season,ruta):
 
         #coge datos de la plantilla
         plantilla[team] = dc.getPlantilla(team,season,s)
+        escribir_log("Obtenida informacion sobre la plantilla de:"+str(team))
+
+
+
+
 
     #coge los partidos
     partidos = dc.getPartidos(league,season,'1',s)
+    escribir_log("Obtenida informacion de los partidos de la liga")
     
+
+
     #Diccionario para almacenar la alineacion de la jornada anterior 
     alineacion_jornada_anterior=dict()
     clasificacion_jornada_anterior = []
     
+
+
+
+
+
     #Lista donde se almacenan las estadisiticas resultantes
     data = []
     for jornada in range(1,jornadas+1):
 
         clasificacion = dc.getClasificacion(league,season,'1',jornada,s)
+        escribir_log("Obtenida clasificacion de la liga en la jornada:"+str(jornada))
 
         partidos_jornada = [j for j in partidos if (j.jornada == str(jornada))]
         
@@ -97,6 +123,14 @@ def createExcelObject(league,season,ruta):
             #TODO puede estar bien sacar la petición fuera para que se haga a la vez
             #equipo_object = dc.getTeamInfo(clasificacion_equipo.nombre,season)
             setattr(output_object,'51-Entrenador',teams_info_dict[clasificacion_equipo.nombre].entrenador)
+
+
+
+
+
+
+
+
 
             local_visitante = ''
             rival = ''
@@ -138,6 +172,10 @@ def createExcelObject(league,season,ruta):
             setattr(output_object,'50-Puntos obtenidos',puntos_partido)
 
             
+
+
+
+
             goles_partido = ''
             if(local_visitante == 'local'):
                 goles_partido = partido_object.resultado.split('-')[0]
@@ -146,11 +184,15 @@ def createExcelObject(league,season,ruta):
             
             setattr(output_object,'12-Goles en Partido',goles_partido.strip(' '))
             
+
+
+
+
             #Datos obtenidos de la clase Alineacion 
             try:
                 alineacion_local,alineacion_visitante = dc.getAlineacion(partido_object.local,partido_object.visitante,season,s)
             except Exception as x:
-                print("ERROR AT: Jornada " + str(jornada) + " Partido " + partido.local + "-" + partido.visitante )
+                escribir_log("ERROR AT: Jornada " + str(jornada) + " Partido " + partido.local + "-" + partido.visitante )
                 continue
             
             #TODO arreglar esta chapuza
@@ -163,6 +205,12 @@ def createExcelObject(league,season,ruta):
             else:
                 alineacion_object = alineacion_visitante
                 #alineacion_object_rival = alineacion_local
+
+
+
+
+
+
 
             #Calculos cambios 
             cambios_partido = 0
@@ -229,6 +277,17 @@ def createExcelObject(league,season,ruta):
             setattr(output_object,'19-Cambios realizados centrocampista partido',cambios_centrocampista)
             setattr(output_object,'21-Cambios realizados delantero partido',cambios_delantero)
 
+            escribir_log("--------------------------------------------------")
+            escribir_log("Cambios realizados partido:"+str(cambios_partido))
+            escribir_log("Cambios realizados portero partido:"+str(cambios_portero))
+            escribir_log("Cambios realizados defensa partido:"+str(cambios_defensa))
+            escribir_log("Cambios realizados centrocampista partido:"+str(cambios_centrocampista))
+            escribir_log("Cambios realizados delantero partido:"+str(cambios_delantero))
+            escribir_log("--------------------------------------------------")
+
+
+
+
             #Objeto de datos acumulados
             datos_acumulados_object = datos_acumulados[clasificacion_equipo.nombre]
 
@@ -249,6 +308,14 @@ def createExcelObject(league,season,ruta):
             setattr(output_object,'27-Cambio jugador lesion partido',dato_dictomico_cambio_lesion)
             setattr(output_object,'28-Cambio jugador amarilla partido',dato_dictomico_cambio_amarilla)
             setattr(output_object,'29-Cambio jugador roja partido',dato_dictomico_cambio_roja)
+
+            escribir_log("--------------------------------------------------")
+            escribir_log("Cambio jugador lesion partido:"+str(dato_dictomico_cambio_lesion))
+            escribir_log("Cambio jugador amarilla partido:"+str(dato_dictomico_cambio_amarilla))
+            escribir_log("Cambio jugador roja partido:"+str(dato_dictomico_cambio_roja))
+            escribir_log("--------------------------------------------------")
+
+
 
 
             #TODO probablemente esto sean datos prepartido así que me va a tocar cambiarlo
@@ -475,5 +542,7 @@ def createExcelObject(league,season,ruta):
 
 
 
-
+def escribir_log(mensaje):
+    with open('archivo_log.txt', 'a') as archivo_log:
+        archivo_log.write(mensaje + '\n')
         

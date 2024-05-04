@@ -1,0 +1,353 @@
+id_jugador,nombre,equipo,posicion,id_partido,titular
+163,Álex Remiro,5,Portero,7,1
+177,R. Le Normand,5,Defensa,7,1
+170,Igor Zubeldia,5,Defensa,7,1
+168,Aihen Muñoz,5,Defensa,7,1
+169,Hamari Traoré,5,Defensa,7,1
+181,M. Zubimendi,5,Centrocampista,7,1
+178,B. Turrientes,5,Centrocampista,7,1
+179,Brais Méndez,5,Centrocampista,7,1
+193,M. Oyarzabal,5,Delantero,7,1
+191,C. Fernández,5,Delantero,7,1
+195,Take Kubo,5,Delantero,7,1
+71,P. Gazzaniga,2,Portero,7,1
+75,Daley Blind,2,Defensa,7,1
+76,David López,2,Defensa,7,1
+79,Miguel Gutiérrez,2,Defensa,7,1
+74,Arnau Martínez,2,Defensa,7,1
+80,Yan Couto,2,Defensa,7,1
+81,Aleix García,2,Centrocampista,7,1
+88,Y. Herrera,2,Centrocampista,7,1
+97,V. Tsygankov,2,Delantero,7,1
+95,Savinho,2,Delantero,7,1
+90,C. Stuani,2,Delantero,7,1
+163,Álex Remiro,5,Portero,17,1
+177,R. Le Normand,5,Defensa,17,1
+170,Igor Zubeldia,5,Defensa,17,1
+168,Aihen Muñoz,5,Defensa,17,1
+169,Hamari Traoré,5,Defensa,17,1
+181,M. Zubimendi,5,Centrocampista,17,1
+178,B. Turrientes,5,Centrocampista,17,1
+179,Brais Méndez,5,Centrocampista,17,1
+186,A. Barrenetxea,5,Delantero,17,1
+191,C. Fernández,5,Delantero,17,1
+195,Take Kubo,5,Delantero,17,1
+519,Iván Villar,16,Portero,17,1
+532,Unai Núñez,16,Defensa,17,1
+523,Carl Starfelt,16,Defensa,17,1
+529,Manu Sánchez,16,Defensa,17,1
+531,Ó. Mingueza,16,Defensa,17,1
+536,Hugo Sotelo,16,Centrocampista,17,1
+535,Fran Beltrán,16,Centrocampista,17,1
+538,L. De La Torre,16,Centrocampista,17,1
+546,J. Bamba,16,Delantero,17,1
+547,J. Larsen,16,Delantero,17,1
+545,Iago Aspas,16,Delantero,17,1
+163,Álex Remiro,5,Portero,39,1
+177,R. Le Normand,5,Defensa,39,1
+170,Igor Zubeldia,5,Defensa,39,1
+176,K. Tierney,5,Defensa,39,1
+169,Hamari Traoré,5,Defensa,39,1
+181,M. Zubimendi,5,Centrocampista,39,1
+182,Mikel Merino,5,Centrocampista,39,1
+179,Brais Méndez,5,Centrocampista,39,1
+186,A. Barrenetxea,5,Delantero,39,1
+193,M. Oyarzabal,5,Delantero,39,1
+195,Take Kubo,5,Delantero,39,1
+591,Raúl Fernández,18,Portero,39,1
+598,Miguel Rubio,18,Defensa,39,1
+595,Ignasi Miquel,18,Defensa,39,1
+602,Víctor Díaz,18,Defensa,39,1
+593,Carlos Neva,18,Defensa,39,1
+603,G. Gumbau,18,Centrocampista,39,1
+609,Sergio Ruiz,18,Centrocampista,39,1
+613,José Callejón,18,Delantero,39,1
+672,Bryan Zaragoza,18,Delantero,39,1
+615,Lucas Boyé,18,Delantero,39,1
+617,Myrto Uzuni,18,Delantero,39,1
+163,Álex Remiro,5,Portero,58,1
+177,R. Le Normand,5,Defensa,58,1
+170,Igor Zubeldia,5,Defensa,58,1
+168,Aihen Muñoz,5,Defensa,58,1
+169,Hamari Traoré,5,Defensa,58,1
+178,B. Turrientes,5,Centrocampista,58,1
+185,Urko González,5,Centrocampista,58,1
+179,Brais Méndez,5,Centrocampista,58,1
+186,A. Barrenetxea,5,Delantero,58,1
+195,Take Kubo,5,Delantero,58,1
+196,Umar Sadiq,5,Delantero,58,1
+296,David Soria,9,Portero,58,1
+308,O. Alderete,9,Defensa,58,1
+691,S. Mitrović,9,Defensa,58,1
+302,Diego Rico,9,Defensa,58,1
+692,Damián Suárez,9,Defensa,58,1
+300,D. Djené,9,Defensa,58,1
+299,Carmona,9,Defensa,58,1
+318,N. Maksimović,9,Centrocampista,58,1
+311,C. Aleñá,9,Centrocampista,58,1
+323,J. Mata,9,Delantero,58,1
+322,B. Mayoral,9,Delantero,58,1
+163,Álex Remiro,5,Portero,70,1
+177,R. Le Normand,5,Defensa,70,1
+170,Igor Zubeldia,5,Defensa,70,1
+176,K. Tierney,5,Defensa,70,1
+169,Hamari Traoré,5,Defensa,70,1
+182,Mikel Merino,5,Centrocampista,70,1
+181,M. Zubimendi,5,Centrocampista,70,1
+179,Brais Méndez,5,Centrocampista,70,1
+186,A. Barrenetxea,5,Delantero,70,1
+195,Take Kubo,5,Delantero,70,1
+196,Umar Sadiq,5,Delantero,70,1
+135,Unai Simón,4,Portero,70,1
+143,Yeray,4,Defensa,70,1
+137,Dani Vivian,4,Defensa,70,1
+144,Yuri,4,Defensa,70,1
+141,O. De Marcos,4,Defensa,70,1
+147,Dani García,4,Centrocampista,70,1
+145,Ander Herrera,4,Centrocampista,70,1
+149,Iker Muniain,4,Centrocampista,70,1
+160,Nico Williams,4,Delantero,70,1
+159,I. Williams,4,Delantero,70,1
+158,G. Guruzeta,4,Delantero,70,1
+163,Álex Remiro,5,Portero,96,1
+175,Jon Pacheco,5,Defensa,96,1
+170,Igor Zubeldia,5,Defensa,96,1
+168,Aihen Muñoz,5,Defensa,96,1
+166,A. Elustondo,5,Defensa,96,1
+182,Mikel Merino,5,Centrocampista,96,1
+181,M. Zubimendi,5,Centrocampista,96,1
+179,Brais Méndez,5,Centrocampista,96,1
+187,A. Zakharyan,5,Delantero,96,1
+193,M. Oyarzabal,5,Delantero,96,1
+191,C. Fernández,5,Delantero,96,1
+490,P. Rajković,15,Portero,96,1
+496,M. Nastasić,15,Defensa,96,1
+497,Martin Valjent,15,Defensa,96,1
+492,Copete,15,Defensa,96,1
+493,G. Gonzalez,15,Defensa,96,1
+502,Toni Lato,15,Defensa,96,1
+509,Samú Costa,15,Centrocampista,96,1
+505,Dani Rodríguez,15,Centrocampista,96,1
+504,Antonio Sánchez,15,Centrocampista,96,1
+516,Vedat Muriqi,15,Delantero,96,1
+512,Cyle Larin,15,Delantero,96,1
+163,Álex Remiro,5,Portero,115,1
+177,R. Le Normand,5,Defensa,115,1
+170,Igor Zubeldia,5,Defensa,115,1
+168,Aihen Muñoz,5,Defensa,115,1
+169,Hamari Traoré,5,Defensa,115,1
+182,Mikel Merino,5,Centrocampista,115,1
+181,M. Zubimendi,5,Centrocampista,115,1
+179,Brais Méndez,5,Centrocampista,115,1
+186,A. Barrenetxea,5,Delantero,115,1
+193,M. Oyarzabal,5,Delantero,115,1
+195,Take Kubo,5,Delantero,115,1
+40,M. Ter Stegen,1,Portero,115,1
+46,Jules Koundé,1,Defensa,115,1
+44,Íñigo Martínez,1,Defensa,115,1
+50,Ronald Araujo,1,Defensa,115,1
+42,Álex Balde,1,Defensa,115,1
+45,João Cancelo,1,Defensa,115,1
+55,İ. Gündoğan,1,Centrocampista,115,1
+54,Gavi,1,Centrocampista,115,1
+53,Fermín López,1,Centrocampista,115,1
+63,João Félix,1,Delantero,115,1
+67,R. Lewandowski,1,Delantero,115,1
+163,Álex Remiro,5,Portero,133,1
+177,R. Le Normand,5,Defensa,133,1
+170,Igor Zubeldia,5,Defensa,133,1
+168,Aihen Muñoz,5,Defensa,133,1
+169,Hamari Traoré,5,Defensa,133,1
+182,Mikel Merino,5,Centrocampista,133,1
+181,M. Zubimendi,5,Centrocampista,133,1
+179,Brais Méndez,5,Centrocampista,133,1
+186,A. Barrenetxea,5,Delantero,133,1
+196,Umar Sadiq,5,Delantero,133,1
+195,Take Kubo,5,Delantero,133,1
+392,M. Dmitrović,12,Portero,133,1
+406,Sergio Ramos,12,Defensa,133,1
+402,Loïc Badé,12,Defensa,133,1
+396,Adrià Pedrosa,12,Defensa,133,1
+399,Jesús Navas,12,Defensa,133,1
+681,Fernando,12,Centrocampista,133,1
+408,B. Soumaré,12,Centrocampista,133,1
+680,Ivan Rakitić,12,Centrocampista,133,1
+425,Lucas Ocampos,12,Delantero,133,1
+421,D. Lukebakio,12,Delantero,133,1
+429,Y. En-Nesyri,12,Delantero,133,1
+163,Álex Remiro,5,Portero,165,1
+177,R. Le Normand,5,Defensa,165,1
+170,Igor Zubeldia,5,Defensa,165,1
+176,K. Tierney,5,Defensa,165,1
+169,Hamari Traoré,5,Defensa,165,1
+181,M. Zubimendi,5,Centrocampista,165,1
+182,Mikel Merino,5,Centrocampista,165,1
+187,A. Zakharyan,5,Delantero,165,1
+193,M. Oyarzabal,5,Delantero,165,1
+189,André Silva,5,Delantero,165,1
+195,Take Kubo,5,Delantero,165,1
+200,Rui Silva,6,Portero,165,1
+202,Chadi Riad,6,Defensa,165,1
+203,G. Pezzella,6,Defensa,165,1
+201,Abner Vinícius,6,Defensa,165,1
+218,Marc Roca,6,Centrocampista,165,1
+222,Sergi Altimira,6,Centrocampista,165,1
+216,Isco,6,Centrocampista,165,1
+224,Aitor Ruibal,6,Delantero,165,1
+229,Ez Abde,6,Delantero,165,1
+226,Ayoze,6,Delantero,165,1
+230,Willian José,6,Delantero,165,1
+163,Álex Remiro,5,Portero,186,1
+177,R. Le Normand,5,Defensa,186,1
+170,Igor Zubeldia,5,Defensa,186,1
+176,K. Tierney,5,Defensa,186,1
+169,Hamari Traoré,5,Defensa,186,1
+181,M. Zubimendi,5,Centrocampista,186,1
+182,Mikel Merino,5,Centrocampista,186,1
+179,Brais Méndez,5,Centrocampista,186,1
+193,M. Oyarzabal,5,Delantero,186,1
+189,André Silva,5,Delantero,186,1
+195,Take Kubo,5,Delantero,186,1
+356,Antonio Sivera,11,Portero,186,1
+369,Rafa Marín,11,Defensa,186,1
+368,N. Tenaglia,11,Defensa,186,1
+366,Javi López,11,Defensa,186,1
+361,A. Gorosabel,11,Defensa,186,1
+372,Ander Guevara,11,Centrocampista,186,1
+374,Antonio Blanco,11,Centrocampista,186,1
+377,Jon Guridi,11,Centrocampista,186,1
+380,A. Rebbach,11,Delantero,186,1
+387,Luis Rioja,11,Delantero,186,1
+388,S. Omorodion,11,Delantero,186,1
+163,Álex Remiro,5,Portero,216,1
+177,R. Le Normand,5,Defensa,216,1
+170,Igor Zubeldia,5,Defensa,216,1
+175,Jon Pacheco,5,Defensa,216,1
+173,Jon Aramburu,5,Defensa,216,1
+172,Javi Galán,5,Defensa,216,1
+181,M. Zubimendi,5,Centrocampista,216,1
+178,B. Turrientes,5,Centrocampista,216,1
+187,A. Zakharyan,5,Delantero,216,1
+189,André Silva,5,Delantero,216,1
+196,Umar Sadiq,5,Delantero,216,1
+462,S. Dimitrievski,14,Portero,216,1
+466,Florian Lejeune,14,Defensa,216,1
+465,Aridane,14,Defensa,216,1
+469,Pacha Espino,14,Defensa,216,1
+467,Iván Balliu,14,Defensa,216,1
+470,Pep Chavarría,14,Defensa,216,1
+476,Óscar Valentín,14,Centrocampista,216,1
+479,Unai López,14,Centrocampista,216,1
+475,Óscar Trejo,14,Centrocampista,216,1
+482,Isi Palazón,14,Delantero,216,1
+486,Sergio Camello,14,Delantero,216,1
+163,Álex Remiro,5,Portero,236,1
+175,Jon Pacheco,5,Defensa,236,1
+170,Igor Zubeldia,5,Defensa,236,1
+172,Javi Galán,5,Defensa,236,1
+173,Jon Aramburu,5,Defensa,236,1
+181,M. Zubimendi,5,Centrocampista,236,1
+182,Mikel Merino,5,Centrocampista,236,1
+178,B. Turrientes,5,Centrocampista,236,1
+187,A. Zakharyan,5,Delantero,236,1
+189,André Silva,5,Delantero,236,1
+195,Take Kubo,5,Delantero,236,1
+332,Sergio Herrera,10,Portero,236,1
+334,David García,10,Defensa,236,1
+340,Unai García,10,Defensa,236,1
+335,J. Herrando,10,Defensa,236,1
+337,Jesús Areso,10,Defensa,236,1
+336,J. Mojica,10,Defensa,236,1
+339,Rubén Peña,10,Defensa,236,1
+345,Lucas Torró,10,Centrocampista,236,1
+342,Aimar Oroz,10,Centrocampista,236,1
+344,J. Moncayola,10,Centrocampista,236,1
+347,A. Budimir,10,Delantero,236,1
+163,Álex Remiro,5,Portero,257,1
+175,Jon Pacheco,5,Defensa,257,1
+177,R. Le Normand,5,Defensa,257,1
+172,Javi Galán,5,Defensa,257,1
+169,Hamari Traoré,5,Defensa,257,1
+181,M. Zubimendi,5,Centrocampista,257,1
+179,Brais Méndez,5,Centrocampista,257,1
+187,A. Zakharyan,5,Delantero,257,1
+195,Take Kubo,5,Delantero,257,1
+186,A. Barrenetxea,5,Delantero,257,1
+189,André Silva,5,Delantero,257,1
+261,F. Jörgensen,8,Portero,257,1
+271,Eric Bailly,8,Defensa,257,1
+275,Raúl Albiol,8,Defensa,257,1
+268,Alberto Moreno,8,Defensa,257,1
+277,Yerson Mosquera,8,Defensa,257,1
+285,Santi Comesaña,8,Centrocampista,257,1
+282,F. Coquelin,8,Centrocampista,257,1
+278,Álex Baena,8,Centrocampista,257,1
+290,Ilias Akhomach,8,Delantero,257,1
+288,Gerard Moreno,8,Delantero,257,1
+289,Gonçalo Guedes,8,Delantero,257,1
+163,Álex Remiro,5,Portero,286,1
+177,R. Le Normand,5,Defensa,286,1
+170,Igor Zubeldia,5,Defensa,286,1
+172,Javi Galán,5,Defensa,286,1
+169,Hamari Traoré,5,Defensa,286,1
+181,M. Zubimendi,5,Centrocampista,286,1
+182,Mikel Merino,5,Centrocampista,286,1
+179,Brais Méndez,5,Centrocampista,286,1
+194,S. Becker,5,Delantero,286,1
+193,M. Oyarzabal,5,Delantero,286,1
+195,Take Kubo,5,Delantero,286,1
+550,Conan Ledesma,17,Portero,286,1
+564,Victor Chust,17,Defensa,286,1
+555,Aiham Ousou,17,Defensa,286,1
+559,Javi Hernández,17,Defensa,286,1
+557,Iza,17,Defensa,286,1
+571,R. Kouamé,17,Centrocampista,286,1
+572,Rubén Alcaraz,17,Centrocampista,286,1
+582,Robert Navarro,17,Delantero,286,1
+584,Rubén Sobrino,17,Delantero,286,1
+579,Juanmi,17,Delantero,286,1
+580,Maxi Gómez,17,Delantero,286,1
+163,Álex Remiro,5,Portero,308,1
+177,R. Le Normand,5,Defensa,308,1
+170,Igor Zubeldia,5,Defensa,308,1
+172,Javi Galán,5,Defensa,308,1
+169,Hamari Traoré,5,Defensa,308,1
+182,Mikel Merino,5,Centrocampista,308,1
+181,M. Zubimendi,5,Centrocampista,308,1
+186,A. Barrenetxea,5,Delantero,308,1
+187,A. Zakharyan,5,Delantero,308,1
+193,M. Oyarzabal,5,Delantero,308,1
+194,S. Becker,5,Delantero,308,1
+623,Luís Maximiano,19,Portero,308,1
+630,Edgar,19,Defensa,308,1
+629,Chumi,19,Defensa,308,1
+627,Bruno Langa,19,Defensa,308,1
+631,Marc Pubill,19,Defensa,308,1
+633,Dion Lopy,19,Centrocampista,308,1
+637,L. Robertone,19,Centrocampista,308,1
+636,Jonathan Viera,19,Centrocampista,308,1
+640,Adrián Embarba,19,Delantero,308,1
+646,Luka Romero,19,Delantero,308,1
+644,Léo Baptistão,19,Delantero,308,1
+163,Álex Remiro,5,Portero,326,1
+177,R. Le Normand,5,Defensa,326,1
+170,Igor Zubeldia,5,Defensa,326,1
+172,Javi Galán,5,Defensa,326,1
+167,Á. Odriozola,5,Defensa,326,1
+181,M. Zubimendi,5,Centrocampista,326,1
+178,B. Turrientes,5,Centrocampista,326,1
+182,Mikel Merino,5,Centrocampista,326,1
+195,Take Kubo,5,Delantero,326,1
+186,A. Barrenetxea,5,Delantero,326,1
+193,M. Oyarzabal,5,Delantero,326,1
+3,Kepa,0,Portero,326,1
+17,Nacho,0,Defensa,326,1
+11,Éder Militão,0,Defensa,326,1
+14,Fran García,0,Defensa,326,1
+9,Dani Carvajal,0,Defensa,326,1
+26,Luka Modrić,0,Centrocampista,326,1
+19,A. Tchouaméni,0,Centrocampista,326,1
+21,Brahim Díaz,0,Centrocampista,326,1
+22,Dani Ceballos,0,Centrocampista,326,1
+20,Arda Güler,0,Centrocampista,326,1
+33,Joselu,0,Delantero,326,1

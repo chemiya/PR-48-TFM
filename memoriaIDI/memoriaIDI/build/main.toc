@@ -1,0 +1,122 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Agradecimientos}{III}{chapter*.3}%
+\contentsline {chapter}{Resumen}{V}{chapter*.4}%
+\contentsline {chapter}{Abstract}{VII}{chapter*.5}%
+\contentsline {chapter}{Lista de figuras}{XV}{chapter*.6}%
+\contentsline {chapter}{Lista de tablas}{XIX}{chapter*.7}%
+\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Contexto}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objetivos}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Objetivos de desarrollo}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Objetivos académicos}{3}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Motivación}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Aplicaciones similares}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Estructura de la memoria}{6}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Planificación}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduccion}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Scrum}{7}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Definición y pilares}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Artefactos}{8}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Roles}{9}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Eventos}{9}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Adaptación de Scrum al proyecto}{10}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Análisis de riesgos}{12}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Presupuesto}{26}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Presupuesto simulado}{27}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Presupuesto real}{28}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}\textit {Product Backlog} inicial}{28}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Requisitos}{33}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introducción}{33}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Requisitos Funcionales}{33}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Requisitos No Funcionales}{35}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Requisitos de Información}{35}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Actores Principales}{36}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Usuario}{36}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Administrador}{37}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Diagrama de Casos de Uso}{37}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Descripción Casos de Uso}{37}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Análisis}{61}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introducción}{61}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Modelo del Dominio}{61}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Diagrama de Clases del Modelo del Dominio}{61}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}Modelo de Análisis}{61}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Clases de Análisis}{63}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4}Realización de Casos de Uso de Análisis}{63}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Realización de Caso de Uso \textit {Registrarse}}{63}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Realización de Caso de Uso \textit {Crear publicación}}{63}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Realización de Caso de Uso \textit {Crear receta}}{63}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Realización de Caso de Uso \textit {Buscar alimento}}{63}{subsection.4.4.4}%
+\contentsline {chapter}{\numberline {5}Diseño}{69}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introducción}{69}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Arquitectura Lógica del Sistema}{69}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Arquitectura del Cliente}{70}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Arquitectura del Servidor}{76}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Patrones de Diseño}{80}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Observador}{81}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}DAO/DTO}{81}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}\textit {Singleton}}{82}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}Arquitectura Física del Sistema}{83}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Diseño de la Base de Datos}{83}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Diseño de la Interfaz Gráfica}{86}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Tecnologías utilizadas}{105}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introducción}{105}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Base de datos}{105}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Elección del tipo de base de datos}{105}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}MySQL}{107}{subsection.6.2.2}%
+\contentsline {section}{\numberline {6.3}\textit {Frontend}}{107}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Angular}{107}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}HTML5}{109}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}CSS}{109}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Bootstrap}{109}{subsection.6.3.4}%
+\contentsline {subsection}{\numberline {6.3.5}ChartJS}{110}{subsection.6.3.5}%
+\contentsline {subsection}{\numberline {6.3.6}Angular Material}{110}{subsection.6.3.6}%
+\contentsline {section}{\numberline {6.4}\textit {Backend}}{110}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}NodeJS}{110}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}ExpressJS}{111}{subsection.6.4.2}%
+\contentsline {section}{\numberline {6.5}Desarrollo del proyecto}{111}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Git}{111}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Gitlab}{112}{subsection.6.5.2}%
+\contentsline {subsection}{\numberline {6.5.3}Astah}{112}{subsection.6.5.3}%
+\contentsline {subsection}{\numberline {6.5.4}Railway}{113}{subsection.6.5.4}%
+\contentsline {subsection}{\numberline {6.5.5}Cloudinary}{113}{subsection.6.5.5}%
+\contentsline {subsection}{\numberline {6.5.6}JWT}{113}{subsection.6.5.6}%
+\contentsline {subsection}{\numberline {6.5.7}Trello}{114}{subsection.6.5.7}%
+\contentsline {subsection}{\numberline {6.5.8}Visual Studio Code}{114}{subsection.6.5.8}%
+\contentsline {subsection}{\numberline {6.5.9}Balsamiq}{115}{subsection.6.5.9}%
+\contentsline {chapter}{\numberline {7}Implementación y pruebas}{117}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Introducción}{117}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Estructura del código de \textit {frontend}}{117}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Estructura del código de \textit {backend}}{120}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Pruebas}{123}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Problemas y dificultades encontradas}{124}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Casos de Prueba}{125}{section.7.6}%
+\contentsline {chapter}{\numberline {8}Seguimiento del proyecto}{137}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Introducción}{137}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Seguimiento del proyecto}{137}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Sprint 1: 30/1/2023 - 16/2/2023}{138}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Sprint 2: 16/2/2023 - 5/3/2023}{138}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Sprint 3: 5/3/2023 - 22/3/2023}{141}{subsection.8.2.3}%
+\contentsline {subsection}{\numberline {8.2.4}Sprint 4: 22/3/2023 - 8/4/2023}{144}{subsection.8.2.4}%
+\contentsline {subsection}{\numberline {8.2.5}Sprint 5: 8/4/2023 - 25/4/2023}{144}{subsection.8.2.5}%
+\contentsline {subsection}{\numberline {8.2.6}Sprint 6: 25/4/2023 - 12/5/2023}{146}{subsection.8.2.6}%
+\contentsline {subsection}{\numberline {8.2.7}Sprint 7: 12/5/2023 - 29/5/2023}{148}{subsection.8.2.7}%
+\contentsline {subsection}{\numberline {8.2.8}Sprint 8: 29/5/2023 - 15/6/2023}{148}{subsection.8.2.8}%
+\contentsline {chapter}{\numberline {9}Conclusiones}{151}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Introducción}{151}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Conclusiones}{151}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Líneas de trabajo futuras}{153}{section.9.3}%
+\contentsline {chapter}{\numberline {A}Manuales}{155}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Manual de despliegue e instalación}{155}{section.Alph1.1}%
+\contentsline {subsection}{\numberline {A.1.1}Requisitos para la instalación}{155}{subsection.Alph1.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Instalación}{155}{subsection.Alph1.1.2}%
+\contentsline {section}{\numberline {A.2}Manual de Usuario}{156}{section.Alph1.2}%
+\contentsline {subsection}{\numberline {A.2.1}Registro e inicio de sesión}{156}{subsection.Alph1.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Muro publicaciones, datos del Usuario y su edición}{156}{subsection.Alph1.2.2}%
+\contentsline {subsection}{\numberline {A.2.3}Buscador de usuarios, detalles del Usuario y seguidos}{157}{subsection.Alph1.2.3}%
+\contentsline {subsection}{\numberline {A.2.4}Buscador de recetas, detalles de la receta y favoritas}{157}{subsection.Alph1.2.4}%
+\contentsline {subsection}{\numberline {A.2.5}Buscador de alimentos y detalles del alimento}{157}{subsection.Alph1.2.5}%
+\contentsline {subsection}{\numberline {A.2.6}Crear receta y crear publicación}{157}{subsection.Alph1.2.6}%
+\contentsline {subsection}{\numberline {A.2.7}Administrador}{158}{subsection.Alph1.2.7}%
+\contentsline {subsection}{\numberline {A.2.8}Crear alimento y editar}{158}{subsection.Alph1.2.8}%
+\contentsline {chapter}{\numberline {B}Resumen de enlaces adicionales}{167}{appendix.Alph2}%
+\contentsline {chapter}{Bibliografía}{169}{appendix.Alph2}%

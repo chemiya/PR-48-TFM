@@ -1,0 +1,188 @@
+id_jugador,nombre,equipo,posicion,id_partido,titular
+433,Álvaro Valles,13,Portero,5,1
+434,Álex Suárez,13,Defensa,5,1
+441,Saúl Coco,13,Defensa,5,1
+436,D. Sinkgraven,13,Defensa,5,1
+435,Álvaro Lemos,13,Defensa,5,1
+449,Kirian,13,Centrocampista,5,1
+448,Javi Muñoz,13,Centrocampista,5,1
+444,E. Loiodice,13,Centrocampista,5,1
+688,Jonathan Viera,13,Centrocampista,5,1
+460,Sandro,13,Delantero,5,1
+454,Marc Cardona,13,Delantero,5,1
+433,Álvaro Valles,13,Portero,23,1
+440,Mika Mármol,13,Defensa,23,1
+434,Álex Suárez,13,Defensa,23,1
+442,Sergi Cardona,13,Defensa,23,1
+439,Julián Araujo,13,Defensa,23,1
+449,Kirian,13,Centrocampista,23,1
+688,Jonathan Viera,13,Centrocampista,23,1
+444,E. Loiodice,13,Centrocampista,23,1
+460,Sandro,13,Delantero,23,1
+459,S. Kaba,13,Delantero,23,1
+456,Munir,13,Delantero,23,1
+433,Álvaro Valles,13,Portero,59,1
+440,Mika Mármol,13,Defensa,59,1
+434,Álex Suárez,13,Defensa,59,1
+442,Sergi Cardona,13,Defensa,59,1
+439,Julián Araujo,13,Defensa,59,1
+450,M. Perrone,13,Centrocampista,59,1
+449,Kirian,13,Centrocampista,59,1
+444,E. Loiodice,13,Centrocampista,59,1
+688,Jonathan Viera,13,Centrocampista,59,1
+458,Pejiño,13,Delantero,59,1
+456,Munir,13,Delantero,59,1
+433,Álvaro Valles,13,Portero,78,1
+440,Mika Mármol,13,Defensa,78,1
+434,Álex Suárez,13,Defensa,78,1
+442,Sergi Cardona,13,Defensa,78,1
+439,Julián Araujo,13,Defensa,78,1
+449,Kirian,13,Centrocampista,78,1
+448,Javi Muñoz,13,Centrocampista,78,1
+444,E. Loiodice,13,Centrocampista,78,1
+456,Munir,13,Delantero,78,1
+458,Pejiño,13,Delantero,78,1
+459,S. Kaba,13,Delantero,78,1
+433,Álvaro Valles,13,Portero,90,1
+440,Mika Mármol,13,Defensa,90,1
+441,Saúl Coco,13,Defensa,90,1
+442,Sergi Cardona,13,Defensa,90,1
+434,Álex Suárez,13,Defensa,90,1
+449,Kirian,13,Centrocampista,90,1
+448,Javi Muñoz,13,Centrocampista,90,1
+444,E. Loiodice,13,Centrocampista,90,1
+458,Pejiño,13,Delantero,90,1
+456,Munir,13,Delantero,90,1
+454,Marc Cardona,13,Delantero,90,1
+433,Álvaro Valles,13,Portero,114,1
+440,Mika Mármol,13,Defensa,114,1
+441,Saúl Coco,13,Defensa,114,1
+442,Sergi Cardona,13,Defensa,114,1
+434,Álex Suárez,13,Defensa,114,1
+450,M. Perrone,13,Centrocampista,114,1
+448,Javi Muñoz,13,Centrocampista,114,1
+449,Kirian,13,Centrocampista,114,1
+443,A. Moleiro,13,Centrocampista,114,1
+455,Marvin Park,13,Delantero,114,1
+456,Munir,13,Delantero,114,1
+433,Álvaro Valles,13,Portero,149,1
+440,Mika Mármol,13,Defensa,149,1
+441,Saúl Coco,13,Defensa,149,1
+442,Sergi Cardona,13,Defensa,149,1
+439,Julián Araujo,13,Defensa,149,1
+449,Kirian,13,Centrocampista,149,1
+448,Javi Muñoz,13,Centrocampista,149,1
+444,E. Loiodice,13,Centrocampista,149,1
+443,A. Moleiro,13,Centrocampista,149,1
+456,Munir,13,Delantero,149,1
+460,Sandro,13,Delantero,149,1
+433,Álvaro Valles,13,Portero,168,1
+440,Mika Mármol,13,Defensa,168,1
+441,Saúl Coco,13,Defensa,168,1
+436,D. Sinkgraven,13,Defensa,168,1
+439,Julián Araujo,13,Defensa,168,1
+450,M. Perrone,13,Centrocampista,168,1
+448,Javi Muñoz,13,Centrocampista,168,1
+449,Kirian,13,Centrocampista,168,1
+443,A. Moleiro,13,Centrocampista,168,1
+458,Pejiño,13,Delantero,168,1
+456,Munir,13,Delantero,168,1
+433,Álvaro Valles,13,Portero,188,1
+440,Mika Mármol,13,Defensa,188,1
+441,Saúl Coco,13,Defensa,188,1
+442,Sergi Cardona,13,Defensa,188,1
+434,Álex Suárez,13,Defensa,188,1
+450,M. Perrone,13,Centrocampista,188,1
+449,Kirian,13,Centrocampista,188,1
+448,Javi Muñoz,13,Centrocampista,188,1
+443,A. Moleiro,13,Centrocampista,188,1
+460,Sandro,13,Delantero,188,1
+456,Munir,13,Delantero,188,1
+433,Álvaro Valles,13,Portero,199,1
+440,Mika Mármol,13,Defensa,199,1
+438,Juanma Herzog,13,Defensa,199,1
+442,Sergi Cardona,13,Defensa,199,1
+434,Álex Suárez,13,Defensa,199,1
+450,M. Perrone,13,Centrocampista,199,1
+449,Kirian,13,Centrocampista,199,1
+448,Javi Muñoz,13,Centrocampista,199,1
+443,A. Moleiro,13,Centrocampista,199,1
+460,Sandro,13,Delantero,199,1
+456,Munir,13,Delantero,199,1
+433,Álvaro Valles,13,Portero,219,1
+440,Mika Mármol,13,Defensa,219,1
+434,Álex Suárez,13,Defensa,219,1
+442,Sergi Cardona,13,Defensa,219,1
+450,M. Perrone,13,Centrocampista,219,1
+448,Javi Muñoz,13,Centrocampista,219,1
+449,Kirian,13,Centrocampista,219,1
+443,A. Moleiro,13,Centrocampista,219,1
+455,Marvin Park,13,Delantero,219,1
+456,Munir,13,Delantero,219,1
+460,Sandro,13,Delantero,219,1
+433,Álvaro Valles,13,Portero,239,1
+440,Mika Mármol,13,Defensa,239,1
+441,Saúl Coco,13,Defensa,239,1
+442,Sergi Cardona,13,Defensa,239,1
+434,Álex Suárez,13,Defensa,239,1
+450,M. Perrone,13,Centrocampista,239,1
+448,Javi Muñoz,13,Centrocampista,239,1
+449,Kirian,13,Centrocampista,239,1
+455,Marvin Park,13,Delantero,239,1
+456,Munir,13,Delantero,239,1
+460,Sandro,13,Delantero,239,1
+433,Álvaro Valles,13,Portero,259,1
+440,Mika Mármol,13,Defensa,259,1
+441,Saúl Coco,13,Defensa,259,1
+442,Sergi Cardona,13,Defensa,259,1
+434,Álex Suárez,13,Defensa,259,1
+444,E. Loiodice,13,Centrocampista,259,1
+448,Javi Muñoz,13,Centrocampista,259,1
+449,Kirian,13,Centrocampista,259,1
+443,A. Moleiro,13,Centrocampista,259,1
+455,Marvin Park,13,Delantero,259,1
+454,Marc Cardona,13,Delantero,259,1
+433,Álvaro Valles,13,Portero,278,1
+440,Mika Mármol,13,Defensa,278,1
+441,Saúl Coco,13,Defensa,278,1
+442,Sergi Cardona,13,Defensa,278,1
+439,Julián Araujo,13,Defensa,278,1
+447,J. Campaña,13,Centrocampista,278,1
+448,Javi Muñoz,13,Centrocampista,278,1
+449,Kirian,13,Centrocampista,278,1
+443,A. Moleiro,13,Centrocampista,278,1
+456,Munir,13,Delantero,278,1
+460,Sandro,13,Delantero,278,1
+433,Álvaro Valles,13,Portero,288,1
+440,Mika Mármol,13,Defensa,288,1
+434,Álex Suárez,13,Defensa,288,1
+442,Sergi Cardona,13,Defensa,288,1
+439,Julián Araujo,13,Defensa,288,1
+450,M. Perrone,13,Centrocampista,288,1
+448,Javi Muñoz,13,Centrocampista,288,1
+449,Kirian,13,Centrocampista,288,1
+443,A. Moleiro,13,Centrocampista,288,1
+456,Munir,13,Delantero,288,1
+460,Sandro,13,Delantero,288,1
+430,Aarón Escandell,13,Portero,309,1
+440,Mika Mármol,13,Defensa,309,1
+441,Saúl Coco,13,Defensa,309,1
+442,Sergi Cardona,13,Defensa,309,1
+434,Álex Suárez,13,Defensa,309,1
+450,M. Perrone,13,Centrocampista,309,1
+448,Javi Muñoz,13,Centrocampista,309,1
+449,Kirian,13,Centrocampista,309,1
+443,A. Moleiro,13,Centrocampista,309,1
+455,Marvin Park,13,Delantero,309,1
+460,Sandro,13,Delantero,309,1
+433,Álvaro Valles,13,Portero,328,1
+440,Mika Mármol,13,Defensa,328,1
+441,Saúl Coco,13,Defensa,328,1
+436,D. Sinkgraven,13,Defensa,328,1
+434,Álex Suárez,13,Defensa,328,1
+450,M. Perrone,13,Centrocampista,328,1
+448,Javi Muñoz,13,Centrocampista,328,1
+449,Kirian,13,Centrocampista,328,1
+443,A. Moleiro,13,Centrocampista,328,1
+455,Marvin Park,13,Delantero,328,1
+460,Sandro,13,Delantero,328,1
