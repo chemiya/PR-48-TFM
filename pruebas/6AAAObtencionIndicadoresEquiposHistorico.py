@@ -23,8 +23,8 @@ def calculosSin100(numerador,denominador):
 
 
 # liga y temporada a analizar
-ligas=['premier']
-temporadas=[2024]
+ligas=['bundesliga']
+temporadas=[2022,2023,2024]
 
 
 #dataframe para meter los datos de los indicadores de los equipos en el partido

@@ -10,7 +10,7 @@ URL_BASE="https://www.resultados-futbol.com/"
 
 
 #liga y temporada a analizar
-ligas=['premier']
+ligas=['bundesliga']
 temporadas=[2022,2023,2024]
 
 #dataframe donde se guardaran los equipos

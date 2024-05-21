@@ -16,8 +16,8 @@ id_dato_partido_jugado=0
 indicador_resumen=0
 
 # liga y temporada a analizar
-ligas=['premier']
-temporadas=[2024]
+ligas=['bundesliga']
+temporadas=[2022,2023,2024]
 
 
 # para cada liga y temporada se extraen los datos de sus partidos

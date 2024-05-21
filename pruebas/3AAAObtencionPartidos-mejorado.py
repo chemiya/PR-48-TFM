@@ -21,7 +21,7 @@ def convertir_fecha(texto_fecha):
 
 
 #liga y temporada a analizar
-ligas=['premier']
+ligas=['bundesliga']
 temporadas=[2022,2023,2024]
 
 #dataframe donde se guardaran los partidos

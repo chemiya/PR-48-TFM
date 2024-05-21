@@ -15,7 +15,7 @@ dataframe_jugadores=pd.DataFrame(columns=['id_jugador','nombre', 'posicion','id_
 id_jugador=0
 
 #liga y temporada a analizar
-ligas=['premier']
+ligas=['bundesliga']
 temporadas=[2022,2023,2024]
 
 
