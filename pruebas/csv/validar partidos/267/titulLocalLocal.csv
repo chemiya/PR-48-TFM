@@ -1,0 +1,144 @@
+id_jugador,nombre,equipo,posicion,id_partido,titular
+682,Bono,11,Portero,4,1
+380,N. Gudelj,11,Defensa,4,1
+377,Loïc Badé,11,Defensa,4,1
+379,Marcos Acuña,11,Defensa,4,1
+374,Jesús Navas,11,Defensa,4,1
+683,Ivan Rakitić,11,Centrocampista,4,1
+684,Fernando,11,Centrocampista,4,1
+403,Suso,11,Delantero,4,1
+397,Erik Lamela,11,Delantero,4,1
+400,Lucas Ocampos,11,Delantero,4,1
+404,Y. En-Nesyri,11,Delantero,4,1
+367,M. Dmitrović,11,Portero,27,1
+380,N. Gudelj,11,Defensa,27,1
+377,Loïc Badé,11,Defensa,27,1
+371,Adrià Pedrosa,11,Defensa,27,1
+374,Jesús Navas,11,Defensa,27,1
+683,Ivan Rakitić,11,Centrocampista,27,1
+384,Djibril Sow,11,Centrocampista,27,1
+391,Óliver Torres,11,Centrocampista,27,1
+400,Lucas Ocampos,11,Delantero,27,1
+403,Suso,11,Delantero,27,1
+404,Y. En-Nesyri,11,Delantero,27,1
+367,M. Dmitrović,11,Portero,48,1
+381,Sergio Ramos,11,Defensa,48,1
+377,Loïc Badé,11,Defensa,48,1
+371,Adrià Pedrosa,11,Defensa,48,1
+374,Jesús Navas,11,Defensa,48,1
+683,Ivan Rakitić,11,Centrocampista,48,1
+384,Djibril Sow,11,Centrocampista,48,1
+391,Óliver Torres,11,Centrocampista,48,1
+400,Lucas Ocampos,11,Delantero,48,1
+403,Suso,11,Delantero,48,1
+402,Rafa Mir,11,Delantero,48,1
+370,Ø. Nyland,11,Portero,62,1
+380,N. Gudelj,11,Defensa,62,1
+377,Loïc Badé,11,Defensa,62,1
+371,Adrià Pedrosa,11,Defensa,62,1
+374,Jesús Navas,11,Defensa,62,1
+684,Fernando,11,Centrocampista,62,1
+384,Djibril Sow,11,Centrocampista,62,1
+397,Erik Lamela,11,Delantero,62,1
+396,D. Lukebakio,11,Delantero,62,1
+403,Suso,11,Delantero,62,1
+404,Y. En-Nesyri,11,Delantero,62,1
+370,Ø. Nyland,11,Portero,88,1
+380,N. Gudelj,11,Defensa,88,1
+377,Loïc Badé,11,Defensa,88,1
+379,Marcos Acuña,11,Defensa,88,1
+375,Juanlu Sánchez,11,Defensa,88,1
+684,Fernando,11,Centrocampista,88,1
+384,Djibril Sow,11,Centrocampista,88,1
+391,Óliver Torres,11,Centrocampista,88,1
+396,D. Lukebakio,11,Delantero,88,1
+403,Suso,11,Delantero,88,1
+404,Y. En-Nesyri,11,Delantero,88,1
+370,Ø. Nyland,11,Portero,97,1
+381,Sergio Ramos,11,Defensa,97,1
+380,N. Gudelj,11,Defensa,97,1
+379,Marcos Acuña,11,Defensa,97,1
+374,Jesús Navas,11,Defensa,97,1
+383,B. Soumaré,11,Centrocampista,97,1
+683,Ivan Rakitić,11,Centrocampista,97,1
+384,Djibril Sow,11,Centrocampista,97,1
+400,Lucas Ocampos,11,Delantero,97,1
+404,Y. En-Nesyri,11,Delantero,97,1
+396,D. Lukebakio,11,Delantero,97,1
+367,M. Dmitrović,11,Portero,120,1
+380,N. Gudelj,11,Defensa,120,1
+377,Loïc Badé,11,Defensa,120,1
+371,Adrià Pedrosa,11,Defensa,120,1
+374,Jesús Navas,11,Defensa,120,1
+383,B. Soumaré,11,Centrocampista,120,1
+683,Ivan Rakitić,11,Centrocampista,120,1
+384,Djibril Sow,11,Centrocampista,120,1
+391,Óliver Torres,11,Centrocampista,120,1
+400,Lucas Ocampos,11,Delantero,120,1
+404,Y. En-Nesyri,11,Delantero,120,1
+367,M. Dmitrović,11,Portero,147,1
+380,N. Gudelj,11,Defensa,147,1
+382,T. Nianzou,11,Defensa,147,1
+379,Marcos Acuña,11,Defensa,147,1
+375,Juanlu Sánchez,11,Defensa,147,1
+684,Fernando,11,Centrocampista,147,1
+683,Ivan Rakitić,11,Centrocampista,147,1
+384,Djibril Sow,11,Centrocampista,147,1
+396,D. Lukebakio,11,Delantero,147,1
+404,Y. En-Nesyri,11,Delantero,147,1
+400,Lucas Ocampos,11,Delantero,147,1
+367,M. Dmitrović,11,Portero,166,1
+381,Sergio Ramos,11,Defensa,166,1
+380,N. Gudelj,11,Defensa,166,1
+376,Kike Salas,11,Defensa,166,1
+375,Juanlu Sánchez,11,Defensa,166,1
+371,Adrià Pedrosa,11,Defensa,166,1
+383,B. Soumaré,11,Centrocampista,166,1
+683,Ivan Rakitić,11,Centrocampista,166,1
+384,Djibril Sow,11,Centrocampista,166,1
+404,Y. En-Nesyri,11,Delantero,166,1
+400,Lucas Ocampos,11,Delantero,166,1
+367,M. Dmitrović,11,Portero,187,1
+381,Sergio Ramos,11,Defensa,187,1
+377,Loïc Badé,11,Defensa,187,1
+376,Kike Salas,11,Defensa,187,1
+375,Juanlu Sánchez,11,Defensa,187,1
+371,Adrià Pedrosa,11,Defensa,187,1
+380,N. Gudelj,11,Defensa,187,1
+384,Djibril Sow,11,Centrocampista,187,1
+403,Suso,11,Delantero,187,1
+402,Rafa Mir,11,Delantero,187,1
+400,Lucas Ocampos,11,Delantero,187,1
+367,M. Dmitrović,11,Portero,197,1
+378,Marcão,11,Defensa,197,1
+381,Sergio Ramos,11,Defensa,197,1
+376,Kike Salas,11,Defensa,197,1
+374,Jesús Navas,11,Defensa,197,1
+683,Ivan Rakitić,11,Centrocampista,197,1
+383,B. Soumaré,11,Centrocampista,197,1
+391,Óliver Torres,11,Centrocampista,197,1
+403,Suso,11,Delantero,197,1
+399,Isaac Romero,11,Delantero,197,1
+400,Lucas Ocampos,11,Delantero,197,1
+370,Ø. Nyland,11,Portero,217,1
+381,Sergio Ramos,11,Defensa,217,1
+378,Marcão,11,Defensa,217,1
+377,Loïc Badé,11,Defensa,217,1
+379,Marcos Acuña,11,Defensa,217,1
+374,Jesús Navas,11,Defensa,217,1
+387,L. Agoumé,11,Centrocampista,217,1
+383,B. Soumaré,11,Centrocampista,217,1
+403,Suso,11,Delantero,217,1
+400,Lucas Ocampos,11,Delantero,217,1
+399,Isaac Romero,11,Delantero,217,1
+370,Ø. Nyland,11,Portero,237,1
+381,Sergio Ramos,11,Defensa,237,1
+379,Marcos Acuña,11,Defensa,237,1
+377,Loïc Badé,11,Defensa,237,1
+374,Jesús Navas,11,Defensa,237,1
+383,B. Soumaré,11,Centrocampista,237,1
+391,Óliver Torres,11,Centrocampista,237,1
+384,Djibril Sow,11,Centrocampista,237,1
+400,Lucas Ocampos,11,Delantero,237,1
+404,Y. En-Nesyri,11,Delantero,237,1
+399,Isaac Romero,11,Delantero,237,1

@@ -1,0 +1,166 @@
+id_jugador,nombre,equipo,posicion,id_partido,titular
+232,G. Mamardashvili,7,Portero,19,1
+236,Cenk Özkacar,7,Defensa,19,1
+689,Gabriel Paulista,7,Defensa,19,1
+239,José Gayà,7,Defensa,19,1
+242,Thierry Correia,7,Defensa,19,1
+240,M. Diakhaby,7,Defensa,19,1
+249,Pepelu,7,Centrocampista,19,1
+244,André Almeida,7,Centrocampista,19,1
+253,Diego López,7,Delantero,19,1
+254,Fran Pérez,7,Delantero,19,1
+255,Hugo Duro,7,Delantero,19,1
+232,G. Mamardashvili,7,Portero,28,1
+236,Cenk Özkacar,7,Defensa,28,1
+689,Gabriel Paulista,7,Defensa,28,1
+239,José Gayà,7,Defensa,28,1
+242,Thierry Correia,7,Defensa,28,1
+240,M. Diakhaby,7,Defensa,28,1
+249,Pepelu,7,Centrocampista,28,1
+246,Javi Guerra,7,Centrocampista,28,1
+253,Diego López,7,Delantero,28,1
+254,Fran Pérez,7,Delantero,28,1
+255,Hugo Duro,7,Delantero,28,1
+232,G. Mamardashvili,7,Portero,46,1
+240,M. Diakhaby,7,Defensa,46,1
+235,C. Mosquera,7,Defensa,46,1
+239,José Gayà,7,Defensa,46,1
+242,Thierry Correia,7,Defensa,46,1
+246,Javi Guerra,7,Centrocampista,46,1
+249,Pepelu,7,Centrocampista,46,1
+244,André Almeida,7,Centrocampista,46,1
+261,Sergi Canós,7,Delantero,46,1
+254,Fran Pérez,7,Delantero,46,1
+255,Hugo Duro,7,Delantero,46,1
+232,G. Mamardashvili,7,Portero,67,1
+236,Cenk Özkacar,7,Defensa,67,1
+240,M. Diakhaby,7,Defensa,67,1
+239,José Gayà,7,Defensa,67,1
+242,Thierry Correia,7,Defensa,67,1
+246,Javi Guerra,7,Centrocampista,67,1
+249,Pepelu,7,Centrocampista,67,1
+250,S. Amallah,7,Centrocampista,67,1
+253,Diego López,7,Delantero,67,1
+254,Fran Pérez,7,Delantero,67,1
+255,Hugo Duro,7,Delantero,67,1
+232,G. Mamardashvili,7,Portero,95,1
+689,Gabriel Paulista,7,Defensa,95,1
+235,C. Mosquera,7,Defensa,95,1
+239,José Gayà,7,Defensa,95,1
+242,Thierry Correia,7,Defensa,95,1
+246,Javi Guerra,7,Centrocampista,95,1
+249,Pepelu,7,Centrocampista,95,1
+250,S. Amallah,7,Centrocampista,95,1
+253,Diego López,7,Delantero,95,1
+254,Fran Pérez,7,Delantero,95,1
+255,Hugo Duro,7,Delantero,95,1
+232,G. Mamardashvili,7,Portero,119,1
+689,Gabriel Paulista,7,Defensa,119,1
+235,C. Mosquera,7,Defensa,119,1
+239,José Gayà,7,Defensa,119,1
+242,Thierry Correia,7,Defensa,119,1
+246,Javi Guerra,7,Centrocampista,119,1
+249,Pepelu,7,Centrocampista,119,1
+250,S. Amallah,7,Centrocampista,119,1
+253,Diego López,7,Delantero,119,1
+254,Fran Pérez,7,Delantero,119,1
+255,Hugo Duro,7,Delantero,119,1
+232,G. Mamardashvili,7,Portero,138,1
+689,Gabriel Paulista,7,Defensa,138,1
+235,C. Mosquera,7,Defensa,138,1
+239,José Gayà,7,Defensa,138,1
+242,Thierry Correia,7,Defensa,138,1
+246,Javi Guerra,7,Centrocampista,138,1
+249,Pepelu,7,Centrocampista,138,1
+261,Sergi Canós,7,Delantero,138,1
+254,Fran Pérez,7,Delantero,138,1
+255,Hugo Duro,7,Delantero,138,1
+253,Diego López,7,Delantero,138,1
+232,G. Mamardashvili,7,Portero,169,1
+235,C. Mosquera,7,Defensa,169,1
+240,M. Diakhaby,7,Defensa,169,1
+238,Jesús Vázquez,7,Defensa,169,1
+242,Thierry Correia,7,Defensa,169,1
+249,Pepelu,7,Centrocampista,169,1
+245,Hugo Guillamón,7,Centrocampista,169,1
+253,Diego López,7,Delantero,169,1
+254,Fran Pérez,7,Delantero,169,1
+255,Hugo Duro,7,Delantero,169,1
+260,R. Yaremchuk,7,Delantero,169,1
+232,G. Mamardashvili,7,Portero,189,1
+689,Gabriel Paulista,7,Defensa,189,1
+235,C. Mosquera,7,Defensa,189,1
+239,José Gayà,7,Defensa,189,1
+237,D. Foulquier,7,Defensa,189,1
+249,Pepelu,7,Centrocampista,189,1
+245,Hugo Guillamón,7,Centrocampista,189,1
+261,Sergi Canós,7,Delantero,189,1
+254,Fran Pérez,7,Delantero,189,1
+260,R. Yaremchuk,7,Delantero,189,1
+255,Hugo Duro,7,Delantero,189,1
+232,G. Mamardashvili,7,Portero,208,1
+689,Gabriel Paulista,7,Defensa,208,1
+235,C. Mosquera,7,Defensa,208,1
+239,José Gayà,7,Defensa,208,1
+237,D. Foulquier,7,Defensa,208,1
+249,Pepelu,7,Centrocampista,208,1
+245,Hugo Guillamón,7,Centrocampista,208,1
+261,Sergi Canós,7,Delantero,208,1
+254,Fran Pérez,7,Delantero,208,1
+253,Diego López,7,Delantero,208,1
+255,Hugo Duro,7,Delantero,208,1
+232,G. Mamardashvili,7,Portero,228,1
+236,Cenk Özkacar,7,Defensa,228,1
+235,C. Mosquera,7,Defensa,228,1
+239,José Gayà,7,Defensa,228,1
+237,D. Foulquier,7,Defensa,228,1
+246,Javi Guerra,7,Centrocampista,228,1
+245,Hugo Guillamón,7,Centrocampista,228,1
+249,Pepelu,7,Centrocampista,228,1
+253,Diego López,7,Delantero,228,1
+260,R. Yaremchuk,7,Delantero,228,1
+255,Hugo Duro,7,Delantero,228,1
+232,G. Mamardashvili,7,Portero,248,1
+235,C. Mosquera,7,Defensa,248,1
+240,M. Diakhaby,7,Defensa,248,1
+239,José Gayà,7,Defensa,248,1
+237,D. Foulquier,7,Defensa,248,1
+245,Hugo Guillamón,7,Centrocampista,248,1
+249,Pepelu,7,Centrocampista,248,1
+261,Sergi Canós,7,Delantero,248,1
+254,Fran Pérez,7,Delantero,248,1
+255,Hugo Duro,7,Delantero,248,1
+260,R. Yaremchuk,7,Delantero,248,1
+232,G. Mamardashvili,7,Portero,268,1
+240,M. Diakhaby,7,Defensa,268,1
+235,C. Mosquera,7,Defensa,268,1
+239,José Gayà,7,Defensa,268,1
+237,D. Foulquier,7,Defensa,268,1
+246,Javi Guerra,7,Centrocampista,268,1
+249,Pepelu,7,Centrocampista,268,1
+261,Sergi Canós,7,Delantero,268,1
+254,Fran Pérez,7,Delantero,268,1
+260,R. Yaremchuk,7,Delantero,268,1
+255,Hugo Duro,7,Delantero,268,1
+232,G. Mamardashvili,7,Portero,279,1
+236,Cenk Özkacar,7,Defensa,279,1
+235,C. Mosquera,7,Defensa,279,1
+239,José Gayà,7,Defensa,279,1
+237,D. Foulquier,7,Defensa,279,1
+246,Javi Guerra,7,Centrocampista,279,1
+249,Pepelu,7,Centrocampista,279,1
+261,Sergi Canós,7,Delantero,279,1
+254,Fran Pérez,7,Delantero,279,1
+260,R. Yaremchuk,7,Delantero,279,1
+255,Hugo Duro,7,Delantero,279,1
+232,G. Mamardashvili,7,Portero,298,1
+236,Cenk Özkacar,7,Defensa,298,1
+235,C. Mosquera,7,Defensa,298,1
+237,D. Foulquier,7,Defensa,298,1
+242,Thierry Correia,7,Defensa,298,1
+249,Pepelu,7,Centrocampista,298,1
+245,Hugo Guillamón,7,Centrocampista,298,1
+259,Peter,7,Delantero,298,1
+254,Fran Pérez,7,Delantero,298,1
+260,R. Yaremchuk,7,Delantero,298,1
+255,Hugo Duro,7,Delantero,298,1

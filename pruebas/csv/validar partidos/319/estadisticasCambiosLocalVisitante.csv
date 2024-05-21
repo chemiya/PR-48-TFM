@@ -1,0 +1,75 @@
+nombreSale,nombreEntra,posicionSale,posicionEntra,minuto,goles,asistencias,lesion,amarillas
+José Gayà,Jesús Vázquez,Defensa,Defensa,87,0,0,0,0
+André Almeida,D. Foulquier,Centrocampista,Defensa,61,0,1,0,0
+Diego López,Pablo Gozálbez,Delantero,Centrocampista,65,0,0,1,0
+Fran Pérez,Javi Guerra,Delantero,Centrocampista,61,0,0,0,0
+Cenk Özkacar,C. Mosquera,Defensa,Defensa,46,1,0,0,0
+Thierry Correia,Fran Pérez,Defensa,Delantero,46,0,0,0,0
+André Almeida,Sergi Canós,Centrocampista,Delantero,61,0,0,0,0
+Diego López,S. Amallah,Delantero,Centrocampista,70,0,0,0,0
+Hugo Duro,Mario Domínguez,Delantero,Delantero,81,0,0,0,0
+Javi Guerra,S. Amallah,Centrocampista,Centrocampista,65,1,1,0,0
+André Almeida,Pablo Gozálbez,Centrocampista,Centrocampista,87,0,0,0,0
+Diego López,Hugo González,Delantero,Delantero,97,1,0,1,0
+Fran Pérez,Hugo Guillamón,Delantero,Centrocampista,65,0,1,0,1
+Hugo Duro,Mario Domínguez,Delantero,Delantero,98,0,0,0,0
+Pepelu,Hugo González,Centrocampista,Delantero,86,0,0,1,0
+André Almeida,Hugo Guillamón,Centrocampista,Centrocampista,68,0,0,0,0
+Pablo Gozálbez,Diego López,Centrocampista,Delantero,46,0,0,0,0
+Fran Pérez,Mario Domínguez,Delantero,Delantero,77,0,0,0,0
+R. Yaremchuk,Hugo Duro,Delantero,Delantero,46,0,0,0,0
+Cenk Özkacar,D. Foulquier,Defensa,Defensa,72,0,0,0,0
+Thierry Correia,Yarek,Defensa,Defensa,94,0,1,1,0
+Diego López,Hugo Guillamón,Delantero,Centrocampista,72,1,0,0,0
+R. Yaremchuk,Fran Pérez,Delantero,Delantero,58,0,0,0,0
+S. Amallah,Sergi Canós,Centrocampista,Delantero,59,0,0,0,1
+Fran Pérez,D. Foulquier,Delantero,Defensa,73,1,1,0,0
+Hugo Duro,R. Yaremchuk,Delantero,Delantero,78,1,1,1,0
+Diego López,Hugo Guillamón,Delantero,Centrocampista,73,0,0,0,0
+José Gayà,D. Foulquier,Defensa,Defensa,55,0,0,1,0
+Thierry Correia,Yarek,Defensa,Defensa,55,0,0,0,0
+Pepelu,R. Yaremchuk,Centrocampista,Delantero,70,0,0,1,1
+Sergi Canós,Hugo Guillamón,Delantero,Centrocampista,64,0,0,0,0
+Fran Pérez,Hugo González,Delantero,Delantero,70,0,0,0,0
+Yarek,Jesús Vázquez,Defensa,Defensa,89,0,0,0,1
+D. Foulquier,S. Amallah,Defensa,Centrocampista,84,0,0,0,0
+Fran Pérez,M. Diakhaby,Delantero,Defensa,67,0,0,0,0
+Hugo Duro,Sergi Canós,Delantero,Delantero,84,1,0,0,1
+Diego López,R. Yaremchuk,Delantero,Delantero,84,0,0,0,0
+Yarek,Sergi Canós,Defensa,Delantero,90,0,0,0,0
+Thierry Correia,R. Yaremchuk,Defensa,Delantero,90,0,0,0,1
+Fran Pérez,M. Diakhaby,Delantero,Defensa,54,0,0,0,0
+Diego López,Jesús Vázquez,Delantero,Defensa,82,0,0,0,0
+Jesús Vázquez,Fran Pérez,Defensa,Delantero,71,0,0,0,1
+S. Amallah,Gabriel Paulista,Centrocampista,Defensa,92,0,0,0,1
+Sergi Canós,R. Yaremchuk,Delantero,Delantero,82,1,0,0,0
+Diego López,D. Foulquier,Delantero,Defensa,71,0,1,0,0
+Hugo Duro,Hugo González,Delantero,Delantero,82,0,0,0,0
+Gabriel Paulista,Yarek,Defensa,Defensa,81,0,0,1,0
+José Gayà,Jesús Vázquez,Defensa,Defensa,66,0,0,0,0
+Sergi Canós,Thierry Correia,Delantero,Defensa,66,0,1,0,0
+Fran Pérez,Alberto Marí,Delantero,Delantero,81,0,0,0,0
+Hugo Duro,Javi Guerra,Delantero,Centrocampista,75,1,0,0,0
+Gabriel Paulista,Cenk Özkacar,Defensa,Defensa,79,0,0,1,0
+Hugo Guillamón,Jesús Vázquez,Centrocampista,Defensa,79,0,0,0,0
+Diego López,Alberto Marí,Delantero,Delantero,89,0,0,0,0
+Fran Pérez,R. Yaremchuk,Delantero,Delantero,55,0,0,0,0
+Hugo Duro,Hugo González,Delantero,Delantero,89,0,0,0,0
+Javi Guerra,Sergi Canós,Centrocampista,Delantero,74,0,0,0,0
+S. Amallah,Peter,Centrocampista,Delantero,67,0,0,0,0
+Fran Pérez,Jesús Vázquez,Delantero,Defensa,74,0,0,0,0
+Hugo Duro,Alberto Marí,Delantero,Delantero,86,0,0,0,0
+D. Foulquier,André Almeida,Defensa,Centrocampista,57,0,0,0,0
+Sergi Canós,Jesús Vázquez,Delantero,Defensa,57,0,0,0,0
+Fran Pérez,Peter,Delantero,Delantero,69,0,0,0,0
+Hugo Duro,Alberto Marí,Delantero,Delantero,86,0,0,0,0
+José Gayà,Thierry Correia,Defensa,Defensa,40,0,0,1,0
+D. Foulquier,Fran Pérez,Defensa,Delantero,71,0,0,0,0
+Javi Guerra,André Almeida,Centrocampista,Centrocampista,82,0,0,0,0
+Sergi Canós,Peter,Delantero,Delantero,46,0,0,0,0
+R. Yaremchuk,Jesús Vázquez,Delantero,Defensa,71,0,0,0,0
+Javi Guerra,Thierry Correia,Centrocampista,Defensa,88,0,0,0,0
+André Almeida,Hugo Guillamón,Centrocampista,Centrocampista,75,1,0,0,0
+Diego López,S. Amallah,Delantero,Centrocampista,88,0,1,0,0
+Fran Pérez,Peter,Delantero,Delantero,79,0,0,1,0
+Hugo Duro,Alberto Marí,Delantero,Delantero,76,0,0,0,1

@@ -1,0 +1,89 @@
+id_jugador,nombre,equipo,posicion,id_partido,titular
+3,Kepa,0,Portero,38,1
+10,David Alaba,0,Defensa,38,1
+7,A. Rüdiger,0,Defensa,38,1
+14,Fran García,0,Defensa,38,1
+9,Dani Carvajal,0,Defensa,38,1
+19,A. Tchouaméni,0,Centrocampista,38,1
+23,E. Camavinga,0,Centrocampista,38,1
+26,Luka Modrić,0,Centrocampista,38,1
+25,J. Bellingham,0,Centrocampista,38,1
+34,Rodrygo,0,Delantero,38,1
+33,Joselu,0,Delantero,38,1
+3,Kepa,0,Portero,44,1
+10,David Alaba,0,Defensa,44,1
+7,A. Rüdiger,0,Defensa,44,1
+14,Fran García,0,Defensa,44,1
+9,Dani Carvajal,0,Defensa,44,1
+19,A. Tchouaméni,0,Centrocampista,44,1
+30,Toni Kroos,0,Centrocampista,44,1
+24,F. Valverde,0,Centrocampista,44,1
+25,J. Bellingham,0,Centrocampista,44,1
+34,Rodrygo,0,Delantero,44,1
+33,Joselu,0,Delantero,44,1
+3,Kepa,0,Portero,68,1
+10,David Alaba,0,Defensa,68,1
+7,A. Rüdiger,0,Defensa,68,1
+13,Ferland Mendy,0,Defensa,68,1
+17,Nacho,0,Defensa,68,1
+19,A. Tchouaméni,0,Centrocampista,68,1
+23,E. Camavinga,0,Centrocampista,68,1
+24,F. Valverde,0,Centrocampista,68,1
+21,Brahim Díaz,0,Centrocampista,68,1
+34,Rodrygo,0,Delantero,68,1
+33,Joselu,0,Delantero,68,1
+3,Kepa,0,Portero,87,1
+7,A. Rüdiger,0,Defensa,87,1
+13,Ferland Mendy,0,Defensa,87,1
+9,Dani Carvajal,0,Defensa,87,1
+19,A. Tchouaméni,0,Centrocampista,87,1
+23,E. Camavinga,0,Centrocampista,87,1
+24,F. Valverde,0,Centrocampista,87,1
+26,Luka Modrić,0,Centrocampista,87,1
+25,J. Bellingham,0,Centrocampista,87,1
+35,Vinícius Júnior,0,Delantero,87,1
+33,Joselu,0,Delantero,87,1
+3,Kepa,0,Portero,118,1
+10,David Alaba,0,Defensa,118,1
+7,A. Rüdiger,0,Defensa,118,1
+14,Fran García,0,Defensa,118,1
+9,Dani Carvajal,0,Defensa,118,1
+23,E. Camavinga,0,Centrocampista,118,1
+26,Luka Modrić,0,Centrocampista,118,1
+24,F. Valverde,0,Centrocampista,118,1
+25,J. Bellingham,0,Centrocampista,118,1
+35,Vinícius Júnior,0,Delantero,118,1
+33,Joselu,0,Delantero,118,1
+0,Andriy Lunin,0,Portero,124,1
+10,David Alaba,0,Defensa,124,1
+17,Nacho,0,Defensa,124,1
+13,Ferland Mendy,0,Defensa,124,1
+9,Dani Carvajal,0,Defensa,124,1
+30,Toni Kroos,0,Centrocampista,124,1
+23,E. Camavinga,0,Centrocampista,124,1
+21,Brahim Díaz,0,Centrocampista,124,1
+24,F. Valverde,0,Centrocampista,124,1
+35,Vinícius Júnior,0,Delantero,124,1
+34,Rodrygo,0,Delantero,124,1
+0,Andriy Lunin,0,Portero,146,1
+10,David Alaba,0,Defensa,146,1
+7,A. Rüdiger,0,Defensa,146,1
+13,Ferland Mendy,0,Defensa,146,1
+9,Dani Carvajal,0,Defensa,146,1
+30,Toni Kroos,0,Centrocampista,146,1
+24,F. Valverde,0,Centrocampista,146,1
+25,J. Bellingham,0,Centrocampista,146,1
+21,Brahim Díaz,0,Centrocampista,146,1
+34,Rodrygo,0,Delantero,146,1
+33,Joselu,0,Delantero,146,1
+0,Andriy Lunin,0,Portero,164,1
+10,David Alaba,0,Defensa,164,1
+7,A. Rüdiger,0,Defensa,164,1
+13,Ferland Mendy,0,Defensa,164,1
+16,Lucas Vázquez,0,Defensa,164,1
+30,Toni Kroos,0,Centrocampista,164,1
+24,F. Valverde,0,Centrocampista,164,1
+25,J. Bellingham,0,Centrocampista,164,1
+26,Luka Modrić,0,Centrocampista,164,1
+21,Brahim Díaz,0,Centrocampista,164,1
+34,Rodrygo,0,Delantero,164,1

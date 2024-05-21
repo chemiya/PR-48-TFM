@@ -1,0 +1,67 @@
+id_jugador,nombre,equipo,posicion,id_partido,titular
+101,Jan Oblak,3,Portero,16,1
+103,Axel Witsel,3,Defensa,16,1
+112,Stefan Savić,3,Defensa,16,1
+108,M. Hermoso,3,Defensa,16,1
+104,C. Azpilicueta,3,Defensa,16,1
+118,R. De Paul,3,Centrocampista,16,1
+121,Thomas Lemar,3,Centrocampista,16,1
+116,M. Llorente,3,Centrocampista,16,1
+665,Y. Carrasco,3,Delantero,16,1
+128,Memphis,3,Delantero,16,1
+122,A. Griezmann,3,Delantero,16,1
+101,Jan Oblak,3,Portero,25,1
+103,Axel Witsel,3,Defensa,25,1
+112,Stefan Savić,3,Defensa,25,1
+108,M. Hermoso,3,Defensa,25,1
+110,Nahuel Molina,3,Defensa,25,1
+117,Pablo Barrios,3,Centrocampista,25,1
+120,Saúl,3,Centrocampista,25,1
+118,R. De Paul,3,Centrocampista,25,1
+665,Y. Carrasco,3,Delantero,25,1
+128,Memphis,3,Delantero,25,1
+122,A. Griezmann,3,Delantero,25,1
+101,Jan Oblak,3,Portero,46,1
+103,Axel Witsel,3,Defensa,46,1
+112,Stefan Savić,3,Defensa,46,1
+108,M. Hermoso,3,Defensa,46,1
+104,C. Azpilicueta,3,Defensa,46,1
+117,Pablo Barrios,3,Centrocampista,46,1
+121,Thomas Lemar,3,Centrocampista,46,1
+116,M. Llorente,3,Centrocampista,46,1
+129,R. Riquelme,3,Delantero,46,1
+123,Á. Morata,3,Delantero,46,1
+122,A. Griezmann,3,Delantero,46,1
+101,Jan Oblak,3,Portero,63,1
+107,J. Giménez,3,Defensa,63,1
+103,Axel Witsel,3,Defensa,63,1
+108,M. Hermoso,3,Defensa,63,1
+110,Nahuel Molina,3,Defensa,63,1
+115,Koke,3,Centrocampista,63,1
+120,Saúl,3,Centrocampista,63,1
+116,M. Llorente,3,Centrocampista,63,1
+131,Samuel Lino,3,Delantero,63,1
+123,Á. Morata,3,Delantero,63,1
+122,A. Griezmann,3,Delantero,63,1
+101,Jan Oblak,3,Portero,93,1
+103,Axel Witsel,3,Defensa,93,1
+108,M. Hermoso,3,Defensa,93,1
+104,C. Azpilicueta,3,Defensa,93,1
+115,Koke,3,Centrocampista,93,1
+120,Saúl,3,Centrocampista,93,1
+117,Pablo Barrios,3,Centrocampista,93,1
+116,M. Llorente,3,Centrocampista,93,1
+131,Samuel Lino,3,Delantero,93,1
+122,A. Griezmann,3,Delantero,93,1
+123,Á. Morata,3,Delantero,93,1
+101,Jan Oblak,3,Portero,114,1
+103,Axel Witsel,3,Defensa,114,1
+112,Stefan Savić,3,Defensa,114,1
+108,M. Hermoso,3,Defensa,114,1
+110,Nahuel Molina,3,Defensa,114,1
+115,Koke,3,Centrocampista,114,1
+117,Pablo Barrios,3,Centrocampista,114,1
+118,R. De Paul,3,Centrocampista,114,1
+129,R. Riquelme,3,Delantero,114,1
+123,Á. Morata,3,Delantero,114,1
+122,A. Griezmann,3,Delantero,114,1

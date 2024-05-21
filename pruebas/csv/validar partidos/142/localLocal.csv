@@ -1,0 +1,8 @@
+id_datos_partido_jugado,id_partido,resultado_local,resultado_visitante,cambios_local,cambios_visitante,amarillas_local,amarillas_visitante,rojas_local,rojas_visitante,corners_local,corners_visitante,posesion_local,posesion_visitante,total_tiros_local,total_tiros_visitante,jornada
+11,11,2,0,5,5,4,3,0,0,10,2,75,24,23,10,2
+41,41,5,0,5,5,1,2,0,0,9,5,65,34,17,11,5
+52,52,3,2,5,4,2,1,0,0,2,3,74,25,15,13,6
+73,73,1,0,3,5,2,3,0,0,13,3,58,41,18,12,8
+92,92,1,0,4,5,3,3,0,0,4,7,62,37,12,10,10
+100,100,1,2,4,4,2,1,0,0,6,3,52,47,15,13,11
+129,129,2,1,4,5,2,1,0,0,2,1,71,28,11,8,13

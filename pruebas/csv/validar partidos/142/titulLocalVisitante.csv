@@ -1,0 +1,78 @@
+id_jugador,nombre,equipo,posicion,id_partido,titular
+69,M. Ter Stegen,2,Portero,6,1
+70,A. Christensen,2,Defensa,6,1
+75,Jules Koundé,2,Defensa,6,1
+71,Álex Balde,2,Defensa,6,1
+79,Ronald Araujo,2,Defensa,6,1
+81,F. De Jong,2,Centrocampista,6,1
+86,Oriol Romeu,2,Centrocampista,6,1
+88,Pedri,2,Centrocampista,6,1
+84,İ. Gündoğan,2,Centrocampista,6,1
+97,Raphinha,2,Delantero,6,1
+96,R. Lewandowski,2,Delantero,6,1
+69,M. Ter Stegen,2,Portero,26,1
+70,A. Christensen,2,Defensa,26,1
+75,Jules Koundé,2,Defensa,26,1
+76,Marcos Alonso,2,Defensa,26,1
+89,Sergi Roberto,2,Centrocampista,26,1
+86,Oriol Romeu,2,Centrocampista,26,1
+81,F. De Jong,2,Centrocampista,26,1
+84,İ. Gündoğan,2,Centrocampista,26,1
+83,Gavi,2,Centrocampista,26,1
+96,R. Lewandowski,2,Delantero,26,1
+93,Lamine Yamal,2,Delantero,26,1
+69,M. Ter Stegen,2,Portero,37,1
+70,A. Christensen,2,Defensa,37,1
+75,Jules Koundé,2,Defensa,37,1
+71,Álex Balde,2,Defensa,37,1
+89,Sergi Roberto,2,Centrocampista,37,1
+86,Oriol Romeu,2,Centrocampista,37,1
+84,İ. Gündoğan,2,Centrocampista,37,1
+81,F. De Jong,2,Centrocampista,37,1
+83,Gavi,2,Centrocampista,37,1
+96,R. Lewandowski,2,Delantero,37,1
+93,Lamine Yamal,2,Delantero,37,1
+69,M. Ter Stegen,2,Portero,64,1
+73,Íñigo Martínez,2,Defensa,64,1
+79,Ronald Araujo,2,Defensa,64,1
+71,Álex Balde,2,Defensa,64,1
+74,João Cancelo,2,Defensa,64,1
+86,Oriol Romeu,2,Centrocampista,64,1
+83,Gavi,2,Centrocampista,64,1
+84,İ. Gündoğan,2,Centrocampista,64,1
+92,João Félix,2,Delantero,64,1
+91,Ferran Torres,2,Delantero,64,1
+97,Raphinha,2,Delantero,64,1
+69,M. Ter Stegen,2,Portero,86,1
+70,A. Christensen,2,Defensa,86,1
+75,Jules Koundé,2,Defensa,86,1
+71,Álex Balde,2,Defensa,86,1
+74,João Cancelo,2,Defensa,86,1
+84,İ. Gündoğan,2,Centrocampista,86,1
+83,Gavi,2,Centrocampista,86,1
+82,Fermín López,2,Centrocampista,86,1
+92,João Félix,2,Delantero,86,1
+91,Ferran Torres,2,Delantero,86,1
+93,Lamine Yamal,2,Delantero,86,1
+69,M. Ter Stegen,2,Portero,115,1
+75,Jules Koundé,2,Defensa,115,1
+73,Íñigo Martínez,2,Defensa,115,1
+79,Ronald Araujo,2,Defensa,115,1
+71,Álex Balde,2,Defensa,115,1
+74,João Cancelo,2,Defensa,115,1
+84,İ. Gündoğan,2,Centrocampista,115,1
+83,Gavi,2,Centrocampista,115,1
+82,Fermín López,2,Centrocampista,115,1
+92,João Félix,2,Delantero,115,1
+96,R. Lewandowski,2,Delantero,115,1
+68,Iñaki Peña,2,Portero,137,1
+73,Íñigo Martínez,2,Defensa,137,1
+70,A. Christensen,2,Defensa,137,1
+71,Álex Balde,2,Defensa,137,1
+74,João Cancelo,2,Defensa,137,1
+86,Oriol Romeu,2,Centrocampista,137,1
+88,Pedri,2,Centrocampista,137,1
+81,F. De Jong,2,Centrocampista,137,1
+91,Ferran Torres,2,Delantero,137,1
+96,R. Lewandowski,2,Delantero,137,1
+93,Lamine Yamal,2,Delantero,137,1

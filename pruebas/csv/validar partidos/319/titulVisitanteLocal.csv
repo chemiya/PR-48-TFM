@@ -1,0 +1,177 @@
+id_jugador,nombre,equipo,posicion,id_partido,titular
+165,Rui Silva,5,Portero,16,1
+710,Luiz Felipe,5,Defensa,16,1
+168,G. Pezzella,5,Defensa,16,1
+166,Abner Vinícius,5,Defensa,16,1
+177,Y. Sabaly,5,Defensa,16,1
+183,Marc Roca,5,Centrocampista,16,1
+180,Guido Rodríguez,5,Centrocampista,16,1
+181,Isco,5,Centrocampista,16,1
+191,Ayoze,5,Delantero,16,1
+189,Aitor Ruibal,5,Delantero,16,1
+712,Borja Iglesias,5,Delantero,16,1
+165,Rui Silva,5,Portero,32,1
+710,Luiz Felipe,5,Defensa,32,1
+168,G. Pezzella,5,Defensa,32,1
+170,J. Miranda,5,Defensa,32,1
+169,Héctor Bellerín,5,Defensa,32,1
+183,Marc Roca,5,Centrocampista,32,1
+180,Guido Rodríguez,5,Centrocampista,32,1
+181,Isco,5,Centrocampista,32,1
+186,Rodri,5,Centrocampista,32,1
+191,Ayoze,5,Delantero,32,1
+195,Willian José,5,Delantero,32,1
+162,Claudio Bravo,5,Portero,53,1
+171,Marc Bartra,5,Defensa,53,1
+168,G. Pezzella,5,Defensa,53,1
+170,J. Miranda,5,Defensa,53,1
+169,Héctor Bellerín,5,Defensa,53,1
+183,Marc Roca,5,Centrocampista,53,1
+180,Guido Rodríguez,5,Centrocampista,53,1
+181,Isco,5,Centrocampista,53,1
+186,Rodri,5,Centrocampista,53,1
+191,Ayoze,5,Delantero,53,1
+195,Willian José,5,Delantero,53,1
+162,Claudio Bravo,5,Portero,74,1
+171,Marc Bartra,5,Defensa,74,1
+168,G. Pezzella,5,Defensa,74,1
+170,J. Miranda,5,Defensa,74,1
+169,Héctor Bellerín,5,Defensa,74,1
+183,Marc Roca,5,Centrocampista,74,1
+180,Guido Rodríguez,5,Centrocampista,74,1
+181,Isco,5,Centrocampista,74,1
+186,Rodri,5,Centrocampista,74,1
+190,Assane Diao,5,Delantero,74,1
+191,Ayoze,5,Delantero,74,1
+162,Claudio Bravo,5,Portero,103,1
+167,Chadi Riad,5,Defensa,103,1
+168,G. Pezzella,5,Defensa,103,1
+170,J. Miranda,5,Defensa,103,1
+169,Héctor Bellerín,5,Defensa,103,1
+183,Marc Roca,5,Centrocampista,103,1
+180,Guido Rodríguez,5,Centrocampista,103,1
+181,Isco,5,Centrocampista,103,1
+191,Ayoze,5,Delantero,103,1
+190,Assane Diao,5,Delantero,103,1
+195,Willian José,5,Delantero,103,1
+162,Claudio Bravo,5,Portero,110,1
+167,Chadi Riad,5,Defensa,110,1
+168,G. Pezzella,5,Defensa,110,1
+170,J. Miranda,5,Defensa,110,1
+169,Héctor Bellerín,5,Defensa,110,1
+183,Marc Roca,5,Centrocampista,110,1
+180,Guido Rodríguez,5,Centrocampista,110,1
+181,Isco,5,Centrocampista,110,1
+191,Ayoze,5,Delantero,110,1
+190,Assane Diao,5,Delantero,110,1
+195,Willian José,5,Delantero,110,1
+163,Fran Vieites,5,Portero,131,1
+167,Chadi Riad,5,Defensa,131,1
+168,G. Pezzella,5,Defensa,131,1
+170,J. Miranda,5,Defensa,131,1
+169,Héctor Bellerín,5,Defensa,131,1
+188,W. Carvalho,5,Centrocampista,131,1
+180,Guido Rodríguez,5,Centrocampista,131,1
+181,Isco,5,Centrocampista,131,1
+191,Ayoze,5,Delantero,131,1
+711,Luiz Henrique,5,Delantero,131,1
+195,Willian José,5,Delantero,131,1
+165,Rui Silva,5,Portero,157,1
+167,Chadi Riad,5,Defensa,157,1
+168,G. Pezzella,5,Defensa,157,1
+166,Abner Vinícius,5,Defensa,157,1
+183,Marc Roca,5,Centrocampista,157,1
+187,Sergi Altimira,5,Centrocampista,157,1
+181,Isco,5,Centrocampista,157,1
+189,Aitor Ruibal,5,Delantero,157,1
+194,Ez Abde,5,Delantero,157,1
+191,Ayoze,5,Delantero,157,1
+195,Willian José,5,Delantero,157,1
+165,Rui Silva,5,Portero,177,1
+167,Chadi Riad,5,Defensa,177,1
+168,G. Pezzella,5,Defensa,177,1
+170,J. Miranda,5,Defensa,177,1
+169,Héctor Bellerín,5,Defensa,177,1
+183,Marc Roca,5,Centrocampista,177,1
+714,A. Guardado,5,Centrocampista,177,1
+186,Rodri,5,Centrocampista,177,1
+191,Ayoze,5,Delantero,177,1
+190,Assane Diao,5,Delantero,177,1
+195,Willian José,5,Delantero,177,1
+165,Rui Silva,5,Portero,195,1
+175,Sokratis,5,Defensa,195,1
+168,G. Pezzella,5,Defensa,195,1
+166,Abner Vinícius,5,Defensa,195,1
+714,A. Guardado,5,Centrocampista,195,1
+183,Marc Roca,5,Centrocampista,195,1
+181,Isco,5,Centrocampista,195,1
+189,Aitor Ruibal,5,Delantero,195,1
+191,Ayoze,5,Delantero,195,1
+711,Luiz Henrique,5,Delantero,195,1
+195,Willian José,5,Delantero,195,1
+165,Rui Silva,5,Portero,205,1
+175,Sokratis,5,Defensa,205,1
+168,G. Pezzella,5,Defensa,205,1
+166,Abner Vinícius,5,Defensa,205,1
+169,Héctor Bellerín,5,Defensa,205,1
+183,Marc Roca,5,Centrocampista,205,1
+182,Johnny Cardoso,5,Centrocampista,205,1
+181,Isco,5,Centrocampista,205,1
+190,Assane Diao,5,Delantero,205,1
+711,Luiz Henrique,5,Delantero,205,1
+195,Willian José,5,Delantero,205,1
+165,Rui Silva,5,Portero,227,1
+175,Sokratis,5,Defensa,227,1
+168,G. Pezzella,5,Defensa,227,1
+166,Abner Vinícius,5,Defensa,227,1
+169,Héctor Bellerín,5,Defensa,227,1
+187,Sergi Altimira,5,Centrocampista,227,1
+182,Johnny Cardoso,5,Centrocampista,227,1
+181,Isco,5,Centrocampista,227,1
+186,Rodri,5,Centrocampista,227,1
+184,Nabil Fekir,5,Centrocampista,227,1
+190,Assane Diao,5,Delantero,227,1
+165,Rui Silva,5,Portero,245,1
+175,Sokratis,5,Defensa,245,1
+168,G. Pezzella,5,Defensa,245,1
+170,J. Miranda,5,Defensa,245,1
+169,Héctor Bellerín,5,Defensa,245,1
+183,Marc Roca,5,Centrocampista,245,1
+182,Johnny Cardoso,5,Centrocampista,245,1
+184,Nabil Fekir,5,Centrocampista,245,1
+185,Pablo Fornals,5,Centrocampista,245,1
+194,Ez Abde,5,Delantero,245,1
+193,Chimy Ávila,5,Delantero,245,1
+165,Rui Silva,5,Portero,255,1
+167,Chadi Riad,5,Defensa,255,1
+168,G. Pezzella,5,Defensa,255,1
+177,Y. Sabaly,5,Defensa,255,1
+187,Sergi Altimira,5,Centrocampista,255,1
+182,Johnny Cardoso,5,Centrocampista,255,1
+184,Nabil Fekir,5,Centrocampista,255,1
+185,Pablo Fornals,5,Centrocampista,255,1
+189,Aitor Ruibal,5,Delantero,255,1
+193,Chimy Ávila,5,Delantero,255,1
+195,Willian José,5,Delantero,255,1
+165,Rui Silva,5,Portero,275,1
+167,Chadi Riad,5,Defensa,275,1
+175,Sokratis,5,Defensa,275,1
+170,J. Miranda,5,Defensa,275,1
+177,Y. Sabaly,5,Defensa,275,1
+188,W. Carvalho,5,Centrocampista,275,1
+180,Guido Rodríguez,5,Centrocampista,275,1
+184,Nabil Fekir,5,Centrocampista,275,1
+185,Pablo Fornals,5,Centrocampista,275,1
+193,Chimy Ávila,5,Delantero,275,1
+195,Willian José,5,Delantero,275,1
+165,Rui Silva,5,Portero,306,1
+167,Chadi Riad,5,Defensa,306,1
+168,G. Pezzella,5,Defensa,306,1
+170,J. Miranda,5,Defensa,306,1
+169,Héctor Bellerín,5,Defensa,306,1
+182,Johnny Cardoso,5,Centrocampista,306,1
+180,Guido Rodríguez,5,Centrocampista,306,1
+181,Isco,5,Centrocampista,306,1
+185,Pablo Fornals,5,Centrocampista,306,1
+191,Ayoze,5,Delantero,306,1
+195,Willian José,5,Delantero,306,1
