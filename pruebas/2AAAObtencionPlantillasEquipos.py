@@ -16,7 +16,7 @@ id_jugador=0
 
 #liga y temporada a analizar
 ligas=['bundesliga']
-temporadas=[2022,2023,2024]
+temporadas=[2021]
 
 
 # para cada liga y temporada, se extraen los jugadores de cada equipo

@@ -22,7 +22,7 @@ def convertir_fecha(texto_fecha):
 
 #liga y temporada a analizar
 ligas=['bundesliga']
-temporadas=[2022,2023,2024]
+temporadas=[2021]
 
 #dataframe donde se guardaran los partidos
 dataframe_partidos=pd.DataFrame(columns=['id_partido','fecha','temporada', 'liga','jornada','id_equipo_local','id_equipo_visitante','finalizado'])

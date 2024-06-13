@@ -1,0 +1,44 @@
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\'{I}ndice general}{III}{section*.1}%
+\contentsline {chapter}{\'{I}ndice de figuras}{V}{section*.2}%
+\contentsline {chapter}{\'{I}ndice de tablas}{VI}{section*.3}%
+\contentsline {chapter}{1. Introducción}{1}{chapter*.4}%
+\contentsline {section}{\numberline {1.1}Contexto}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Motivación}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Aplicaciones similares}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Estructura de la memoria}{3}{section.1.4}%
+\contentsline {chapter}{2. Objetivos del proyecto}{5}{chapter*.5}%
+\contentsline {section}{\numberline {2.1}Introducción}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Objetivos de desarrollo}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Objetivos académicos}{6}{section.2.3}%
+\contentsline {chapter}{3. Conceptos teóricos}{7}{chapter*.6}%
+\contentsline {section}{\numberline {3.1}Introducción}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Introducción a la inteligencia artificial}{7}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Machine learning}{8}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Deep learning}{10}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Validacion cruzada y division de los datos}{13}{section.3.5}%
+\contentsline {chapter}{4. Técnicas y herramientas}{14}{chapter*.7}%
+\contentsline {section}{\numberline {4.1}Introducción}{14}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Obtención de los datos}{14}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Tecnologías utilizadas}{14}{section.4.3}%
+\contentsline {chapter}{5. Aspectos relevantes del desarrollo del proyecto}{17}{chapter*.8}%
+\contentsline {section}{\numberline {5.1}Introducción}{17}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Metodología}{17}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Alcance}{18}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Plan de proyecto}{18}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Modelo de los datos}{19}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Limpieza y transformación de los datos}{29}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Implementación}{30}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Proceso de elección de los mejores modelos}{30}{section.5.8}%
+\contentsline {chapter}{7. Conclusiones generales y Líneas de trabajo futuras}{31}{chapter*.9}%
+\contentsline {section}{\numberline {7.1}Conclusiones}{31}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Líneas de trabajo futuras}{32}{section.7.2}%
+\contentsline {part}{Apéndices}{33}{section.7.2}%
+\contentsline {appendix}{\chapternumberline {A}Plan de Proyecto}{34}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Introducción}{34}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Planificación temporal}{34}{section.Alph1.2}%
+\contentsline {section}{\numberline {A.3}Estudio de viabilidad}{34}{section.Alph1.3}%
+\contentsline {subsection}{Viabilidad económica}{34}{section*.12}%
+\contentsline {subsection}{Viabilidad legal}{34}{section*.13}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{35}{appendix*.14}%

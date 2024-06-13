@@ -1,0 +1,426 @@
+\capitulo{5}{Aspectos relevantes del desarrollo del proyecto}
+
+
+
+\section{Introducción}
+En este capitulo se recogen los aspectos más interesantes del desarrollo del proyecto, donde se documenta desde la metodologia aplicada para el desarrollo del proyecto, describiendo los pasos a seguir y el alcance que se espera que tenga el proyecto. Por otro lado, tambien se detalla la planificacion del proyecto, cual es el modelo de los datos, que operaciones de transformacion y limpieza han sido necesarias y finalmente se describe la implementacion de los archivos que forman parte del proyecto.
+
+
+\section{Metodología}
+La metodología de este proyecto tiene como base un enfoque que comprende varias etapas clave. En primer lugar, se realizará una revisión de diferentes artículos sobre técnicas de inteligencia artificial aplicadas al análisis de datos deportivos, centrándose especialmente en la predicción del rendimiento de equipos de fútbol basándose en la rotación de los jugadores. Esta revisión ayudará a identificar las mejores prácticas y los enfoques que pueden ser más relevantes para el desarrollo del proyecto.
+
+Posteriormente, se llevará a cabo la recopilación y preparación de datos, donde se recogerán conjuntos de datos históricos que abarquen información relevante sobre la rotación de jugadores y el rendimiento deportivo de equipos de fútbol en las ligas seleccionadas. Esta etapa incluye la limpieza de datos, la preparación de los datos para su análisis posterior y un breve análisis sobre ellos para detectar patrones.
+
+Una vez preparados los datos, se realizará la implementación y evaluación de modelos de inteligencia artificial. Se probarán los diferentes algoritmos comentados en la parte teorica y diferentes redes neuronales utilizando los parametros tambien comentados. Los modelos se entrenarán y ajustarán utilizando los datos que hemos obtenido previamente, y se evaluará su rendimiento utilizando kas métricas comentadas. Esta fase permitirá detectar los modelos más eficaces y precisos para predecir el rendimiento deportivo basado en la rotación de jugadores.
+
+\section{Alcance}
+El alcance de este proyecto abarca la evaluación y aplicación de diversas técnicas de inteligencia artificial para predecir el rendimiento de equipos de fútbol basándose en la rotación de jugadores. En primer lugar, se definirá la metodología y se seleccionarán las técnicas más correctas para el análisis de datos relacionados con la rotación de jugadores y el rendimiento deportivo. Este apartado incluirá la recopilación, preprocesamiento y análisis de los datos de las ligas, equipos y jugadores de fútbol seleccionados. Para la parte del análisis de los datos, se realizan unos pequeños programas que analicen los datos obtenidos mediante mapas de calor para poder detectar patrones. Al detectar estos patrones se pretende justificar si las estrategias de rotacion aplicadas por los equipos mejoran el rendimiento o no.
+
+Las ligas sobre las que se obtendrán y utilizarán los datos serán LaLiga EA Sports (primera división española), Premier League (primera división inglesa) y Bundesliga (primera división alemana) desde la temporada 2018/2019 hasta la temporada 2023/2024, ambas incluidas. Esta 
+variedad en la elección de ligas y temporadas permite evaluar si existen diferencias significativas 
+entre las ligas de los diferentes países o entre las temporadas.
+
+Además, el alcance del proyecto se pretende que también implique la implementación y ajuste de modelos de inteligencia artificial para la predicción del rendimiento deportivo en función de la rotación de jugadores. Para ello, se explorarán diversas técnicas de inteligencia artificial y \textit{machine learning}, como redes neuronales, árboles de decisión, y métodos de aprendizaje automático supervisado y no supervisado, con el objetivo de detectar aquellas que mejor se adapten a las características de este problema. Sobre cada una de ellas, se realizará una optimización de parámetros para mejorar todo lo posible su precisión.
+Finalmente, se realizará una evaluación de los modelos desarrollados, utilizando métricas de rendimiento para definir su eficacia y precisión en la predicción del rendimiento de los equipos. Después de esto, se seleccionará el mejor modelo y se evaluará su rendimiento en la actualidad aplicándolo sobre partidos que estén por jugarse.
+
+Además de todos estos aspectos comentados, se documentarán y analizarán todas las tareas realizadas en el proyecto, con el objetivo de ofrecer recomendaciones para la gestión de la rotación de jugadores en equipos de fútbol, así como posibles áreas de mejora y futuras investigaciones para este proyecto.
+
+
+
+
+\section{Plan de proyecto}
+
+El proyecto comienza las primeras semanas durante la estancia en un GIR para la asignatura de I+D+i donde se realiza una parte de investigacion y se desarrolla el nucleo del proyecto. Para finalizar, el proyecto continua como Trabajo de Fin de Master, donde se sigue profundizando y expandiendo el trabajo realizado previamente. La duracion de cada una de estas secciones es 190 horas y 150 horas respectivamente, sumando en total 340 horas. La fecha de inicio del proyecto es el 29 de abril de 2024 y la fecha limite de finalizacion es el 28 de junio de 2024.
+
+
+La Tabla \ref{table:planificacion} muestra la planificación de las semanas durante las que se desarrolla el proyecto.
+
+\begin{table}[]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        { \textbf{Semana}} & { \textbf{Fecha de inicio}} & { \textbf{Fecha de fin}} & { \textbf{Carga de trabajo}} & { \textbf{Sección}} \\ \hline
+        1                  & 29/04/2024                  & 05/05/2024               & 40 horas                     & I+D+i               \\ \hline
+        2                  & 06/05/2024                  & 12/05/2024               & 40 horas                     & I+D+i               \\ \hline
+        3                  & 13/05/2024                  & 19/05/2024               & 40 horas                     & I+D+i               \\ \hline
+        4                  & 20/05/2024                  & 26/05/2024               & 30 horas                     & I+D+i               \\ \hline
+        5                  & 27/05/2024                  & 02/06/2024               & 24 horas                     & I+D+i               \\ \hline
+        6                  & 03/06/2024                  & 09/06/2024               & 16 horas                     & I+D+i               \\ \hline
+        7                  & 10/06/2024                  & 16/06/2024               & 60 horas                     & TFM                 \\ \hline
+        8                  & 17/06/2024                  & 23/06/2024               & 60 horas                     & TFM                 \\ \hline
+        9                  & 24/06/2024                  & 28/06/2024               & 30 horas                     & TFM                 \\ \hline
+    \end{tabular}
+    \caption{Planificación de las semanas.}
+    \label{table:planificacion}
+\end{table}
+
+\section{Modelo de los datos}
+Los datos obtenidos se asocian a diferentes entidades que estan relacionadas entre si y abarcan multitud de campos, por ello, es importante estructurarlos de la manera correcta para que lpuedan ser utilizados adecuadamente en el entrenamiento de los modelos. En la figura \ref{fig:modelo-datos} se puede apreciar el modelo de los datos y como se han almacenado de forma estructurada despues de extraerlos mediante scraping.
+
+\begin{figure}
+    \centering
+    \begin{normalsize}
+        \import{svg/}{modelo-datos.pdf_tex}
+    \end{normalsize}
+    \caption{Modelo de datos.}
+    \label{fig:modelo-datos}
+
+\end{figure}
+
+Como se puede ver, en el diagrama los atributos de IndicadoresEquipoPrepartidoModelo no estan incorporados ya que contiene 174 atributos. Más adelante se describen estos atributos.
+
+A continuacion, se realiza una breve descripcion de cada entidad:
+\begin{itemize}
+    \item \textbf{Equipo:} recoge la información de cada equipo en una determinada liga y temporada. Cada equipo se identifica con un id único.
+    \item \textbf{Jugador:} recoge la información de cada jugador en una determinada liga y temporada.
+          Cada jugador se identifica con un id único y se le relaciona con el equipo en el que juega.
+    \item \textbf{Partido:} recoge la información de cada partido en una determinada liga y temporada. Cada
+          partido se identifica con un id único y se le relaciona con los equipos que lo juegan.
+    \item \textbf{DatosJugadorPartido:} recoge la información de un jugador en un determinado partido en
+          una determinada liga y temporada. Cada elemento se identifica con un id único y se le
+          relaciona con el jugador y el partido al que se asocia.
+    \item \textbf{DatosPartidoJugado:} recoge la información de un partido jugado en una determinada liga
+          y temporada. Cada elemento se identifica con un id único y se relaciona con el partido al
+          que se asocia.
+    \item \textbf{IndicadoresEquipoPrepartidoModelo:} recoge los indicadores de los equipos que juegan
+          un partido en una determinada liga y temporada. Cada elemento se identifica con un id
+          único y se relaciona con el partido al que se asocia.
+\end{itemize}
+
+Los elementos de la entidad IndicadoresEquipoPrepartidoModelo son los datos con los que se 
+entrenan los modelos. Los indicadores que se incluyen en esta identidad miden el desempeño 
+previo de los equipos antes del partido. Estos indicadores pueden ser en forma de porcentaje, 
+proporción o media y pueden tener en cuenta los partidos previos de los equipos de forma general
+en la temporada actual, es decir, sin distinguir si el equipo jugaba como local o visitante, o de 
+forma específica, solo evaluando los partidos previos del equipo donde ha jugado en el mismo 
+ámbito como lo va a hacer en el partido actual. Por ejemplo, para el equipo local de este partido, 
+solo se tendrían en cuenta los partidos previos que ha jugado como local.
+
+Respecto a los indicadores creados, miden diferentes valores asociados a las victorias, goles, 
+cambios realizados, tarjetas… de los equipos. Estos indicadores definen como llegan los equipos 
+al partido y por lo tanto son las variables explicativas. Sobre los cambios realizados, se evalúan 
+entre otras cosas las proporciónes de cada equipo de realizar cambios en unos determinados 
+intervalos de tiempo, las proporciónes de cambios según las posiciones de los jugadores afectados 
+o las proporciónes de cambios en la alineación inicial también por posiciones. 
+
+Existen tres tipos de indicadores, en forma de porcentaje, proporcion o media. A continuacion se detalla el calculo de cada uno de ellos:
+\begin{itemize}
+    \item \textbf{Indicadores en forma de porcentaje:} estos indicadores se calculan midiendo en que porcentaje sobre el total de partidos jugados que se evaluen, se cumple una determinada condicion. Por ejemplo, para el calculo del porcentaje de partidos perdidos del visitante en el sitio, se calcula el porcentaje de cuantos partidos ha perdido el visitante jugando como visitante sobre cuantos partidos ha jugado el visitante jugando como visitante.
+    \item \textbf{Indicadores en forma de proporcion:} estos indicadores se realizan calculando la cuenta total de un dato dividendola entre el numero de partidos jugados que se evaluen. Por ejemplo, para el calculo de la proporcion de puntos del local en general, se acumulan todos los puntos que haya obtenido el local jugando como local y visitante, es decir en todos sus partidos de la temporada, y se divide este valor entre el numero de partidos que ha jugado el local tanto como local y visitante, es decir el total de partidos.
+    \item \textbf{Indicadores en forma de media:} estos indicadores se calculan realizando la media sobre los datos recogidos de un determinado parametro. Por ejemplo para la media del minuto en la que el local realiza los cambios en general, se calcula la media sobre los valores de los minutos de todos los cambios que ha realizado el local en todos sus partidos, ya sea de local o de visitante.
+\end{itemize}
+
+
+Además, en cada uno de estos elementos de esta entidad se incluyen las variables a predecir que 
+son los goles de cada equipo y el ganador del partido.
+
+A continuacion, se describen los atributos de esta entidad agrupandolos segun del tipo que sean:
+
+\begin{itemize}
+    \item Atributos base: atributos descriptivos de cada registro.
+    \begin{itemize}
+        \item id indicadores equipo prepartido
+        \item id partido
+        \item jornada
+    \end{itemize}
+    \item Atributos sobre el ganador: atributos relacionados con los ganadores de los partidos que han jugado.
+    \begin{itemize}
+        \item porcentaje del local de partidos ganados en sitio
+        \item porcentaje del local de partidos ganados en general
+        \item porcentaje del local de partidos empatados en sitio
+        \item porcentaje del local de partidos empatados en general
+        \item porcentaje del local de partidos perdidos en sitio
+        \item porcentaje del local de partidos perdidos en general
+        \item porcentaje del visitante de partidos ganados en sitio
+        \item porcentaje del visitante de partidos ganados en general
+        \item porcentaje del visitante de partidos empatados en sitio
+        \item porcentaje del visitante de partidos empatados en general
+        \item porcentaje del visitante de partidos perdidos en sitio
+        \item porcentaje del visitante de partidos perdidos en general
+        \item proporción del local de puntos obtenidos en sitio
+        \item proporción del local de puntos obtenidos en general
+        \item proporción del visitante de puntos obtenidos en sitio
+        \item proporción del visitante de puntos obtenidos en general
+    \end{itemize}
+    \item Atributos sobre la cantidad de goles: atributos relacionados con la cantidad de goles totales de los partidos que han jugado.
+    \begin{itemize}
+        \item porcentaje del local de partidos con más 1,5 goles en sitio
+        \item porcentaje del local de partidos con más 1,5 goles en general
+        \item porcentaje del visitante de partidos con más 1,5 goles en sitio
+        \item porcentaje del visitante de partidos con más 1,5 goles en general
+        \item porcentaje del local de partidos con más 2,5 goles en sitio
+        \item porcentaje del local de partidos con más 2,5 goles en general
+        \item porcentaje del visitante de partidos con más 2,5 goles en sitio
+        \item porcentaje del visitante de partidos con más 2,5 goles en general
+        \item porcentaje del local de partidos con más 3,5 goles en sitio
+        \item porcentaje del local de partidos con más 3,5 goles en general
+        \item porcentaje del visitante de partidos con más 3,5 goles en sitio
+        \item porcentaje del visitante de partidos con más 3,5 goles en general
+        \item porcentaje del local de partidos con más 4,5 goles en sitio
+        \item porcentaje del local de partidos con más 4,5 goles en general
+        \item porcentaje del visitante de partidos con más 4,5 goles en sitio
+        \item porcentaje del visitante de partidos con más 4,5 goles en general
+    \end{itemize}
+    \item Atributos sobre los goles del local: atributos relacionados con las proporciones de goles que hay en los partidos del local.
+    \begin{itemize}
+        \item proporción del local de goles totales en sitio
+        \item proporción del local de goles totales en general
+        \item proporción del local de goles marcados en sitio
+        \item proporción del local de goles marcados en general
+        \item proporción del local de goles encajados en sitio
+        \item proporción del local de goles encajados en general
+    \end{itemize}
+    \item Atributos sobre los goles del visitante: atributos relacionados con las proporciones de goles que hay en los partidos del visitante.
+    \begin{itemize}
+        \item proporción del visitante de goles totales en sitio
+        \item proporción del visitante de goles totales en general
+        \item proporción del visitante de goles marcados en sitio
+        \item proporción del visitante de goles marcados en general
+        \item proporción del visitante de goles encajados en sitio
+        \item proporción del visitante de goles encajados en general
+    \end{itemize}
+    \item Atributos sobre los goles marcados por el local: atributos relacionados con la cantidad de goles que marca el local en los partidos que juega.
+    \begin{itemize}
+        \item porcentaje del local de más 0,5 goles marcados en sitio
+        \item porcentaje del local de más 0,5 goles marcados en general
+        \item porcentaje del local de más 1,5 goles marcados en sitio
+        \item porcentaje del local de más 1,5 goles marcados en general
+        \item porcentaje del local de más 2,5 goles marcados en sitio
+        \item porcentaje del local de más 2,5 goles marcados en general
+    \end{itemize}
+    \item Atributos sobre los goles encajados por el local: atributos relacionados con la cantidad de goles que encaja el local en los partidos que juega.
+    \begin{itemize}
+        \item porcentaje del local de más 0,5 goles encajados en sitio
+        \item porcentaje del local de más 0,5 goles encajados en general
+        \item porcentaje del local de más 1,5 goles encajados en sitio
+        \item porcentaje del local de más 1,5 goles encajados en general
+        \item porcentaje del local de más 2,5 goles encajados en sitio
+        \item porcentaje del local de más 2,5 goles encajados en general
+    \end{itemize}
+    \item Atributos sobre los goles marcados por el visitante: atributos relacionados con la cantidad de goles que marca el visitante en los partidos que juega.
+    \begin{itemize}
+        \item porcentaje del visitante de más 0,5 goles marcados en sitio
+        \item porcentaje del visitante de más 0,5 goles marcados en general
+        \item porcentaje del visitante de más 1,5 goles marcados en sitio
+        \item porcentaje del visitante de más 1,5 goles marcados en general
+        \item porcentaje del visitante de más 2,5 goles marcados en sitio
+        \item porcentaje del visitante de más 2,5 goles marcados en general
+        
+    \end{itemize}
+    \item Atributos sobre los goles encajados por el visitante: atributos relacionados con la cantidad de goles que encaja el visitante en los partidos que juega.
+    \begin{itemize}
+        \item porcentaje del visitante de más 0,5 goles encajados en sitio
+        \item porcentaje del visitante de más 0,5 goles encajados en general
+        \item porcentaje del visitante de más 1,5 goles encajados en sitio
+        \item porcentaje del visitante de más 1,5 goles encajados en general
+        \item porcentaje del visitante de más 2,5 goles encajados en sitio
+        \item porcentaje del visitante de más 2,5 goles encajados en general
+    \end{itemize}
+    \item Atributos sobre las amarillas: atributos relacionados con la proporcion de amarillas que reciben los equipos en los partidos que juegan.
+    \begin{itemize}
+        \item proporción del local de amarillas en sitio
+        \item proporción del local de amarillas en general
+        \item proporción del visitante de amarillas en sitio
+        \item proporción del visitante de amarillas en general
+    \end{itemize}
+    \item Atributos sobre las rojas: atributos relacionados con la proporcion de rojas que reciben los equipos en los partidos que juegan.
+    \begin{itemize}
+        \item proporción del local de rojas en sitio
+        \item proporción del local de rojas en general
+        \item proporción del visitante de rojas en sitio
+        \item proporción del visitante de rojas en general
+    \end{itemize}
+    \item Atributos sobre los cambios: atributos relacionados con la proporcion de cambios que realizan los equipos en los partidos que juegan.
+    \begin{itemize}
+        \item proporción del local de cambios en sitio
+        \item proporción del local de cambios en general
+        \item proporción del visitante de cambios en sitio
+        \item proporción del visitante de cambios en general
+    \end{itemize}
+    \item Atributos sobre la posesión: atributos relacionados con la proporcion de posesion que tienen los equipos en los partidos que juegan.
+    \begin{itemize}
+        \item proporción del local de posesion en sitio
+        \item proporción del local de posesion en general
+        \item proporción del visitante de posesion en sitio
+        \item proporción del visitante de posesion en general
+    \end{itemize}
+    \item Atributos sobre los tiros: atributos relacionados con la proporcion de tiros que realizan los equipos en los partidos que juegan.
+    \begin{itemize}
+        \item proporción del local de total tiros en sitio
+        \item proporción del local de total tiros en general
+        \item proporción del visitante de total tiros en sitio
+        \item proporción del visitante de total tiros en general
+    \end{itemize}
+    \item Atributos sobre los corners: atributos relacionados con la proporcion de corners que realizan y reciben los equipos en los partidos que juegan.
+    \begin{itemize}
+        \item proporción del local de corners a favor en sitio
+        \item proporción del local de corners a favor en general
+        \item proporción del visitante de corners a favor en sitio
+        \item proporción del visitante de corners a favor en general
+        \item proporción del local de corners en contra en sitio
+        \item proporción del local de corners en contra en general
+        \item proporción del visitante de corners en contra en sitio
+        \item proporción del visitante de corners en contra en general
+    \end{itemize}
+    \item Atributos sobre los cambios de lesionados, amarillas, goleadores y asistentes: atributos relacionados con la proporcion de cambios de diferente naturaleza que realizan los equipos en los partidos que juegan.
+    \begin{itemize}
+        \item proporción del local de cambios por jugadores lesionados sitio
+        \item proporción del local de cambios por jugadores lesionados en general
+        \item proporción del visitante de cambios por jugadores lesionados en sitio
+        \item proporción del visitante de cambios por jugadores lesionados en general
+        \item proporción del local de cambios por jugadores con amarillas sitio
+        \item proporción del local de cambios por jugadores con amarillas en general
+        \item proporción del visitante de cambios por jugadores con amarillas en sitio
+        \item proporción del visitante de cambios por jugadores con amarillas en general
+        \item proporción del local de cambios por jugadores goleadores sitio
+        \item proporción del local de cambios por jugadores goleadores en general
+        \item proporción del visitante de cambios por jugadores goleadores en sitio
+        \item proporción del visitante de cambios por jugadores goleadores en general
+        \item proporción del local de cambios por jugadores asistentes sitio
+        \item proporción del local de cambios por jugadores asistentes en general
+        \item proporción del visitante de cambios por jugadores asistentes en sitio
+        \item proporción del visitante de cambios por jugadores asistentes en general
+    \end{itemize}
+    \item Atributos sobre la media del minuto de los cambios: atributos relacionados con la media de los minutos en la que realizan los cambios los equipos en los partidos que juegan.
+    \begin{itemize}
+        \item media del local de los minutos en la que realiza los cambios sitio
+        \item media del local de los minutos en la que realiza los cambios en general
+        \item media del visitante de los minutos en la que realiza los cambios sitio
+        \item media del visitante de los minutos en la que realiza los cambios en general
+    \end{itemize}
+    \item Atributos sobre los cambios de delanteros a ...: atributos relacionados con la proporcion de cambios donde sacan un delantero por otro jugador de los equipos en los partidos que juegan.
+    \begin{itemize}
+        \item proporción del local de cambios de delanteros a centrocampistas sitio
+        \item proporción del local de cambios de delanteros a centrocampistas en general
+        \item proporción del visitante de cambios de delanteros a centrocampistas en sitio
+        \item proporción del visitante de cambios de delanteros a centrocampistas en general
+        \item proporción del local de cambios de delanteros a defensas sitio
+        \item proporción del local de cambios de delanteros a defensas en general
+        \item proporción del visitante de cambios de delanteros a defensas en sitio
+        \item proporción del visitante de cambios de delanteros a defensas en general
+        
+    \end{itemize}
+    \item Atributos sobre los cambios de centrocampistas a...: atributos relacionados con la proporcion de cambios donde sacan un centrocampista por otro jugador de los equipos en los partidos que juegan.
+    \begin{itemize}
+        \item proporción del local de cambios de centrocampistas a delanteros sitio
+        \item proporción del local de cambios de centrocampistas a delanteros en general
+        \item proporción del visitante de cambios de centrocampistas a delanteros en sitio
+        \item proporción del visitante de cambios de centrocampistas a delanteros en general
+        \item proporción del local de cambios de centrocampistas a defensas sitio
+        \item proporción del local de cambios de centrocampistas a defensas en general
+        \item proporción del visitante de cambios de centrocampistas a defensas en sitio
+        \item proporción del visitante de cambios de centrocampistas a defensas en general
+        
+    \end{itemize}
+    \item Atributos sobre los cambios de defensas a...: atributos relacionados con la proporcion de cambios donde sacan un defensa por otro jugador de los equipos en los partidos que juegan.
+    \begin{itemize}
+        \item proporción del local de cambios de defensas a delanteros sitio
+        \item proporción del local de cambios de defensas a delanteros en general
+        \item proporción del visitante de cambios de defensas a delanteros en sitio
+        \item proporción del visitante de cambios de defensas a delanteros en general
+        \item proporción del local de cambios de defensas a centrocampistas sitio
+        \item proporción del local de cambios de defensas a centrocampistas en general
+        \item proporción del visitante de cambios de defensas a centrocampistas en sitio
+        \item proporción del visitante de cambios de defensas a centrocampistas en general
+    \end{itemize}
+    \item Atributos sobre los cambios en los minutos: atributos relacionados con la proporcion de cambios en determinados rangos de tiempo de los equipos en los partidos que juegan.
+    \begin{itemize}
+        \item proporción del local de cambios en los minutos antes descanso sitio
+        \item proporción del local de cambios en los minutos antes descanso en general
+        \item proporción del visitante de cambios en los minutos antes descanso en sitio
+        \item proporción del visitante de cambios en los minutos antes descanso en general
+        \item proporción del local de cambios en los minutos 45 a 60 sitio
+        \item proporción del local de cambios en los minutos 45 a 60 en general
+        \item proporción del visitante de cambios en los minutos 45 a 60 en sitio
+        \item proporción del visitante de cambios en los minutos 45 a 60 en general
+        \item proporción del local de cambios en los minutos 61 a 75 sitio
+        \item proporción del local de cambios en los minutos 61 a 75 en general
+        \item proporción del visitante de cambios en los minutos 61 a 75 en sitio
+        \item proporción del visitante de cambios en los minutos 61 a 75 en general
+        \item proporción del local de cambios en los minutos 76 a final sitio
+        \item proporción del local de cambios en los minutos 76 a final en general
+        \item proporción del visitante de cambios en los minutos 76 a final en sitio
+        \item proporción del visitante de cambios en los minutos 76 a final en general
+    \end{itemize}
+    \item Atributos sobre los cambios en la alineación inicial: atributos relacionados con la proporcion de cambios que realizan en las alineaciones iniciales los equipos en los partidos que juegan.
+    \begin{itemize}
+        \item proporción del local de cambios en la alineacion de defensa sitio
+        \item proporción del local de cambios en la alineación de defensa en general
+        \item proporción del visitante de cambios en la alineación de defensa en sitio
+        \item proporción del visitante de cambios en la alineación de defensa en general
+        \item proporción del local de cambios en la alineación de centrocampista sitio
+        \item proporción del local de cambios en la alineación de centrocampista en general
+        \item proporción del visitante de cambios en la alineación de centrocampista en sitio
+        \item proporción del visitante de cambios en la alineación de centrocampista en general
+        \item proporción del local de cambios en la alineación de delantero sitio
+        \item proporción del local de cambios en la alineación de delantero en general
+        \item proporción del visitante de cambios en la alineación de delantero en sitio
+        \item proporción del visitante de cambios en la alineación de delantero en general
+    \end{itemize}
+    \item Clases a predecir: clases que se pretenden predecir en base a los anteriores atributos.
+    \begin{itemize}
+        \item resultado local
+        \item resultado visitante
+        \item resultado partido
+    \end{itemize}
+\end{itemize}
+
+
+
+
+\section{Limpieza y transformación de los datos}
+Las tareas de limpieza y transformacion de los datos para prepararlos para que puedan ser utilizados en el entrenamiento de los modelos se describen a continuacion:
+
+\begin{itemize}
+    \item \textbf{Eliminar datos sobre substituciones de jugadores no detectados:} se han eliminado los registros de datosJugadoresPartidos donde no se ha podido extraer la posicion sobre el jugador sustituido. Esto ha sucedido un con apenas 3 jugadores en todas las ligas y temporadas evaluadas y por lo tanto el numero de registros afectados en minimo.
+    \item \textbf{Seleccionar partidos a partir de la jornada 10:} se han filtrado los datos de los partidos dejando solamente los partidos jugados desde la jornada 10 hasta el final. Esto se ha hecho ya que los datos que se tienen en cuenta para cada partido unicamente consideran los partidos previos de los equipo que disputan ese encuentro en esa temporada y por tanto, hasta la jornada 10, no se considera que existen datos suficientes para obtener conclusiones estables sobre como se comporta ese equipo.
+    \item \textbf{Eliminacion de ids:} para preparar los datos para entrenar los modelos, se han eliminado tanto el id del partido asociado como el id unico del dato para cada registro con los datos de los indicadores para un partido.
+    \item \textbf{Transformacion de la clase:} antes de entrenar las redes neuronales con los datos obtenidos, se han transformado los datos de los registros de la clase a predecir, ya sea el ganador del partido, el numero de goles del local o el numero de goles del visitante, aplicando one-hot para que las redes neuronales puedan utilizar estos datos.
+    \item \textbf{Normalizacion de los datos:} esta es una técnica de preprocesamiento que ajusta los valores de los datos para que se encuentren en un rango común que en este caso es [0, 1]. Esto mejora la eficiencia y la precisión de los algoritmos de machine learning al garantizar que todas las características contribuyan equitativamente. En este caso, es crucial para evitar que características con valores más grandes dominen el modelo ya que hay atributos que pueden tomar valores muy grandes y otros valores muy pequeños.
+
+\end{itemize}
+
+Después de esto, en total, agrupando los datos de las 3 ligas evaluadas en las temporadas 
+comentadas, se han obtenido los datos asociados a 4822 partidos. 
+
+\section{Implementación}
+El codigo del proyecto se ha ejecutado en una maquina virtual proporciónada por la Escuela
+Todo el codigo del proyecto se ha dividido en diferentes carpetas. A continuacion se detalla la finalidad de cada una estas carpetas y sus archivos:
+\begin{itemize}
+    \item \textbf{Carpeta scraping:} en esta carpeta hay diferentes archivos en Python que se encargan de realizar el scraping para extraer los datos de la web. Estos archivos estan numerados por orden ya que cada uno se encarga de extraer unos determinados datos de una entidad. La descripcion de la finalidad de cada uno de estos archivos es la siguiente:
+    \begin{itemize}
+        \item
+    \end{itemize}
+    \item \textbf{Carpeta modelos:} en esta carpeta se encuentran los archivos que se encargan de entrenar los modelos. Cada archivo se asocia al entrenamiento de un modelo y el fichero con los datos con los que se entrenara el modelo se llama datosModelo y esta en formato csv.
+    \item \textbf{Carpeta csv:} en esta carpeta se encuentran los datos extraidos mediante los archivos que realizan el scraping. Los archivos se agrupan por competicion y temporada, de manera que se crean varias carpetas donde cada una contiene varios csv con los datos extraidos para cada una de las entidades previamente comentadas para esa competicion y liga.
+    \item \textbf{Carpeta analisis datos:} en esta carpeta se encuentran los archivos que se encargan de realizar el analisis previo de los datos antes de entrenar los modelos para detectar patrones. 
+\end{itemize}
+
+
+\section{Proceso de elección de los mejores modelos}
+Con los datos obtenidos, se van a entrenar diferentes algoritmos de machine learning de los comentados en la seccion con los conceptos teoricos y redes neuronales variando su estrutura. Para cada uno de los algoritmos comentados de machine learning, a continuacion se muestran los valores de las metricas consideradas del mejor modelo creado para este algoritmo junto a los mejores parametros obtenidos tras aplicar su optimizacion.
+
+
+
+Para las redes neuronales, en la siguiente tabla, se establecen los parámetros que se han optimizado sobre estas redes neuronales y los valores diferentes que podían tomar.
+
+
+Previo a esta elección de parámetros, se realizó un filtrado eliminando opciones que no tenían 
+repercusión sobre la exactitud de los modelos. Por ejemplo, se redujeron los valores de las épocas 
+a analizar a 3 valores diferentes, ya que no existía mucha diferencia entre estos valores. Con estas 
+combinaciones de parámetros, se pueden obtener 108 combinaciones diferentes que son las que 
+se han evaluado para crear los mejores modelos para predecir tanto el resultado del partido, los 
+goles del local y los goles del visitante. Por lo tanto, con los datos obtenidos, para cada 
+combinación de parámetros, se entrena una red neuronal y se evalúa su exactitud. Finalmente se 
+obtienen los parámetros que se utilizaron en la red neuronal que mejor exactitud ha obtenido. Este 
+proceso se realiza para predecir el ganador del partido, los goles del equipo local y los goles del 
+equipo visitante, obteniendo tres combinaciones de parámetros que se comentan a continuación.
+
+A continuacion, se detalla la estructura de cada uno de los tipos diferentes de red que se han evaluado:
+\begin{itemize}
+    \item \textbf{Tipo de red 1:}
+    \item \textbf{Tipo de red 1:}
+    \item \textbf{Tipo de red 1:}
+    
+\end{itemize}
+

@@ -11,7 +11,7 @@ URL_BASE="https://www.resultados-futbol.com/"
 
 #liga y temporada a analizar
 ligas=['bundesliga']
-temporadas=[2022,2023,2024]
+temporadas=[2021]
 
 #dataframe donde se guardaran los equipos
 dataframe_equipos=pd.DataFrame(columns=['id_equipo','temporada', 'liga','nombre'])

@@ -24,7 +24,7 @@ def calculosSin100(numerador,denominador):
 
 # liga y temporada a analizar
 ligas=['bundesliga']
-temporadas=[2022,2023,2024]
+temporadas=[2021]
 
 
 #dataframe para meter los datos de los indicadores de los equipos en el partido
@@ -593,7 +593,7 @@ for liga in ligas:
 
 
 
-
+                        
 
                         #obtener datos de los jugadores en los partidos del local como local
                         datos_jugadores_partidos_filtrados_local_como_local=datos_jugadores_partidos.loc[datos_jugadores_partidos['id_partido'].isin(id_partidos_local)  ]

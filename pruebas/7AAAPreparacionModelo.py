@@ -13,8 +13,8 @@ def evaluar_resultado(row):
         return '2'
 
 # liga y temporada a analizar
-ligas=['premier']
-temporadas=[2022,2023,2024]
+ligas=['bundesliga']
+temporadas=[2022]
 
 
 # para cada liga y temporada, se convierten los indicadores

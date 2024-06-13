@@ -22,7 +22,7 @@ indicador_resumen=0
 
 #liga y temporada a analizar
 ligas=['bundesliga']
-temporadas=[2022,2023,2024]
+temporadas=[2021]
 
 
 # para cada liga y temporada se extraen los datos de los jugadores en los partidos de esa liga y temporada
@@ -425,22 +425,26 @@ for liga in ligas:
                                         if response2.status_code == 200:
                                             soup2=BeautifulSoup(response2.content,'html.parser') 
                                             tabla=soup2.find_all('div',class_='contentitem') 
-                                            texto_tabla=tabla[1] 
-                                            elementos=soup2.find_all('dd')
-                                            valores_elementos=[]
-                                            for dd in elementos:
-                                                valores_elementos.append(dd.text)
-                                            if "Portero" in valores_elementos:
-                                                posicion="Portero"
-                                            elif "Defensa" in valores_elementos:
-                                                posicion="Defensa"
-                                            elif"Centrocampista" in valores_elementos:
-                                                posicion="Centrocampista"
-                                            elif "Delantero" in valores_elementos:
-                                                posicion="Delantero"
-                                                    
-                                            dataframe_nuevos_jugadores.loc[len(dataframe_nuevos_jugadores)]=[id_jugador_nuevo,nombre,posicion,id_equipo_visitante]
-                                            id_jugador_nuevo=id_jugador_nuevo+1
+                                            if len(tabla)>0:
+                                                texto_tabla=tabla[1] 
+                                                elementos=soup2.find_all('dd')
+                                                valores_elementos=[]
+                                                for dd in elementos:
+                                                    valores_elementos.append(dd.text)
+                                                if "Portero" in valores_elementos:
+                                                    posicion="Portero"
+                                                elif "Defensa" in valores_elementos:
+                                                    posicion="Defensa"
+                                                elif"Centrocampista" in valores_elementos:
+                                                    posicion="Centrocampista"
+                                                elif "Delantero" in valores_elementos:
+                                                    posicion="Delantero"
+                                                        
+                                                dataframe_nuevos_jugadores.loc[len(dataframe_nuevos_jugadores)]=[id_jugador_nuevo,nombre,posicion,id_equipo_visitante]
+                                                id_jugador_nuevo=id_jugador_nuevo+1
+                                            else:
+                                                print("CUIDADO PARA------------------")
+                                                print(url)
 
 
 
