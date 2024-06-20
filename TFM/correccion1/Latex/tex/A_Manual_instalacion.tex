@@ -1,13 +1,29 @@
-\apendice{Plan de Proyecto}
+\apendice{Manual de instalación}
 
 
 
 
 \section{Enlace al repositorio}
-El codigo desarrollado durante este proyecto se encuentra en el siguiente repositorio:
-
-\section{Despliegue e instalacion}
-Este codigo se ha desarrollado para que se puedan procesar datos de cualquier temporada y de cualquier liga. Por lo tanto, con la modificacion de unos determinados parametros se pueden obtener, analizar y procesar los datos de cualquier liga o temporada y entrenar los diferentes algoritmos con ellos. 
-Por lo tanto, para el despliegue e instalacion del codigo, en primer lugar, lo mas recomendable es descargar el codigo del repositorio y subirlo a Google Drive para que se pueda ejecutar el Google Colab. 
+\label{enlace-repo}
+El código desarrollado durante este proyecto se encuentra en el siguiente repositorio:
 
 
+\url{https://github.com/chemiya/PR-48-TFM}  
+
+\section{Despliegue e instalación}
+Este código se ha desarrollado para que se puedan procesar datos de cualquier temporada y de cualquier liga. Por lo tanto, con la modificación de unos determinados parámetros se pueden obtener, analizar y procesar los datos de cualquier liga o temporada y entrenar los diferentes algoritmos con ellos. 
+Por lo tanto, para el despliegue e instalación del código, en primer lugar, lo más recomendable es descargar el código del repositorio y subirlo a Google Drive para que se pueda ejecutar en Google Colab. 
+
+Para descargar el código del proyecto del repositorio que se encuentra en el Apéndice \ref{enlace-repo}, se puede descargar el .zip con el código del proyecto o clonar el repositorio mediante el comando:
+    
+\textbf{\texttt{\$  git clone https://github.com/chemiya/PR-48-TFM }   }   
+
+Una vez hecho eso, en caso de que se quieran extraer datos de una determinada liga y temporada, se debe de ir en la carpeta \textit{``scraping''} al fichero ``Constantes.py'' y establecer ahí las ligas o temporadas de las que se quieren extraer los datos. 
+
+Una vez hecho eso, se puede ejecutar el fichero ``EjecucionGlobal.py''. En caso de que se quiera ejecutar este \textit{script} por comandos, el comando es el siguiente:
+
+\textbf{\texttt{\$  python3 EjecucionGlobal.py}   }   
+
+Después de hacer eso, al cabo de un tiempo, se generarán diferentes csv con los datos extraídos de las páginas web seleccionadas, cada uno recogiendo los datos de una entidad. 
+
+Por último, en el caso de que se quieran probar los modelos creados con estos datos, se debe de coger el csv llamado ``indicadoresEquipoHistoricoModelo-[liga]-[temporada]'' y situarlo en la carpeta ``modelos''. El entrenamiento de estos modelos se ha realizado en cuadernos de Jupyter Notebook en Google Colab, por lo tanto, como se ha comentado antes, es recomendable subir esta carpeta con el csv y los cuadernos de Jupyter Notebook a Google Drive y ejecutar los cuadernos desde Google Colab.

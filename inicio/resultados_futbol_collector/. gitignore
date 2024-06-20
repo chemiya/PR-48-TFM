@@ -1,5 +1,0 @@
-# Código gitignore para evitar procesar los directorios de las dependencias
-.env
-results/
-__pycache__
-results

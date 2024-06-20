@@ -10,119 +10,118 @@ Las técnicas de inteligencia artificial abarcan una amplia gama de metodología
 
 \section{Introducción a la inteligencia artificial}
 
-La Inteligencia Artificial (IA) es un campo de la informática que se dedica a la invención de sistemas que son capaces de realizar tareas que generalmente requieren capacidades humanas. Estas tareas abarcan desde el reconocimiento del habla, la toma de decisiones, la traducción de idiomas y el reconocimiento de patrones.
+La inteligencia artificial (IA) es un campo de la informática que se dedica a la creación de sistemas que son capaces de realizar tareas que generalmente requieren capacidades humanas. Estas tareas abarcan multitud de acciones desde el reconocimiento del habla, la toma de decisiones, la traducción de idiomas y el reconocimiento de patrones \cite{definicion-ia}.
 
-El término "Inteligencia Artificial" fue definido inicialmente por John McCarthy en 1956 durante la Conferencia de Dartmouth, que es conocido como el punto de partida del campo de la inteligencia artificial.
+El término ``inteligencia artificial'' fue definido inicialmente por John McCarthy en 1956 durante la Conferencia de Dartmouth, que es conocido históricamente como el punto de partida del campo de la inteligencia artificial.
 
-La IA ha revolucionado multiples industrias al proporcionar soluciones eficientes y precisas a problemas difíciles. Permite automatizar procesos, mejorar la toma de decisiones, personalizar experiencias de usuario y detectar patrones en enormes volúmenes de datos. Esto ha provocado mejoras significativas en productividad, innovación y calidad de vida y se aplica en diferentes áreas como la salud, finanzas, transporte y entretenimiento.
+La inteligencia artificial ha revolucionado múltiples industrias al proporcionar soluciones eficientes y precisas a problemas difíciles. Permite automatizar procesos, mejorar la toma de decisiones, personalizar experiencias de usuario y detectar patrones en enormes volúmenes de datos. Esto ha provocado mejoras significativas en productividad, innovación y calidad de vida y se aplica en diferentes áreas como la salud, finanzas, transporte y entretenimiento.
 
-Las técnicas de inteligencia artificial se dividen en diversas áreas entre las que sobresalen el machine learning, deep learning, procesamiento del lenguaje natural, visión por computadora y sistemas de recomendación. A continuación, se definen las áreas que se utilizan en este proyecto.
-
-
-\section{Machine learning}
-El aprendizaje automático (Machine Learning) es considerada una subdisciplina de la inteligencia artificial que se dedica al desarrollo de algoritmos que permiten a las computadoras aprender a partir de datos y realizar predicciones o tomar decisiones sin haber sido programadas para llevar esas tareas. A continuación, se detallan los tipos que existen:
-\begin{enumerate}
-    \item \textbf{Aprendizaje supervisado:} aquí los algoritmos se entrenan con un conjunto de datos etiquetados, lo que quiere decir que cada ejemplo de entrenamiento está relacionado con una etiqueta. En este área destacan la regresión lineal y logistica, los árboles de decisión y bosques aleatorios y por último, las máquinas de vectores soporte.
-    \item \textbf{Aprendizaje no supervisado:} en esta sección, los algoritmos trabajan con datos que no están etiquetados, y el objetivo es detectar patrones o estructuras ocultas en los datos. En este área destaca el algoritmo de Kmeans.
-    \item \textbf{Aprendizaje por refuerzo:} finalmente, aquí los agentes aprenden a tomar decisiones al realizar una interacción con su entorno y reciben recompensas o castigos dependiendo de sus acciones. En este área destaca el algoritmo de Q-learning.
-\end{enumerate}
+Las técnicas de inteligencia artificial se dividen en diversas áreas entre las que sobresalen el \textit{machine learning}, \textit{deep learning}, procesamiento del lenguaje natural, visión por computadora y sistemas de recomendación \cite{tecnicas-ia}. A continuación, se definen las áreas que se utilizan en este proyecto.
 
 
-En este proyecto principalmente se van a utilizar algoritmos de aprendizaje supervisado ya que el conjunto de datos esta etiquetado. En este proyecto se afronta un problema de clasificación porque a los datos se les asigna una de varias clases posibles, es decir, el objetivo es predecir la categoría o etiqueta correcta para cada dato entre múltiples clases predefinidas como puede ser el ganador del partido o el numero de goles.
-
-Los algoritmos de este area asociados a problemas de clasificacion que se utilizan para entrenar los modelos en este proyecto con los datos obtenidos son los siguientes:
-\begin{enumerate}
-    \item \textbf{Árboles de decisión:} se encargar de dividir iterativamente el conjunto de datos en subconjuntos basados en las características más determinantes, estableciendo una estructura de árbol donde las hojas representan resultados de las decisiones y los nodos representan los atributos.
-    \item \textbf{Máquinas de Vectores de Soporte (SVM):} es un algoritmo supervisado que encuentra el hiperplano óptimo que permite separar las clases en el espacio de características. Para problemas no lineales, SVM puede utilizar trucos de kernel para proyectar los datos a un espacio de una dimensión mayor donde las clases sean linealmente separables.
-    \item \textbf{k-Vecinos Más Cercanos (k-NN):} k-NN es un algoritmo supervisado que permite predecir el valor de una nueva muestra en base a los k ejemplos más cercanos en el espacio de características. No contiene una fase de entrenamiento explícita, lo que lo hace simple y eficaz para conjuntos de datos pequeños.
-    \item \textbf{Gradient Boosting Machines (GBM):} es un algoritmo supervisado que permite crear modelos predictivos a través de la construcción secuencial de árboles de decisión, donde cada árbol creado se encarga de corregir los errores del anterior. Los ejemplos más utilizados son XGBoost y LightGBM, que son bastante eficaces y permiten manejar grandes conjuntos de datos con alta dimensionalidad.
-    \item \textbf{Random forest:} es un algoritmo supervisado que genera múltiples árboles de decisión entrenados en diversos subconjuntos del conjunto de datos y/o características. La predicción final la realiza mediante un proceso de agregación donde se utiliza la votación para clasificación, lo que incrementa la precisión y disminuye el sobreajuste. Destaca por ser robusto y eficaz para manejar conjuntos de datos grandes y complejos.
-    \item \textbf{Gaussian Naive Bayes:} es un algoritmo de clasificación supervisada que se basa en el teorema de Bayes, que asume la independencia entre las características. A pesar de esta suposición en cierto modo simplificadora, es bastante eficaz y computacionalmente eficiente para problemas de clasificación de datos categóricos. 
-\end{enumerate}
+\section{\textit{Machine learning}}
+\label{machine-learning}
+El aprendizaje automático (\textit{machine learning}) es considerada una subdisciplina de la inteligencia artificial que se dedica al desarrollo de algoritmos que permiten a las computadoras tener la capacidad de aprender a partir de datos y realizar predicciones o tomar decisiones sin haber sido programadas para llevar esas tareas específicamente \cite{machine-learning}. A continuación, se detallan los tipos que existen:
+\begin{itemize}
+    \item \textbf{Aprendizaje supervisado:} aquí los algoritmos se entrenan con un conjunto de datos etiquetados, lo que quiere decir que cada ejemplo de entrenamiento está relacionado con una etiqueta. En esta área destacan la regresión lineal y logística, los árboles de decisión y bosques aleatorios y por último, las máquinas de vectores soporte.
+    \item \textbf{Aprendizaje no supervisado:} en esta sección, los algoritmos trabajan con datos que no están etiquetados y el objetivo es detectar patrones o estructuras ocultas en los datos. En esta área destaca el algoritmo de Kmeans.
+    \item \textbf{Aprendizaje por refuerzo:} finalmente, aquí los agentes aprenden a tomar decisiones al realizar una interacción con su entorno y reciben recompensas o castigos dependiendo de sus acciones. En esta área destaca el algoritmo de \textit{Q-learning}.
+\end{itemize}
 
 
-Se pueden utilizar diferentes métricas para evaluar los modelos entrenados con estos algoritmos sobre el conjunto de datos. Para este proyecto, a continuación, se detallan las principales métricas que se utilizan para evaluar los modelos creados:
+En este proyecto únicamente se van a utilizar algoritmos de aprendizaje supervisado ya que el conjunto de datos está etiquetado. Por otro lado, se afronta un problema de clasificación porque a los datos se les asigna una de varias clases posibles, es decir, el objetivo es predecir la categoría o etiqueta correcta para cada dato entre múltiples clases predefinidas como puede ser el ganador del partido o el número de goles.
 
-\begin{enumerate}
-    \item \textbf{Accuracy:} se define como la proporción de predicciones correctas entre el total de predicciones realizadas. Se calcula como (TP + TN) / (TP + TN + FP + FN), donde TP son los verdaderos positivos, TN son los verdaderos negativos, FP son los falsos positivos y FN son los falsos negativos. 
-    \item \textbf{Precision:} se encarga de medir la proporción de verdaderos positivos entre las predicciones positivas. Se calcula como TP / (TP + FP). Determina la exactitud del clasificador al identificar verdaderos positivos, siendo fundamental en conjuntos de datos donde los falsos positivos tienen un alto valor.
-    \item \textbf{Recall:} es la proporción de verdaderos positivos identificados correctamente entre todos los casos reales positivos considerados. Se calcula como TP / (TP + FN). Destaca su importancia en situaciones donde es crítico capturar todos los verdaderos positivos.
-    \item \textbf{F1 Score:} es la media armónica entre la precisión y el recall, estableciendo un balance entre ambas métricas. Se calcula como 2 * (Precision * Recall) / (Precision + Recall). Es adecuada cuando se requiere un equilibrio entre precisión y recall.
-    \item \textbf{Matriz de confusion:} es una tabla que ayuda a visualizar el rendimiento de un modelo de clasificación. Tiene cuatro cuadrantes: TP, TN, FP, y FN, que representan las verdaderas y falsas predicciones para las clases positivas y negativas que existen. Describe una visión detallada de cómo el modelo clasifica cada clase, ayudando a realizar el análisis de errores específicos de una clase.
-\end{enumerate}
+Los algoritmos de aprendizaje supervisado asociados a problemas de clasificación que se utilizan para entrenar los modelos en este proyecto con los datos obtenidos son los siguientes \cite{algoritmos-supervisado}:
+\begin{itemize}
+    \item \textbf{Árboles de decisión:} se encargan de dividir iterativamente el conjunto de datos en subconjuntos basados en las características más determinantes e importantes, estableciendo una estructura de árbol donde las hojas representan los resultados de las decisiones que se han tomado y los nodos representan los atributos.
+    \item \textbf{Máquinas de vectores de soporte (SVM):} es un algoritmo supervisado que encuentra el hiperplano óptimo que permite separar las clases en el espacio de características. Para problemas no lineales, SVM puede utilizar trucos de kernel para así proyectar los datos a un espacio de una dimensión mayor donde puede que las clases sean linealmente separables.
+    \item \textbf{k-vecinos más cercanos (k-NN):} k-NN es un algoritmo supervisado que permite predecir el valor de una nueva instancia en base a los k ejemplos más cercanos en el espacio de características. Este algoritmo no contiene una fase de entrenamiento explícita como tal, lo que lo hace simple y eficaz para conjuntos de datos pequeños.
+    \item \textbf{\textit{Gradient boosting machines} (GBM):} es un algoritmo supervisado que permite crear modelos predictivos a través de la construcción secuencial de árboles de decisión, donde cada árbol creado se encarga de corregir los errores que ha cometido el anterior. Los ejemplos más utilizados son XGBoost y LightGBM, que son bastante eficaces y permiten manejar grandes conjuntos de datos con alta dimensionalidad.
+    \item \textbf{Bosques aleatorios:} es un algoritmo supervisado que genera múltiples árboles de decisión entrenados en diversos subconjuntos del conjunto de datos y características. La predicción final la realiza mediante un proceso de agregación donde se utiliza la votación para clasificación, lo que ayuda a incrementar la precisión y disminuye el sobreajuste. Destaca por ser robusto y eficaz para manejar conjuntos de datos grandes y complejos.
+    \item \textbf{Gaussian Naive Bayes:} es un algoritmo de clasificación supervisada que se basa en el teorema de Bayes, que asume la independencia entre las características. A pesar de esta suposición de cierta manera simplificadora, es bastante eficaz y computacionalmente eficiente para problemas de clasificación de datos categóricos. 
+\end{itemize}
+
+
+Se pueden utilizar diferentes métricas para evaluar los modelos entrenados con estos algoritmos sobre el conjunto de datos. Para este proyecto, a continuación, se detallan las principales métricas que existen \cite{metricas}:
+
+\begin{itemize}
+    \item \textbf{Exactitud (\textit{Accuracy}):} se define como la proporción de predicciones correctas entre el total de predicciones realizadas. Se calcula como (TP + TN) / (TP + TN + FP + FN), donde TP son los verdaderos positivos, TN son los verdaderos negativos, FP son los falsos positivos y FN son los falsos negativos. 
+    \item \textbf{Precisión (\textit{Precision}):} se encarga de medir la proporción de verdaderos positivos entre las predicciones positivas. Se calcula como TP / (TP + FP). Determina la exactitud del clasificador al identificar verdaderos positivos, siendo fundamental en conjuntos de datos donde los falsos positivos tienen un alto valor.
+    \item \textbf{Exhaustividad (\textit{Recall}):} es la proporción de verdaderos positivos detectados correctamente entre todos los casos reales positivos considerados. Se calcula como TP / (TP + FN). Destaca su importancia en situaciones donde es crítico capturar todos los verdaderos positivos.
+    \item \textbf{Puntuación F1 (\textit{F1 Score}):} es la media armónica entre la precisión y la exhaustividad, estableciendo un balance o equilibrio entre ambas métricas. Se calcula como 2 * (Precisión * Exhaustividad) / (Precisión + Exhaustividad). Es adecuada cuando se requiere un equilibrio entre precisión y exhaustividad.
+    \item \textbf{Matriz de confusion (\textit{Confusion matrix}):} es una tabla que ayuda a visualizar el rendimiento de un modelo de clasificación. Tiene cuatro cuadrantes: TP, TN, FP, y FN, que representan las verdaderas y falsas predicciones para las clases positivas y negativas que existen. Describe una visión detallada de manera gráfica de cómo el modelo clasifica cada clase, ayudando a realizar el análisis de errores específicos de una clase.
+\end{itemize}
+
+En este caso, para este proyecto para evaluar la calidad de los modelos entrenados se va a utilizar la exactitud de manera inicial, pero en caso de que aparezcan modelos con valores similares en esta métrica, se utilizarán el resto de las métricas para realizar el desempate y evaluar qué modelo es mejor.
 
 
 
+\section{\textit{Deep learning}}
+El aprendizaje profundo (\textit{Deep learning}) es una subdisciplina del aprendizaje automático que se dedica al uso de redes neuronales artificiales con varias capas profundas para modelar y comprender patrones complejos en los datos que se quieran analizar. Se ha popularizado en los últimos años debido a su capacidad para superar a otros algoritmos en múltiples tareas como el reconocimiento de imágenes, procesamiento del lenguaje natural y otros campos \cite{deep-learning}. A continuación se detallan los componentes de la arquitectura de una red neuronal \cite{arquitectura-red}:
 
-
-\section{Deep learning}
-El aprendizaje profundo es una subdisciplina del aprendizaje automático que se dedica al uso de redes neuronales artificiales con varias capas profundas para modelar y comprender patrones complejos en los datos analizados. Se ha popularizado en los últimos años debido a su capacidad para superar a otros algoritmos en tareas como el reconocimiento de imágenes, procesamiento del lenguaje natural y otros campos. A continuación se detallan los componentes de la arquitectura de una red neuronal:
-
-\begin{enumerate}
-    \item \textbf{Neuronas artificiales:} simulan el funcionamiento de las neuronas biológicas. Cada neurona recibe varias entradas, las procesa mediante la denominada función de activación y produce una salida.
+\begin{itemize}
+    \item \textbf{Neuronas artificiales:} simulan el funcionamiento de las neuronas biológicas que tienen los humanos. Cada neurona recibe varias entradas, las procesa mediante la denominada función de activación y produce una salida.
     \item \textbf{Capas:} las redes neuronales están compuestas por capas de neuronas. Las capas comunes incluyen la capa de entrada, capas ocultas y la capa de salida.
-    \item \textbf{Funciones de activación:} introducen no linealidad en la red, dando la capacidad de que se modelen relaciones complejas. Ejemplos incluyen ReLU (Rectified Linear Unit), Sigmoide y Tanh.
-\end{enumerate}
+    \item \textbf{Funciones de activación:} introducen no linealidad en la red, dando la capacidad de que se modelen relaciones complejas. Ejemplos incluyen ``ReLU'' (\textit{Rectified Linear Unit}), ``Sigmoide'' y ``Tanh''.
+\end{itemize}
 
-A continuacion se detallan los principales tipos de redes neuronales que existen:
-\begin{enumerate}
-    \item \textbf{Redes neuronales artificiales (ANN):} donde destaca el perceptrón multicapa, que  está compuesto por una capa de entrada, una o más capas ocultas y una capa de salida. Se entrena aplicando un proceso de retropropagación (backpropagation) y optimización. La backpropagation es un método de entrenamiento que se encarga de ajustar los pesos de las conexiones neuronales reduciendo el error entre las predicciones y los valores reales. Su tarea es calcular el gradiente del error con respecto a cada peso aplicando la regla de la cadena, propagando el error desde la salida hacia la entrada.
-    \item \textbf{Redes neuronales convolucionales (CNN):} su arquitectura se divide en capas convolucionales que aplican filtros para extraer características locales de las imágenes, como pueden ser los bordes y texturas. Además incorpora capas de pooling que reducen la dimensionalidad de las características extraídas, manteniendo la información importante y disminuyendo el coste computacional. Finalmente, incorpora capas completamente conectadas que permiten conectar todas las neuronas de una capa a todas las neuronas de la siguiente capa, como en una ANN tradicional.
-    \item \textbf{Redes neuronales recurrentes (RNN):} su arquitectura permite que la red contenga una memoria interna y sea capaz de procesar secuencias de datos al utilizar su salida como entrada en el siguiente paso temporal que va a realizar. En este caso destaca la LSTM que es una variante de la RNN diseñada para controlar dependencias a largo plazo mediante la incorporación de celdas de memoria y puertas de entrada, olvido y salida.
+A continuación se detallan los principales tipos de redes neuronales que existen \cite{tipos-redes}:
+\begin{itemize}
+    \item \textbf{Redes neuronales artificiales (ANN):} donde destaca el perceptrón multicapa, que  está compuesto por una capa de entrada, una o más capas ocultas y una capa de salida. Se entrena aplicando un proceso de retropropagación (\textit{backpropagation}) y optimización. La \textit{backpropagation} es un método de entrenamiento que se encarga de ajustar los pesos de las conexiones neuronales reduciendo el error entre las predicciones y los valores reales del conjunto de datos. Su tarea es calcular el gradiente del error con respecto a cada peso mediante la aplicación la regla de la cadena, propagando el error desde la salida hacia la entrada.
+    \item \textbf{Redes neuronales convolucionales (CNN):} su arquitectura se divide en capas convolucionales que aplican diversos filtros para extraer características locales de las imágenes, como pueden ser los bordes y texturas. Además incorpora capas de \textit{pooling} que reducen la dimensionalidad de las características que se han extraído, garantizando que se mantiene la información importante y disminuyendo el coste computacional. Finalmente, incorpora capas completamente conectadas que permiten conectar todas las neuronas de una capa a todas las neuronas de la siguiente capa, como en una ANN tradicional.
+    \item \textbf{Redes neuronales recurrentes (RNN):} su arquitectura permite que la red contenga una memoria interna y sea capaz de procesar secuencias de datos al utilizar su salida como entrada en el siguiente paso temporal que va a realizar. En este caso destaca la LSTM que es una variante de la RNN que fue diseñada para controlar dependencias a largo plazo mediante la incorporación de celdas de memoria y diferentes puertas como las puertas de entrada, olvido y salida.
 
-\end{enumerate}
+\end{itemize}
 
+De entre estos tres tipos, para este proyecto, por la naturaleza de los datos, solo se van a entrenar redes neuronales artificiales. Por otro lado, las principales métricas de evaluación para las redes neuronales coinciden con las de los modelos entrenados con algoritmos de \textit{machine learning}.
 
-
-En este caso, las principales métricas de evaluación para las redes neuronales coinciden con las de los modelos entrenados con algoritmos de machine learning.
-
-Sin embargo, para las redes neuronales se utilizan algoritmos de optimización para ajustar los pesos de la red con el objetivo de minimizar la función de pérdida, incrementando así la precisión del modelo. El optimizador ayuda a la red a aprender patrones en los datos realizando iteraciones y ajustes incrementales. Los principales algoritmos de optimizacion para redes neuronales en problemas de clasificación son los siguientes:
-\begin{enumerate}
-    \item \textbf{Descenso de gradiente estocástico (SGD):} actualiza los pesos de la red neuronal usando el gradiente del error calculado en cada mini-lote de datos, realizando una actualización más frecuente y rápida pero que puede ser ruidosa. Sus ventajas son que es simple y eficiente para grandes conjuntos de datos.
-    \item \textbf{Adam (Adaptive Moment Estimation):} junta las ventajas de AdaGrad y RMSProp, modificando las tasas de aprendizaje para cada parámetro en base a estimaciones de primer y segundo momento del gradiente. Sus ventajas son que es robusto y eficaz para problemas con grandes volúmenes de datos y alta dimensionalidad.
-    \item \textbf{RMSProp (Root Mean Square Propagation):} ajusta la tasa de aprendizaje para cada parámetro de forma adaptativa, dividiendo el gradiente por la media móvil de magnitudes recientes de este gradiente. Es útil para manejar la tasa de aprendizaje en problemas donde los gradientes son cambiantes.
+Sin embargo, para las redes neuronales se utilizan algoritmos de optimización para ajustar los pesos de la red con el objetivo de minimizar la función de pérdida, incrementando así la calidad del modelo. El optimizador ayuda a la red a aprender patrones en los datos realizando iteraciones y ajustes de manera incremental \cite{optimizadores}. Los principales algoritmos de optimización para redes neuronales en problemas de clasificación son los siguientes:
+\begin{itemize}
+    \item \textbf{Descenso de gradiente estocástico (SGD):} actualiza los pesos de la red neuronal usando el gradiente del error calculado en cada mini-lote de datos, realizando una actualización de manera más frecuente y rápida pero que por el contrario, puede ser ruidosa. Sus ventajas son que es simple y eficiente para grandes conjuntos de datos.
+    \item \textbf{Adam (\textit{Adaptive Moment Estimation}):} junta las ventajas de ``AdaGrad'' y ``RMSProp'', modificando las tasas de aprendizaje para cada parámetro en base a estimaciones de primer y segundo momento del gradiente. Sus ventajas son que es robusto y eficaz para problemas con grandes volúmenes de datos y alta dimensionalidad.
+    \item \textbf{RMSProp (\textit{Root Mean Square Propagation}):} ajusta la tasa de aprendizaje para cada parámetro de forma adaptativa, dividiendo el gradiente por la media móvil de magnitudes recientes de este gradiente que se está analizando. Es útil para manejar la tasa de aprendizaje en problemas donde los gradientes son cambiantes y varían su valor.
     
-\end{enumerate}
+\end{itemize}
 
-Por otro lado, la función de pérdida de una red neuronal se utiliza para contar la discrepancia entre las predicciones del modelo y los valores reales. Se utiliza como guía para el ajuste de los pesos de la red durante el entrenamiento, colaborando a mejorar la precisión del modelo. Las principales funciones de pérdida para problemas de clasificacion que existen son:
-\begin{enumerate}
-    \item \textbf{Entropía cruzada (Cross-Entropy Loss):}
-mide la discrepancia entre las distribuciones de probabilidad predicha y la real, penalizando considerablemente las predicciones incorrectas. Esta función de pérdida es ampliamente utilizada para problemas de clasificación binaria y multiclase, permitiendo ajustar las probabilidades predichas a las verdaderas.
+Por otro lado, la función de pérdida de una red neuronal se utiliza para contar la discrepancia entre las predicciones del modelo y los valores reales. Se utiliza como guía para el ajuste de los pesos de la red durante el entrenamiento, colaborando de esta forma a mejorar la precisión del modelo \cite{funcion-perdida}. Las principales funciones de pérdida para problemas de clasificación que existen son:
+\begin{itemize}
+    \item \textbf{Entropía cruzada (\textit{Cross-Entropy Loss}):}
+mide la discrepancia entre las distribuciones de probabilidad predicha y la real, penalizando considerablemente las predicciones que se hayan realizado de manera incorrecta. Esta función de pérdida es ampliamente utilizada para problemas de clasificación binaria y multiclase mayoritariamente, permitiendo ajustar las probabilidades predichas a las verdaderas.
 
-\item \textbf{Categorical Cross-Entropy:}
-es una forma específica de entropía cruzada que se utiliza en clasificación multiclase. Se calcula utilizando la probabilidad predicha para la clase verdadera y es habitual utilizarla en tareas de clasificación de imágenes y texto.
+\item \textbf{\textit{Categorical Cross-Entropy:}}
+es una forma específica de la entropía cruzada que se utiliza en clasificación multiclase. Se calcula utilizando la probabilidad predicha para la clase verdadera y es habitual aplicarla en tareas de clasificación que afecten a imágenes y texto.
 
-\item \textbf{Binary Cross-Entropy:}
-similar a la entropía cruzada, pero específica solo para problemas de clasificación binaria. Calcula la pérdida como la media de las pérdidas individuales para cada clase binaria, penalizando las predicciones alejadas de las etiquetas binarias que realmente son verdaderas.
+\item \textbf{\textit{Binary Cross-Entropy:}}
+similar a la entropía cruzada, pero específica solo para problemas de clasificación binaria. Calcula la pérdida como la media de las pérdidas individuales para cada clase binaria que se encuentre, penalizando las predicciones alejadas de las etiquetas binarias que realmente son verdaderas.
 
-\item \textbf{Sparse Categorical Cross-Entropy:}
-es una variante de la entropía cruzada categórica que se usa cuando las etiquetas están codificadas como enteros en lugar de vectores one-hot. Se utiliza para tareas de clasificación multiclase con muchas clases.
-\end{enumerate}
+\item \textbf{\textit{Sparse Categorical Cross-Entropy:}}
+es una variante de la entropía cruzada categórica que se usa cuando las etiquetas están codificadas como enteros en lugar de vectores \textit{one-hot}. Se utiliza para tareas de clasificación multiclase con un elevado número de clases.
+\end{itemize}
 
-Las épocas en una red neuronal determinan el número de veces que el algoritmo de entrenamiento procesa el conjunto completo de datos de entrenamiento. Cada época permite que la red ajuste sus pesos iterativamente para incrementar su rendimiento. Más épocas generalmente conducen a un mejor ajuste del modelo, aunque demasiadas pueden llevar al sobreajuste.
+Otro concepto importante de las redes neuronales son las épocas, que en una red neuronal determinan el número de veces que el algoritmo de entrenamiento procesa el conjunto completo de datos de entrenamiento. Cada época permite que la red ajuste sus pesos iterativamente para incrementar su rendimiento. Más épocas generalmente conducen a un mejor ajuste del modelo, aunque demasiadas pueden llevar al sobreajuste \cite{epocas}.
 
-El batch size en una red neuronal se refiere al número de muestras de entrenamiento procesadas antes de actualizar los pesos del modelo. Establece la frecuencia con la que se ajustan los parámetros durante el entrenamiento. Un tamaño de lote más grande puede acelerar el entrenamiento, pero consume más recursos, mientras que un tamaño de lote menor puede realizar actualizaciones más precisas pero más lentas.
+Relacionado con las épocas, se define también el tamaño de lote (\textit{batch size}), que en una red neuronal se refiere al número de muestras de entrenamiento que son procesadas antes de actualizar los pesos del modelo. Establece la frecuencia con la que se ajustan los parámetros durante el entrenamiento. Un tamaño de lote más grande puede acelerar el entrenamiento de forma que se realice más rápido, pero consume más recursos, mientras que un tamaño de lote menor puede realizar actualizaciones más precisas pero considerablemente más lentas.
 
-Los callbacks en una red neuronal son funciones personalizables que se activan en momentos específicos durante el entrenamiento, como al terminar cada época o cuando se alcanza cierta métrica. Permiten realizar acciones como guardar el modelo, reajustar la tasa de aprendizaje o parar el entrenamiento de forma temprana según ciertas condiciones. Los callbacks se utilizan para monitorear y mejorar el rendimiento del modelo durante el entrenamiento.
+Los \textit{callbacks} en una red neuronal son funciones personalizables que se activan en momentos específicos durante el entrenamiento, habitualmente como al terminar cada época o cuando se alcanza cierta métrica. Permiten realizar acciones como guardar el modelo, reajustar la tasa de aprendizaje o parar el entrenamiento de forma temprana según cuando se cumplan ciertas condiciones. Los \textit{callbacks} se utilizan para monitorear y mejorar el rendimiento del modelo durante el entrenamiento y pueden ayudar a mejorar la calidad de los modelos \cite{callbacks}.
 
-Ademas de todos aspectos, en la estructura de una red neuronal se pueden modificar los siguientes parámetros:
-\begin{enumerate}
-    \item \textbf{Dropout:}
+Ademas de todos aspectos, en la estructura de una red neuronal se pueden modificar los siguientes parámetros \cite{parametros-arquitectura}:
+\begin{itemize}
+    \item \textbf{\textit{Dropout:}}
 es una técnica de regularización que desactiva aleatoriamente un porcentaje de neuronas durante el entrenamiento para evitar el sobreajuste, aumentando la capacidad de generalización del modelo.
 
-\item \textbf{Batch Normalization:}
+\item \textbf{\textit{Batch Normalization:}}
 normaliza las activaciones de una capa antes de pasar a la siguiente capa, estabilizando y acelerando el proceso de entrenamiento al disminuir el cambio de variables internas.
 
-\item \textbf{Bias Initializer y Regularizer:}
-bias initializer establece cómo se inicializan los sesgos en las neuronas, mientras que el bias regularizer aplica una penalización para evitar el sobreajuste, haciendo que se mantengan los sesgos en valores razonables durante el entrenamiento.
+\item \textbf{\textit{Bias Initializer y Regularizer:}}
+\textit{bias initializer} establece cómo se inicializan los sesgos en las neuronas, mientras que el \textit{bias regularizer} aplica una penalización para evitar el sobreajuste, haciendo que se mantengan los sesgos en valores razonables durante el entrenamiento.
 
-\item \textbf{Kernel Initializer y Regularizer:}
-kernel initializer establece cómo se inicializan los pesos de las neuronas, y el kernel regularizer aplica una penalización a los pesos para evitar el sobreajuste, permitiendo mantener los pesos del modelo bajo control.
-\end{enumerate}
+\item \textbf{\textit{Kernel Initializer y Regularizer:}}
+\textit{kernel initializer} establece cómo se inicializan los pesos de las neuronas y el \textit{kernel regularizer} aplica una penalización a los pesos para evitar el sobreajuste, permitiendo mantener los pesos del modelo bajo control.
+\end{itemize}
 
-\section{Validacion cruzada y division de los datos}
-Por otro lado, para el entrenamiento de los modelos se aplicará la técnica validación cruzada, que es un método de validación que divide el conjunto de datos en k subconjuntos y se encarga de entrenar el modelo k veces, cada vez con un subconjunto diferente cuyo objetivo es evaluar la capacidad del modelo para generalizar a datos no vistos.
+\section{Validación cruzada y división de los datos}
+Por otro lado, para el entrenamiento de los modelos se aplicará la técnica de validación cruzada, que es un método de validación que divide el conjunto de datos en k subconjuntos y se encarga de entrenar el modelo k veces, cada vez con un subconjunto diferente cuyo objetivo es evaluar la capacidad del modelo para generalizar a datos no vistos \cite{validacion-cruzada}.
 
-Al entrenar los modelos, los datos se separan en un conjunto de entrenamiento, prueba y validacion. Dividir los datos en estos 3 conjuntos es crucial para evaluar y mejorar el rendimiento de un modelo. El conjunto de entrenamiento con un 70\% de los datos se utiliza para ajustar los parámetros del modelo, mientras que el conjunto de validación con un 15\% de los datos se emplea para ajustar los hiperparámetros y evitar el sobreajuste. Finalmente, el conjunto de prueba con un 15\% de los datos se utiliza para evaluar la capacidad de generalización del modelo a datos no vistos. Esta división permite asegurar que el modelo no solo se comporte bien con los datos conocidos sino que también sea efectivo con datos nuevos.
+Al entrenar los modelos, los datos se separan en un conjunto de entrenamiento y de prueba. El conjunto de entrenamiento con un 80\% de los datos se utiliza para ajustar los parámetros del modelo. Finalmente, el conjunto de prueba con un 20\% de los datos se utiliza para evaluar la capacidad de generalización del modelo a datos no vistos. Esta división permite asegurar que el modelo no solo se comporte bien con los datos conocidos sino que también sea efectivo con datos nuevos.
 
 

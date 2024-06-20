@@ -19,46 +19,46 @@ Reallocating 'name_of_file' (item size: 1) to 31 items.
 A level-1 auxiliary file: ./tex/A_Manual_instalacion.aux
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 The style file: acm.bst
-Reallocating 'name_of_file' (item size: 1) to 93 items.
-Database file #1: C:/Users/jmlozanoo/Documents/GitHub/PR-48-TFM/TFM/tfm-mii-template-master/Latex/bibliografia.bib
-You've used 15 entries,
+Reallocating 'name_of_file' (item size: 1) to 81 items.
+Database file #1: C:/Users/jmlozanoo/Documents/GitHub/PR-48-TFM/TFM/correccion1/Latex/bibliografia.bib
+You've used 38 entries,
             2253 wiz_defined-function locations,
-            594 strings with 6432 characters,
-and the built_in function-call counts, 3307 in all, are:
-= -- 315
-> -- 105
+            686 strings with 10219 characters,
+and the built_in function-call counts, 8344 in all, are:
+= -- 798
+> -- 266
 < -- 0
-+ -- 45
-- -- 30
-* -- 107
-:= -- 551
-add.period$ -- 60
-call.type$ -- 15
-change.case$ -- 60
++ -- 114
+- -- 76
+* -- 268
+:= -- 1379
+add.period$ -- 152
+call.type$ -- 38
+change.case$ -- 152
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 120
-empty$ -- 346
-format.name$ -- 30
-if$ -- 721
+cite$ -- 38
+duplicate$ -- 304
+empty$ -- 875
+format.name$ -- 76
+if$ -- 1825
 int.to.chr$ -- 0
-int.to.str$ -- 15
+int.to.str$ -- 38
 missing$ -- 0
-newline$ -- 93
-num.names$ -- 30
-pop$ -- 150
+newline$ -- 231
+num.names$ -- 76
+pop$ -- 380
 preamble$ -- 1
-purify$ -- 45
+purify$ -- 114
 quote$ -- 0
-skip$ -- 74
+skip$ -- 189
 stack$ -- 0
-substring$ -- 75
-swap$ -- 30
+substring$ -- 190
+swap$ -- 76
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 60
+type$ -- 152
 warning$ -- 0
-while$ -- 30
-width$ -- 17
-write$ -- 167
+while$ -- 76
+width$ -- 40
+write$ -- 420
