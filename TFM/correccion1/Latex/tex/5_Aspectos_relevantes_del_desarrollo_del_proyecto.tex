@@ -9,6 +9,18 @@ En este capítulo se recogen los aspectos más interesantes del desarrollo del p
 \section{Metodología}
 La metodología de este proyecto tiene como base un enfoque que comprende varias etapas clave. En primer lugar, se realizará una revisión de diferentes artículos sobre técnicas de inteligencia artificial aplicadas al análisis de datos deportivos, centrándose especialmente en la predicción del rendimiento de equipos de fútbol basándose en la rotación de los jugadores. Esta revisión ayudará a identificar las mejores prácticas y los enfoques que pueden ser más relevantes para el desarrollo del proyecto.
 
+Entre estos artículos analizados destaca (Ondrej Hubácek, Gustav Sourek, Filip Zelezný, 2019 \cite{rusos}) donde utiliza \textit{gradient boosted trees} para intentar predecir el ganador del partido. Para ello, sobre un conjunto de datos con 200.000 registros, experimentan con métodos relacionales y basados en características denominados ``RDN-Boost'' y ``Xgboost''. Por otro lado, utilizan \textit{pi-ratings} que capturan tanto la forma actual como las fortalezas históricas de los equipos.
+
+También destaca (Julian Knoll, Johannes Stübinger, 2019 \cite{alemanes}) donde usando algoritmos de \textit{machine learning} intentan predecir el resultado de los partidos. En este trabajo utilizan diferentes variables como las relacionadas con la efectividad de la defensa y ataque de los equipos. Los algoritmos que utiliza son SVM, bosques aleatorios y \textit{boosting}.
+
+Por otro lado, en (Igiri, Chinwe Peace, Nwachukwu, Enoch Okechukwu, 2014 \cite{africanos}) implementan un sistema de predicción de resultados de partidos de fútbol utilizando técnicas de redes neuronales artificiales y regresión logística. Los resultados de este trabajo muestran que los modelos creados tienen una alta precisión en comparación con los sistemas previos.
+
+En el trabajo de (Nilay Zaveri, Utkarsh Shah, Shubham Tiwari, Pramila Shinde, Lalit Kumar Teli, 2018 \cite{indios}) utilizan algoritmos de \textit{machine learning} para predecir partidos de fútbol, considerando únicamente equipos de LaLiga española en las últimas cinco temporadas. Para el análisis, utilizan estadísticas de jugadores y equipos del juego FIFA 18. Finalmente, proponen un sistema que sugiere tácticas para maximizar las probabilidades de victoria de un equipo.
+
+Finalmente en (Juan Diego Fernández García, 2019 \cite{tfg-laguna}) utiliza modelos probabilísticos para la estimación de resultados deportivos utilizando la distribución de Poisson. En el primer modelo asume independencia entre los goles que anotan los equipos y el segundo modelo, con Poisson Bivariante, asume correlación entre el número de goles de ambos equipos.
+
+
+
 Posteriormente, se llevará a cabo la recopilación y preparación de datos, donde se recogerán conjuntos de datos históricos que abarquen información relevante sobre la rotación de jugadores y el rendimiento deportivo de equipos de fútbol en las ligas seleccionadas. Esta etapa incluye la limpieza de datos, la preparación de los datos para su análisis posterior y un breve análisis sobre ellos para detectar patrones.
 
 Una vez preparados los datos, se realizará la implementación y evaluación de modelos de inteligencia artificial. Se probarán los diferentes algoritmos comentados en la parte teórica y diferentes redes neuronales utilizando los parámetros también comentados. Los modelos se entrenarán y ajustarán utilizando los datos que se han obtenido previamente y se evaluará su rendimiento utilizando las métricas enumeradas en la parte teórica. Esta fase permitirá detectar los modelos más eficaces y precisos para predecir el rendimiento deportivo basado en la rotación de jugadores.
@@ -101,14 +113,14 @@ A continuación, se realiza una breve descripción de cada entidad:
           único y se relaciona con el partido al que se asocia.
 \end{itemize}
 
-Los elementos de la entidad ``IndicadoresEquipoPrepartidoModelo'' son los datos con los que se
+\hypertarget{explicacion-indicadores}{Los elementos de la entidad ``IndicadoresEquipoPrepartidoModelo'' son los datos con los que se
 entrenan los modelos. Los indicadores que se incluyen en esta identidad miden el desempeño
 previo de los equipos antes del partido. Estos indicadores pueden ser en forma de porcentaje,
 proporción o media y pueden tener en cuenta los partidos previos de los equipos de forma general
 en la temporada actual, es decir, sin distinguir si el equipo jugaba como local o visitante, o de
 forma específica, solo evaluando los partidos previos del equipo donde ha jugado en el mismo
 ámbito como lo va a hacer en el partido actual. Por ejemplo, para el equipo local de un partido,
-solo se tendrían en cuenta los partidos previos que ha jugado como local.
+solo se tendrían en cuenta los partidos previos que ha jugado como local.}
 
 Respecto a los indicadores creados, miden diferentes valores asociados a las victorias, goles,
 cambios realizados, tarjetas… de los equipos. Estos indicadores definen como llegan los equipos
@@ -524,6 +536,8 @@ Con los datos obtenidos, se han entrenado diferentes algoritmos de \textit{machi
 
 En este caso, para los algoritmos de \textit{machine learning} cabe recordar que los algoritmos que se iban a evaluar eran los árboles de decisión, máquinas de vectores de soporte, k-vecinos más cercanos, \textit{gradient boosting machines}, bosques aleatorios y Gaussian Naive Bayes. Al entrenar estos algoritmos se utiliza el conjunto de datos después de realizar las operaciones de limpieza y transformación previamente comentadas.
 
+Por otro lado, en el Apéndice \ref{combinaciones-parametros} se pueden encontrar todos los valores diferentes que se han probado para optimizar los parámetros de los modelos creados con \textit{machine learning}.
+
 
 
 
@@ -878,3 +892,152 @@ de prueba del 0,383.
 La exactitud de los modelos sobre los goles de los equipos pueden parecer bajas pero se debe
 tener en cuenta, que predecir el número de goles exacto de un equipo es más complejo, ya que
 este valor puede tomar muchos valores diferentes.
+
+
+
+\subsection{Importancia de los indicadores en los modelos.}
+
+La importancia de cada variable al entrenar un modelo de una red neuronal con TensorFlow se refiere a la medida en que cada característica del conjunto de datos de entrada contribuye al rendimiento del modelo. Determinar esta importancia para cada atributo es fundamental para entender cómo el modelo toma sus decisiones y qué variables son las que tienen un mayor impacto en las predicciones. Determinar las variables más importantes en los modelos ayuda a mejorar su eficiencia, eliminar datos que pueden ser redundantes y comprender de mejor manera lo que se pretende predecir.
+
+
+En la Tabla \ref{table:importancia-indicadores-ganador} se muestran los 15 indicadores que mayor importancia tienen ordenando de mayor a menor por este valor en el modelo que se ha creado con una red neuronal para predecir el ganador del partido, destacando los indicadores asociados a la gestión de los jugadores que realizan los equipos.
+
+
+\begin{table}[]
+    \begin{tabularx}{\textwidth}{|l|>{\raggedright\arraybackslash}X|l|}
+    \hline
+    \rowcolor[HTML]{C0C0C0} 
+    Posición & Indicador & Importancia \\ \hline
+    1        &    porcentaje del local de más 2,5 goles encajados en sitio
+    &    0,0067         \\ \hline
+    2        &     \textbf{proporción del local de cambios de goleadores en sitio}      &    0,0067         \\ \hline
+    3        &    porcentaje del local de partidos empatados en general       &   0,0067          \\ \hline
+    4        &     proporción del local de córneres en contra en sitio      &     0,0065        \\ \hline
+    5        &    porcentaje del visitante de más 1,5 goles en general       &    0,0065         \\ \hline
+    6        &    proporción del local de goles totales en sitio       &   0,0065          \\ \hline
+    7        &    proporción del local de total tiros en general       &   0,0065          \\ \hline
+    8        &    \textbf{proporción del local de cambios de delanteros a defensas en sitio}       &     0,0064        \\ \hline
+    9        &   \textbf{proporción del visitante de cambios en general}        &     0,0064        \\ \hline
+    10        &   proporción del visitante de total tiros en general        &     0,0064        \\ \hline
+    11       &     porcentaje del local de más 0,5 marcados en general      &     0,0063        \\ \hline
+    12       &    \textbf{proporción del local de cambios antes descanso en general}       &    0,0063         \\ \hline
+    13       &     porcentaje del visitante de más 2,5 en sitio       &    0,0063         \\ \hline
+    14       &    \textbf{proporción del visitante de cambios en alineación de defensas en general}       &    0,0063         \\ \hline
+    15       &     proporción del local de rojas en general      &    0,0063         \\ \hline
+
+    \end{tabularx}
+    \caption{Indicadores con mayor importancia en el modelo creado con una red neuronal para predecir el ganador del partido.}
+    \label{table:importancia-indicadores-ganador}
+    \end{table}
+
+    
+
+
+En la Tabla \ref{table:importancia-indicadores-local} se muestran los 15 indicadores que mayor importancia tienen ordenando de mayor a menor por este valor en el modelo que se ha creado con una red neuronal para predecir los goles anotados por el equipo local, destacando los indicadores asociados a la gestión de los jugadores que realizan los equipos.
+
+
+\begin{table}[]
+    \begin{tabularx}{\textwidth}{|l|>{\raggedright\arraybackslash}X|l|}
+    \hline
+    \rowcolor[HTML]{C0C0C0} 
+    Posición & Indicador & Importancia \\ \hline
+    1        &   \textbf{media del local del minuto de los cambios en sitio}&	0,0064        \\ \hline
+    2        &      \textbf{proporción del local de cambios en la alineación de defensas en general}&	0,0063         \\ \hline
+    3        &    porcentaje del visitante de más 3,5 goles en general&	0,0063         \\ \hline
+    4        &    porcentaje del visitante de partidos perdidos en general&	0,0063      \\ \hline
+    5        &     proporción del local de amarillas en general&	0,0063        \\ \hline
+    6        &    proporción del local de córneres en contra en sitio&	0,0062         \\ \hline
+    7        &    \textbf{proporción del visitante de cambios en sitio}&	0,0062         \\ \hline
+    8        &    proporción del visitante de total tiros en general&	0,0062     \\ \hline
+    9        &   \textbf{proporción del local cambios delanteros a centrocampistas en general}&	0,0062        \\ \hline
+    10        &   \textbf{proporción del visitante de cambios de goleadores en sitio}&	0,0062       \\ \hline
+    11       &     proporción del visitante de goles encajados en general&	0,0062       \\ \hline
+    12       &    porcentaje del local de más 4,5 en sitio&	0,0062        \\ \hline
+    13       &     \textbf{proporción del visitante cambios en alineación de delanteros en general}&	0,0062         \\ \hline
+    14       &    \textbf{proporción del local cambios en alineación de centrocampistas en general}&	0,0062      \\ \hline
+    15       &     porcentaje del local de más 2,5 goles encajados en general&	0,0062      \\ \hline
+
+    \end{tabularx}
+    \caption{Indicadores con mayor importancia en el modelo creado con una red neuronal para predecir los goles anotados por el equipo local.}
+    \label{table:importancia-indicadores-local}
+    \end{table}
+    
+    
+   
+En la Tabla \ref{table:importancia-indicadores-visitante} se muestran los 15 indicadores que mayor importancia tienen ordenando de mayor a menor por este valor en el modelo que se ha creado con una red neuronal para predecir los goles anotados por el equipo visitante, destacando los indicadores asociados a la gestión de los jugadores que realizan los equipos.
+
+
+    \begin{table}[]
+        \begin{tabular}{|l|l|l|}
+        \hline
+        \rowcolor[HTML]{C0C0C0} 
+        Posición & Indicador & Importancia \\ \hline
+        1        &   porcentaje del visitante de más 0,5 goles encajados en sitio&	0,0103       \\ \hline
+        2        &     porcentaje del local más 1,5 goles en sitio&	0,0102     \\ \hline
+        3        &     \textbf{proporción del visitante de cambios en sitio}&	0,0101        \\ \hline
+        4        &    \textbf{proporción del visitante de cambios en general}&	0,0099      \\ \hline
+        5        &     porcentaje del local de más 0,5 goles encajados en sitio&	0,0098       \\ \hline
+        6        &    porcentaje del local de más 0,5 goles marcados en general&	0,0097        \\ \hline
+        7        &    porcentaje del local de más 0,5 goles marcados en sitio&	0,0096       \\ \hline
+        8        &    \textbf{proporción del local de cambios en general}&	0,0095     \\ \hline
+        9        &   porcentaje del visitante de más 1,5 goles en sitio&	0,0094       \\ \hline
+        10        &   porcentaje del visitante de más 0,5 goles marcados en general&	0,0093      \\ \hline
+        11       &     \textbf{proporción del local de cambios en sitio}&	0,0093      \\ \hline
+        12       &    proporción del visitante de posesión en sitio&	0,009        \\ \hline
+        13       &     porcentaje del local de más 0,5 goles encajados en general&	0,0089        \\ \hline
+        14       &   porcentaje del visitante de más 0,5 goles marcados en sitio&	0,0088     \\ \hline
+        15       &     porcentaje del visitante de más 0,5 goles encajados en general&	0,0088      \\ \hline
+    
+        \end{tabular}
+        \caption{Indicadores con mayor importancia en el modelo creado con una red neuronal para predecir los goles anotados por el equipo visitante.}
+        \label{table:importancia-indicadores-visitante}
+        \end{table}
+        
+        
+        
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    
+   

@@ -1,17 +1,22 @@
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
-\contentsline {table}{\numberline {5.1}{\ignorespaces Planificación de las semanas.}}{20}{table.5.1}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Distribución de los registros para la clase del ganador del partido. }}{32}{table.5.2}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Distribución de los registros para la clase del número de goles del local en el partido. }}{33}{table.5.3}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces Distribución de los registros para la clase del número de goles del visitante en el partido. }}{34}{table.5.4}%
-\contentsline {table}{\numberline {5.5}{\ignorespaces Valor de la exactitud para cada uno de los modelos entrenados utilizando algoritmos de \textit {machine learning} para predecir el ganador del partido.}}{37}{table.5.5}%
-\contentsline {table}{\numberline {5.6}{\ignorespaces Valor del resto de las métricas sobre los dos mejores modelos para predecir el ganador del partido.}}{37}{table.5.6}%
-\contentsline {table}{\numberline {5.7}{\ignorespaces Valor de la exactitud para cada uno de los modelos entrenados utilizando algoritmos de \textit {machine learning} para predecir los goles del local.}}{39}{table.5.7}%
-\contentsline {table}{\numberline {5.8}{\ignorespaces Valor del resto de las métricas sobre los dos mejores modelos para predecir los goles del local.}}{40}{table.5.8}%
-\contentsline {table}{\numberline {5.9}{\ignorespaces Valor de la exactitud para cada uno de los modelos entrenados utilizando algoritmos de \textit {machine learning} para predecir los goles del visitante.}}{41}{table.5.9}%
-\contentsline {table}{\numberline {5.10}{\ignorespaces Valor del resto de las métricas sobre los dos mejores modelos para predecir los goles del visitante.}}{42}{table.5.10}%
-\contentsline {table}{\numberline {5.11}{\ignorespaces Parámetros a evaluar en las redes neuronales.}}{43}{table.5.11}%
-\contentsline {table}{\numberline {5.12}{\ignorespaces Valor de la exactitud para las diez estructuras de redes neuronales que mayores valores han proporcionado en esa métrica para predecir el ganador del partido.}}{47}{table.5.12}%
-\contentsline {table}{\numberline {5.13}{\ignorespaces Valor de la exactitud para las diez estructuras de redes neuronales que mayores valores han proporcionado en esa métrica para predecir los goles del local en el partido.}}{47}{table.5.13}%
-\contentsline {table}{\numberline {5.14}{\ignorespaces Valor de la exactitud para las diez estructuras de redes neuronales que mayores valores han proporcionado en esa métrica para predecir los goles del visitante en el partido.}}{48}{table.5.14}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Planificación de las semanas.}}{22}{table.5.1}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Distribución de los registros para la clase del ganador del partido. }}{34}{table.5.2}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Distribución de los registros para la clase del número de goles del local en el partido. }}{35}{table.5.3}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Distribución de los registros para la clase del número de goles del visitante en el partido. }}{36}{table.5.4}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Valor de la exactitud para cada uno de los modelos entrenados utilizando algoritmos de \textit {machine learning} para predecir el ganador del partido.}}{39}{table.5.5}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Valor del resto de las métricas sobre los dos mejores modelos para predecir el ganador del partido.}}{39}{table.5.6}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces Valor de la exactitud para cada uno de los modelos entrenados utilizando algoritmos de \textit {machine learning} para predecir los goles del local.}}{41}{table.5.7}%
+\contentsline {table}{\numberline {5.8}{\ignorespaces Valor del resto de las métricas sobre los dos mejores modelos para predecir los goles del local.}}{42}{table.5.8}%
+\contentsline {table}{\numberline {5.9}{\ignorespaces Valor de la exactitud para cada uno de los modelos entrenados utilizando algoritmos de \textit {machine learning} para predecir los goles del visitante.}}{43}{table.5.9}%
+\contentsline {table}{\numberline {5.10}{\ignorespaces Valor del resto de las métricas sobre los dos mejores modelos para predecir los goles del visitante.}}{44}{table.5.10}%
+\contentsline {table}{\numberline {5.11}{\ignorespaces Parámetros a evaluar en las redes neuronales.}}{45}{table.5.11}%
+\contentsline {table}{\numberline {5.12}{\ignorespaces Valor de la exactitud para las diez estructuras de redes neuronales que mayores valores han proporcionado en esa métrica para predecir el ganador del partido.}}{49}{table.5.12}%
+\contentsline {table}{\numberline {5.13}{\ignorespaces Valor de la exactitud para las diez estructuras de redes neuronales que mayores valores han proporcionado en esa métrica para predecir los goles del local en el partido.}}{49}{table.5.13}%
+\contentsline {table}{\numberline {5.14}{\ignorespaces Valor de la exactitud para las diez estructuras de redes neuronales que mayores valores han proporcionado en esa métrica para predecir los goles del visitante en el partido.}}{50}{table.5.14}%
+\contentsline {table}{\numberline {5.15}{\ignorespaces Indicadores con mayor importancia en el modelo creado con una red neuronal para predecir el ganador del partido.}}{51}{table.5.15}%
+\contentsline {table}{\numberline {5.16}{\ignorespaces Indicadores con mayor importancia en el modelo creado con una red neuronal para predecir los goles anotados por el equipo local.}}{52}{table.5.16}%
+\contentsline {table}{\numberline {5.17}{\ignorespaces Indicadores con mayor importancia en el modelo creado con una red neuronal para predecir los goles anotados por el equipo visitante.}}{53}{table.5.17}%
 \addvspace {10pt}
+\addvspace {10pt}
+\contentsline {table}{\numberline {B.1}{\ignorespaces Valores de los parámetros que se han probado para los algoritmos de \textit {machine learning}.}}{71}{table.Alph2.1}%

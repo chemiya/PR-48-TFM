@@ -1,17 +1,18 @@
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Modelo de datos.}}{22}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Gráfico circular con el porcentaje sobre el total de registros de cada resultado posible de un partido. }}{32}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Gráfico circular con el porcentaje sobre el total de registros de cada número de goles anotados por el local posible. }}{33}{figure.5.3}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Gráfico circular con el porcentaje sobre el total de registros de cada número de goles anotados por el visitante posible. }}{34}{figure.5.4}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Matriz de confusión para el modelo entrenado para predecir el ganador del partido utilizando SVM. }}{38}{figure.5.5}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Matriz de confusión para el modelo entrenado para predecir el ganador del partido utilizando bosques aleatorios. }}{38}{figure.5.6}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Matriz de confusión para el modelo entrenado para predecir los goles del local utilizando SVM. }}{40}{figure.5.7}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Matriz de confusión para el modelo entrenado para predecir los goles del local utilizando bosques aleatorios. }}{40}{figure.5.8}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Matriz de confusión para el modelo entrenado para predecir los goles del visitante utilizando SVM. }}{42}{figure.5.9}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Matriz de confusión para el modelo entrenado para predecir los goles del visitante utilizando bosques aleatorios. }}{43}{figure.5.10}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Explicación sobre el mapa de calor para las diferencias de posiciones de clasificación. }}{50}{figure.6.11}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Primera parte del mapa de calor global con las diferencias de posiciones de clasificación. }}{53}{figure.6.12}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Segunda parte del mapa de calor global con las diferencias de posiciones de clasificación. }}{54}{figure.6.13}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Tercera parte del mapa de calor global con las diferencias de posiciones de clasificación. }}{55}{figure.6.14}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Modelo de datos.}}{24}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Gráfico circular con el porcentaje sobre el total de registros de cada resultado posible de un partido. }}{34}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Gráfico circular con el porcentaje sobre el total de registros de cada número de goles anotados por el local posible. }}{35}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Gráfico circular con el porcentaje sobre el total de registros de cada número de goles anotados por el visitante posible. }}{36}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Matriz de confusión para el modelo entrenado para predecir el ganador del partido utilizando SVM. }}{40}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Matriz de confusión para el modelo entrenado para predecir el ganador del partido utilizando bosques aleatorios. }}{40}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Matriz de confusión para el modelo entrenado para predecir los goles del local utilizando SVM. }}{42}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Matriz de confusión para el modelo entrenado para predecir los goles del local utilizando bosques aleatorios. }}{42}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Matriz de confusión para el modelo entrenado para predecir los goles del visitante utilizando SVM. }}{44}{figure.5.9}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Matriz de confusión para el modelo entrenado para predecir los goles del visitante utilizando bosques aleatorios. }}{45}{figure.5.10}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Explicación sobre el mapa de calor para las diferencias de posiciones de clasificación. }}{55}{figure.6.11}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Primera parte del mapa de calor global con las diferencias de posiciones de clasificación. }}{58}{figure.6.12}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Segunda parte del mapa de calor global con las diferencias de posiciones de clasificación. }}{59}{figure.6.13}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Tercera parte del mapa de calor global con las diferencias de posiciones de clasificación. }}{60}{figure.6.14}%
+\addvspace {10pt}
 \addvspace {10pt}

@@ -1,0 +1,25 @@
+\apendice{Combinaciones de parámetros evaluadas para los modelos de \textit{machine learning}.}
+\section{Introducción}
+En este apéndice se recogen todos los valores posibles que se han evaluado en la optimización de parámetros para los algoritmos de \textit{machine learning}.
+
+
+\section{Combinaciones de parámetros.}
+\label{combinaciones-parametros}
+En la Tabla \ref{table:combinaciones-parametros} se pueden los valores diferentes que se han probado en cada parámetro con los diferentes algoritmos de \textit{machine learning} que se han evaluado.
+
+\begin{table}[]
+    \centering
+    \begin{tabularx}{\textwidth}{|l|>{\raggedright\arraybackslash}X|}
+        \hline
+        \rowcolor[HTML]{C0C0C0}
+        Algoritmo              & Valores en los parámetros evaluados                                  \\ \hline
+        Árbol de decisión      & ``max depth'': 3, 5, 7. ``min samples split'': 2, 5, 10.                          \\ \hline
+        SVM                    & ``C'': 0,1, 1, 10. ``gamma'': 1e-3, 1e-4. ``kernel'': 'linear', 'rbf'                         \\ \hline
+        K-vecinos más cercanos & ``n neighbors'': 3, 5, 7. ``p'': 1, 2. ``weights'': 'uniform', 'distance'.                     \\ \hline
+        GBM                    & ``learning rate'': 0,01, 0,1, 0,2. ``max depth'': 3, 4, 5. ``n estimators'': 50, 100, 200.         \\ \hline
+        Bosques aleatorios     & ``max depth'': 25, 30, 35. ``min samples split'': 2, 3, 4. ``n estimators'': 190, 200, 210.     \\ \hline
+        Gaussian Naive Bayes   & ``var smoothing'': 1e-9, 1e-8, 1e-7.                                       \\ \hline
+    \end{tabularx}
+    \caption{Valores de los parámetros que se han probado para los algoritmos de \textit{machine learning}.}
+    \label{table:combinaciones-parametros}
+\end{table}

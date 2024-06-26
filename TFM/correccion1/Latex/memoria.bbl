@@ -67,6 +67,12 @@
 \newblock \url{https://www.hostgator.mx/blog/google-colab/}.
 \newblock Accessed: 2024-5-31.
 
+\bibitem{tfg-ref}
+{\sc {Gonzalo Herreros Diezhandino}}.
+\newblock {Training4Trainers: Football Coaching Software}, {junio} {2020}.
+\newblock {Trabajo de Fin de Grado, Universidad de Valladolid, Escuela de
+  ingeniería informática}.
+
 \bibitem{neymar}
 {\sc {Hugo Cerezo}}.
 \newblock {Neymar ficha por el Paris Saint Germain, que paga los 222 millones
@@ -88,6 +94,12 @@
 \newblock
   \url{https://www.ibm.com/docs/es/spss-modeler/saas?topic=networks-neural-model}.
 \newblock Accessed: 2024-5-31.
+
+\bibitem{africanos}
+{\sc {Igiri, Chinwe Peace, Nwachukwu, Enoch Okechukwu}}.
+\newblock {An Improved Prediction System for Football a Match Result}.
+\newblock {12--20.
+  \url{https://iosrjen.org/Papers/vol4_issue12(part--4)/B04124012020.pdf}}.
 
 \bibitem{funcion-perdida}
 {\sc {Ignacio G.R. Gavilán}}.
@@ -125,6 +137,18 @@
   \url{https://www.theeconomyjournal.com/texto-diario/mostrar/1525487/gran-negocio-futbol}.
 \newblock Accessed: 2024-4-23.
 
+\bibitem{tfg-laguna}
+{\sc {Juan Diego Fernández García}}.
+\newblock {Modelos probabilísticos para la estimación de resultados
+  deportivos}, {julio} {2019}.
+\newblock {Trabajo de Fin de Grado, Universidad de La Laguna, Sección de
+  Matemáticas}.
+
+\bibitem{alemanes}
+{\sc {Julian Knoll, Johannes Stübinger}}.
+\newblock {Machine‑Learning‑Based Statistical Arbitrage Football Betting}.
+\newblock {69–80. \url{https://doi.org/10.1007/s13218--019--00610--4}}.
+
 \bibitem{scraping}
 {\sc {Kinsta}}.
 \newblock {¿Qué Es el Web Scraping? Cómo Extraer Legalmente el Contenido de
@@ -147,12 +171,23 @@
 \newblock \url{https://www.laliga.com/beyondstats}.
 \newblock Accessed: 2024-4-23.
 
+\bibitem{leeds}
+{\sc {Massaro, M., Mas, F.D., Bontis, N. and Gerrard, B.}}
+\newblock {Intellectual capital and performance in temporary teams}.
+\newblock {410--427. \url{https://doi.org/10.1108/MD--02--2019--0219}}.
+
 \bibitem{scikit}
 {\sc {master-data-scientist}}.
 \newblock {SCIKIT-LEARN, HERRAMIENTA BÁSICA PARA EL DATA SCIENCE EN PYTHON}.
 \newblock
   \url{https://www.master-data-scientist.com/scikit-learn-data-science/}.
 \newblock Accessed: 2024-4-23.
+
+\bibitem{ingleses}
+{\sc {Mathew Hughes, Paul Hughes, Kamel Mellahi, Cherif Guermat}}.
+\newblock {Short-term versus Long-term Impact of Managers: Evidence from the
+  Football Industry}.
+\newblock {571–589. \url{https://doi.org/10.1111/j.1467--8551.2009.00668.x}}.
 
 \bibitem{ia1}
 {\sc {MejorConSalud}}.
@@ -181,6 +216,18 @@
 \newblock {Scrum for Data Science}.
 \newblock \url{https://www.datascience-pm.com/scrum/}.
 \newblock Accessed: 2024-5-31.
+
+\bibitem{indios}
+{\sc {Nilay Zaveri, Shubham Tiwari, Pramila Shinde, Utkarsh Shah, Lalit Kumar
+  Teli}}.
+\newblock {Prediction of Football Match Score and Decision Making Process}.
+\newblock {162–165. \url{https://doi.org/10.17762/ijritcc.v6i2.1441}}.
+
+\bibitem{rusos}
+{\sc {Ondrej Hubácek, Gustav Sourek, Filip Zelezny}}.
+\newblock {Learning to predict soccer results from relational data with
+  gradient boosted trees}.
+\newblock {29–47. \url{https://doi.org/10.1007/s10994--018--5704--6}}.
 
 \bibitem{opta}
 {\sc {Opta}}.

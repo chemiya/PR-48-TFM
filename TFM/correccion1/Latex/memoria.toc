@@ -8,44 +8,48 @@
 \contentsline {section}{\numberline {1.2}Motivación}{3}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Aplicaciones similares}{4}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Estructura de la memoria}{5}{section.1.4}%
-\contentsline {chapter}{2. Objetivos del proyecto}{6}{chapter*.5}%
-\contentsline {section}{\numberline {2.1}Introducción}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Objetivos de desarrollo}{6}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Objetivos académicos}{7}{section.2.3}%
-\contentsline {chapter}{3. Conceptos teóricos}{8}{chapter*.6}%
-\contentsline {section}{\numberline {3.1}Introducción}{8}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Introducción a la inteligencia artificial}{8}{section.3.2}%
-\contentsline {section}{\numberline {3.3}\textit {Machine learning}}{9}{section.3.3}%
-\contentsline {section}{\numberline {3.4}\textit {Deep learning}}{11}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Validación cruzada y división de los datos}{14}{section.3.5}%
-\contentsline {chapter}{4. Técnicas y herramientas}{15}{chapter*.7}%
-\contentsline {section}{\numberline {4.1}Introducción}{15}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Obtención de los datos}{15}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Tecnologías utilizadas}{15}{section.4.3}%
-\contentsline {chapter}{5. Aspectos relevantes del desarrollo del proyecto}{18}{chapter*.8}%
-\contentsline {section}{\numberline {5.1}Introducción}{18}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Metodología}{18}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Alcance}{19}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Plan de proyecto}{20}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Modelo de los datos}{21}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Limpieza y transformación de los datos}{31}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Análisis de las clases a predecir}{32}{section.5.7}%
-\contentsline {section}{\numberline {5.8}Implementación}{34}{section.5.8}%
-\contentsline {section}{\numberline {5.9}Proceso de elección de los mejores modelos}{36}{section.5.9}%
-\contentsline {subsection}{Modelos con algoritmos de \textit {machine learning}}{36}{section*.9}%
-\contentsline {subsection}{Modelos con redes neuronales}{43}{section*.10}%
-\contentsline {chapter}{6. Resultados y conclusiones obtenidas sobre los datos}{49}{chapter*.11}%
-\contentsline {section}{\numberline {6.1}Introducción}{49}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Conclusiones extraídas del análisis previo de los datos}{49}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Conclusiones extraídas al entrenar los modelos}{55}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Conclusiones y resultados generales}{56}{section.6.4}%
-\contentsline {chapter}{7. Conclusiones generales y líneas de trabajo futuras}{58}{chapter*.12}%
-\contentsline {section}{\numberline {7.1}Introducción}{58}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Conclusiones}{58}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Revisión sobre la consecución de los objetivos}{60}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Líneas de trabajo futuras}{60}{section.7.4}%
-\contentsline {part}{Apéndices}{62}{section.7.4}%
-\contentsline {appendix}{\chapternumberline {A}Manual de instalación}{63}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Enlace al repositorio}{63}{section.Alph1.1}%
-\contentsline {section}{\numberline {A.2}Despliegue e instalación}{63}{section.Alph1.2}%
-\contentsline {chapter}{Bibliograf\'{\i }a}{65}{appendix*.15}%
+\contentsline {chapter}{2. Objetivos del proyecto}{7}{chapter*.5}%
+\contentsline {section}{\numberline {2.1}Introducción}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Objetivos de desarrollo}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Objetivos académicos}{8}{section.2.3}%
+\contentsline {chapter}{3. Conceptos teóricos}{9}{chapter*.6}%
+\contentsline {section}{\numberline {3.1}Introducción}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Introducción a la inteligencia artificial}{9}{section.3.2}%
+\contentsline {section}{\numberline {3.3}\textit {Machine learning}}{10}{section.3.3}%
+\contentsline {section}{\numberline {3.4}\textit {Deep learning}}{12}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Validación cruzada y división de los datos}{15}{section.3.5}%
+\contentsline {chapter}{4. Técnicas y herramientas}{16}{chapter*.7}%
+\contentsline {section}{\numberline {4.1}Introducción}{16}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Obtención de los datos}{16}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Tecnologías utilizadas}{16}{section.4.3}%
+\contentsline {chapter}{5. Aspectos relevantes del desarrollo del proyecto}{19}{chapter*.8}%
+\contentsline {section}{\numberline {5.1}Introducción}{19}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Metodología}{19}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Alcance}{20}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Plan de proyecto}{22}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Modelo de los datos}{23}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Limpieza y transformación de los datos}{33}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Análisis de las clases a predecir}{33}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Implementación}{36}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Proceso de elección de los mejores modelos}{38}{section.5.9}%
+\contentsline {subsection}{Modelos con algoritmos de \textit {machine learning}}{38}{section*.9}%
+\contentsline {subsection}{Modelos con redes neuronales}{45}{section*.10}%
+\contentsline {subsection}{Importancia de los indicadores en los modelos.}{50}{section*.11}%
+\contentsline {chapter}{6. Estudio y resultados obtenidos sobre los datos}{54}{chapter*.12}%
+\contentsline {section}{\numberline {6.1}Introducción}{54}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Estudio y resultados extraídos del análisis previo de los datos}{54}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Estudio y resultados extraídos al entrenar los modelos}{60}{section.6.3}%
+\contentsline {chapter}{7. Conclusiones generales y líneas de trabajo futuras}{62}{chapter*.13}%
+\contentsline {section}{\numberline {7.1}Introducción}{62}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Conclusiones}{62}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Revisión sobre la consecución de los objetivos}{65}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Líneas de trabajo futuras}{65}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Limitaciones.}{67}{section.7.5}%
+\contentsline {part}{Apéndices}{68}{section.7.5}%
+\contentsline {appendix}{\chapternumberline {A}Manual de instalación}{69}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Enlace al repositorio}{69}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Despliegue e instalación}{69}{section.Alph1.2}%
+\contentsline {appendix}{\chapternumberline {B}Combinaciones de parámetros evaluadas para los modelos de \textit {machine learning}.}{71}{appendix.Alph2}%
+\contentsline {section}{\numberline {B.1}Introducción}{71}{section.Alph2.1}%
+\contentsline {section}{\numberline {B.2}Combinaciones de parámetros.}{71}{section.Alph2.2}%
+\contentsline {chapter}{Bibliograf\'{\i }a}{72}{appendix*.16}%

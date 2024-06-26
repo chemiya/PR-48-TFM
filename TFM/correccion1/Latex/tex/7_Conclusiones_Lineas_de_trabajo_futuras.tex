@@ -11,7 +11,52 @@ Además, en este proyecto se destaca la importancia de disponer de conjuntos de 
 
 Este proyecto puede ayudar a destacar la necesidad de desarrollar herramientas y metodologías específicas que faciliten la integración de la inteligencia artificial en la gestión deportiva, lo que implicaría una colaboración conjunta entre expertos en deportes y científicos de datos y que, en muchos casos ya se está realizando.
 
-En última instancia, este proyecto ha pretendido mostrar el potencial de la inteligencia artificial para transformar y mejorar la gestión y el desempeño de los equipos de fútbol analizando los datos sobre la rotación de sus jugadores. Las conclusiones de este proyecto pretenden invitar a continuar investigando y desarrollando este campo, explorando nuevas tecnologías y metodologías que puedan maximizar el impacto positivo de la inteligencia artificial en el mundo del fútbol y así ayudar en todo lo posible a los directivos y entrenadores.
+Otro factor clave es que este proyecto ha pretendido mostrar el potencial de la inteligencia artificial para transformar y mejorar la gestión y el desempeño de los equipos de fútbol analizando los datos sobre la rotación de sus jugadores. Las conclusiones de este proyecto pretenden invitar a continuar investigando y desarrollando este campo, explorando nuevas tecnologías y metodologías que puedan maximizar el impacto positivo de la inteligencia artificial en el mundo del fútbol y así ayudar en todo lo posible a los directivos y entrenadores.
+
+Previo a los modelos, el análisis previo de los datos ha revelado diferentes patrones que pueden 
+ayudar enormemente a los entrenadores a tomar decisiones sobre los jugadores para aumentar el 
+rendimiento del equipo, como evitar realizar muchos cambios en las alineaciones iniciales o evitar 
+realizar muchos cambios antes del descanso, ya que ambos factores en este caso están 
+estrechamente relacionados con los equipos de la zona baja de la clasificación. 
+
+Por otro lado, realizar menos cambios en las alineaciones iniciales y menos cambios entre los 
+minutos 61 y 75 se asocia a equipos que ocupan las posiciones más altas de la clasificación, y esto 
+puede ser una buena señal de que estas estrategias ayudan al buen rendimiento del equipo.
+En cuanto a las posiciones de los jugadores que son afectados por los cambios, realizar cambios 
+ofensivos quitando defensas es una estrategia que se puede apreciar sobre todo en los equipos de 
+la zona baja de la clasificación y por lo tanto no ayuda a su rendimiento. Por otra parte, realizar 
+pocos cambios sacando delanteros e introduciendo jugadores más defensivos es una estrategia 
+utilizada por los equipos de la zona alta de la clasificación y por lo tanto parece que contribuye a 
+su éxito y buen rendimiento.
+
+Sobre los minutos en los que se realizan los cambios, los equipos que de media realizan los 
+cambios antes suelen estar en la zona alta de la clasificación y lo mismo es aplicable a los cambios 
+que reemplazan jugadores amonestados con amarilla ya que los equipos con menos cambios de 
+este tipo ocupan posiciones más altas.
+
+Finalmente, otro dato bastante significativo y curioso es que los equipos de la zona alta de la 
+clasificación tienen valores más bajos en el número de cambios por partido que hacen, es decir, 
+no gastan todos los cambios de los que disponen. Esto puede contradecir la creencia generalizada 
+de que al realizar más cambios el equipo debería de rendir más porque introduce jugadores 
+totalmente frescos pero parece que, este análisis muestra lo contrario, que conviene mantener los 
+jugadores que estén en el campo y no necesariamente gastar todos los cambios de los que 
+disponen.
+
+Por otro lado, como se ha podido apreciar no se ha obtenido un único modelo para predecir tanto el ganador del partido como el número de goles del local como el número de goles del visitante. Se han obtenido diferentes modelos en forma de redes neuronales, cada una con una arquitectura diferente optimizada para realizar predicciones sobre el ganador del partido, los goles de local o los goles del visitante. 
+
+La arquitectura del modelo entrenado para predecir el ganador del partido consistía en una red neuronal con 3 capas, con descenso de gradiente
+estocástico como optimizador, con entropía cruzada categórica como función de pérdida,
+entrenada en 20 épocas con un tamaño de lote de 48 que no incorpora \textit{callbacks} que obtuvo una exactitud sobre el conjunto de prueba del 0,560.
+
+La arquitectura del modelo entrenado para predecir los goles del local consistía en una red neuronal  con 5 capas, con descenso de gradiente
+estocástico como optimizador, con entropía cruzada categórica como función de pérdida,
+entrenada en 20 épocas con un tamaño de lote de 80 que no incorpora \textit{callbacks}. Esta red ha
+obtenido una exactitud sobre el conjunto de prueba del 0,370.
+
+La arquitectura del modelo entrenado para predecir los goles del visitante consistía una red neuronal,  con 4 capas, con ``adam'' como optimizador,
+con entropía cruzada categórica como función de pérdida, entrenada en 20 épocas con un tamaño
+de lote de 80 que no incorpora \textit{callbacks}. Esta red ha obtenido una exactitud sobre el conjunto
+de prueba del 0,383.
 
 Sin embargo, también se debe tener en cuenta que la naturaleza imprevisible del fútbol es uno de los mayores desafíos para cualquier modelo de inteligencia artificial entrenado para predecir sus resultados. El fútbol es un deporte en el que los resultados pueden variar considerablemente debido a factores aleatorios y circunstancias incontrolables. Eventos inesperados como lesiones de jugadores clave, decisiones arbitrales controvertidas, condiciones climáticas adversas o simplemente un mal día para un equipo o un jugador pueden influir determinantemente en el resultado final de un partido. Estas variables, imposibles de cuantificar y predecir, introducen un grado de aleatoriedad que dificulta la precisión de cualquier modelo predictivo.
 
@@ -44,5 +89,13 @@ En este proyecto se ha analizado el rendimiento de diferentes modelos de intelig
     \item \textbf{Desarrollar una aplicación web para mostrar los datos obtenidos:} como mejora final, se podría desarrollar una aplicación web que muestre de una forma más amigable los datos obtenidos de los modelos y que puedan ayudar a los entrenadores y directivos. 
     \item \textbf{Integración de datos biométricos y físicos:} se podrían incorporar datos biométricos y físicos (frecuencia cardíaca, niveles de fatiga, velocidad, etc.) de los jugadores para afinar las estrategias de rotación basadas en la condición física real de los jugadores. De esta forma, todavía se podrían tomar decisiones más concretas y justificadas.
     \item \textbf{Ayuda para la realización de cambios en directo durante el transcurso del partido:} una importante mejora podría ser que los modelos fuesen capaces de ayudar a los entrenadores a tomar las decisiones sobre los cambios a realizar en el propio partido con avisos y notificaciones para así tomar las mejores decisiones posibles basadas en datos. Sería útil desarrollar simulaciones avanzadas que permitan a los entrenadores evaluar diferentes escenarios de rotación en tiempo real durante un partido, para tomar decisiones más informadas y así mejorar su capacidad en la toma de decisiones.
+    \item \textbf{Comparar calidad y precisión de los modelos creados mediante redes neuronales con alternativas que utilizan modelos econométricos:} de esta manera se puede evaluar qué herramienta es más útil y proporciona mejores resultados permitiendo proporcionar conclusiones válidas a los entrenadores sobre cómo gestionar los jugadores.
 \end{itemize}
 
+
+
+\section{Limitaciones.}
+
+Una de las principales limitaciones de este trabajo se relaciona con la precisión baja de los modelos entrenados. Esto se puede deber como se ha comentado, en gran medida a la naturaleza impredecible y aleatoria del fútbol. Factores como el desempeño individual de los jugadores, decisiones tácticas del entrenador, condiciones climáticas o decisiones arbitrales durante el transcurso de los partidos influyen considerablemente en los resultados y son complicadas de considerar con exactitud. Además, el fútbol es un deporte donde las dinámicas de los equipos y los estados de los jugadores desempeñan un papel fundamental, lo que añade un factor de complejidad que es complicado de recoger en los modelos de inteligencia artificial.
+
+Otra limitación importante es la escasez de estudios previos y ejemplos comparables que recojan indicadores relacionados con la gestión de jugadores en el contexto del fútbol. Los trabajos existentes sobre modelos de rotación de empleados en otros sectores diferentes no son directamente aplicables a los equipos deportivos, donde se ha podido apreciar que las métricas y los factores más relevantes son diferentes. Esta falta de trabajos y ejemplos referentes dificulta la evaluación comparativa de la precisión y efectividad de los modelos desarrollados en este trabajo, lo que por otro lado, subraya la necesidad de realizar más investigación en esta área para seguir mejorando.
