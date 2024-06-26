@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: memoria.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+A level-1 auxiliary file: ./tex/1_Introduccion.aux
+Reallocating 'name_of_file' (item size: 1) to 35 items.
+A level-1 auxiliary file: ./tex/2_Objetivos_del_proyecto.aux
+Reallocating 'name_of_file' (item size: 1) to 31 items.
+A level-1 auxiliary file: ./tex/3_Conceptos_teoricos.aux
+Reallocating 'name_of_file' (item size: 1) to 36 items.
+A level-1 auxiliary file: ./tex/4_Tecnicas_y_herramientas.aux
+Reallocating 'name_of_file' (item size: 1) to 60 items.
+A level-1 auxiliary file: ./tex/5_Aspectos_relevantes_del_desarrollo_del_proyecto.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: ./tex/6_Resultados.aux
+Reallocating 'name_of_file' (item size: 1) to 51 items.
+A level-1 auxiliary file: ./tex/7_Conclusiones_Lineas_de_trabajo_futuras.aux
+Reallocating 'name_of_file' (item size: 1) to 31 items.
+A level-1 auxiliary file: ./tex/A_Manual_instalacion.aux
+Reallocating 'name_of_file' (item size: 1) to 37 items.
+A level-1 auxiliary file: ./tex/B_Combinaciones_parametros.aux
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+The style file: acm.bst
+Reallocating 'name_of_file' (item size: 1) to 81 items.
+Database file #1: C:/Users/jmlozanoo/Documents/GitHub/PR-48-TFM/TFM/correccion1/Latex/bibliografia.bib
+Warning--empty journal in africanos
+Warning--empty journal in alemanes
+Warning--empty journal in leeds
+Warning--empty journal in ingleses
+Warning--empty journal in indios
+Warning--empty journal in rusos
+You've used 46 entries,
+            2253 wiz_defined-function locations,
+            723 strings with 12052 characters,
+and the built_in function-call counts, 13377 in all, are:
+= -- 1343
+> -- 322
+< -- 0
++ -- 138
+- -- 92
+* -- 716
+:= -- 2049
+add.period$ -- 176
+call.type$ -- 46
+change.case$ -- 184
+chr.to.int$ -- 0
+cite$ -- 52
+duplicate$ -- 368
+empty$ -- 1385
+format.name$ -- 92
+if$ -- 2925
+int.to.chr$ -- 0
+int.to.str$ -- 46
+missing$ -- 6
+newline$ -- 271
+num.names$ -- 92
+pop$ -- 422
+preamble$ -- 1
+purify$ -- 138
+quote$ -- 0
+skip$ -- 227
+stack$ -- 0
+substring$ -- 1370
+swap$ -- 86
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 184
+warning$ -- 6
+while$ -- 98
+width$ -- 48
+write$ -- 494
+(There were 6 warnings)

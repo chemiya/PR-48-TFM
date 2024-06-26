@@ -1,0 +1,321 @@
+\begin{thebibliography}{10}
+
+\bibitem{callbacks}
+{\sc {Adonaí Vera}}.
+\newblock {Monitoreo del entrenamiento en tiempo real: early stopping y
+  patience}.
+\newblock
+  \url{https://platzi.com/clases/2565-redes-neuronales-tensorflow/42851-monitoreo-del-entrenamiento-en-tiempo-real-early-s/}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{ia-deporte}
+{\sc {Adrián Rodríguez Mira}}.
+\newblock {La inteligencia artificial en el deporte}.
+\newblock
+  \url{https://www.tokioschool.com/noticias/inteligencia-artificial-deporte/}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{tipos-redes}
+{\sc {AWS}}.
+\newblock {¿Qué es una red neuronal?}
+\newblock \url{https://aws.amazon.com/es/what-is/neural-network/}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{epocas}
+{\sc {Bookdown}}.
+\newblock {Redes neuronales}.
+\newblock
+  \url{https://bookdown.org/victor_morales/TecnicasML/redes-neuronales.html}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{liverpool}
+{\sc {Bruce Schoenfeld}}.
+\newblock {El arma secreta del Liverpool: el análisis de datos}.
+\newblock
+  \url{https://www.nytimes.com/es/2019/05/29/espanol/liverpool-champions.html}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{beautifulsoup}
+{\sc {datascientest}}.
+\newblock {Beautiful Soup : ¿cómo aprender a hacer web scraping en Python?}
+\newblock
+  \url{https://datascientest.com/es/beautiful-soup-aprender-web-scraping}.
+\newblock Accessed: 2024-4-23.
+
+\bibitem{validacion-cruzada}
+{\sc {datascientest}}.
+\newblock {Cross-Validation : definición e importancia en Machine Learning}.
+\newblock
+  \url{https://datascientest.com/es/cross-validation-definicion-e-importancia}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{keras}
+{\sc {datascientest}}.
+\newblock {Keras: todo sobre la API de Deep Learning}.
+\newblock \url{https://datascientest.com/es/keras-la-api-de-deep-learning}.
+\newblock Accessed: 2024-4-23.
+
+\bibitem{pandas}
+{\sc {datascientest}}.
+\newblock {Pandas : La biblioteca de Python dedicada a la Data Science}.
+\newblock \url{https://datascientest.com/es/pandas-python}.
+\newblock Accessed: 2024-4-23.
+
+\bibitem{google-colab}
+{\sc {Dougles Vieira}}.
+\newblock {Google Colab: ¿Qué es y cómo usarlo?}
+\newblock \url{https://www.hostgator.mx/blog/google-colab/}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{tfg-ref}
+{\sc {Gonzalo Herreros Diezhandino}}.
+\newblock {Training4Trainers: Football Coaching Software}, {junio} {2020}.
+\newblock {Trabajo de Fin de Grado, Universidad de Valladolid, Escuela de
+  ingeniería informática}.
+
+\bibitem{neymar}
+{\sc {Hugo Cerezo}}.
+\newblock {Neymar ficha por el Paris Saint Germain, que paga los 222 millones
+  de la cláusula}.
+\newblock
+  \url{https://www.marca.com/futbol/barcelona/2017/08/03/5981b9d7468aebed368b46a3.html}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{machine-learning}
+{\sc {Iberdrola}}.
+\newblock {Descubre los principales beneficios del 'Machine Learning'}.
+\newblock
+  \url{https://www.iberdrola.com/innovacion/machine-learning-aprendizaje-automatico}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{arquitectura-red}
+{\sc {IBM}}.
+\newblock {El modelo de redes neuronales}.
+\newblock
+  \url{https://www.ibm.com/docs/es/spss-modeler/saas?topic=networks-neural-model}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{africanos}
+{\sc {Igiri, Chinwe Peace, Nwachukwu, Enoch Okechukwu}}.
+\newblock {An Improved Prediction System for Football a Match Result. 2014.
+  IOSR Journal of Engineering (IOSRJEN), 4(12)}.
+\newblock {12--20.
+  \url{https://iosrjen.org/Papers/vol4_issue12(part--4)/B04124012020.pdf}}.
+
+\bibitem{funcion-perdida}
+{\sc {Ignacio G.R. Gavilán}}.
+\newblock {Catálogo de componentes de redes neuronales (III): funciones de
+  pérdida}.
+\newblock
+  \url{https://ignaciogavilan.com/catalogo-de-componentes-de-redes-neuronales-iii-funciones-de-perdida/}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{optimizadores}
+{\sc {Jesús}}.
+\newblock {Optimizadores en deep learning}.
+\newblock
+  \url{https://datasmarts.net/es/que-es-un-optimizador-y-para-que-se-usa-en-deep-learning/}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{incremento-ia-deporte}
+{\sc {JOHAN CRUYFF INSTITUTE}}.
+\newblock {Big data, el aliado en la gestión de fichajes y análisis del
+  rendimiento}.
+\newblock
+  \url{https://johancruyffinstitute.com/es/blog-es/administracion-del-futbol/big-data-en-la-gestion-de-fichajes-y-analisis-del-rendimiento/}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{tensorflow}
+{\sc {Jon Larkin Alonso}}.
+\newblock {¿Qué es TensorFlow y para qué sirve?}
+\newblock \url{https://www.incentro.com/es-ES/blog/que-es-tensorflow}.
+\newblock Accessed: 2024-4-23.
+
+\bibitem{dinero}
+{\sc {José Luis del Olmo Arriaga}}.
+\newblock {El gran negocio del futbol}.
+\newblock
+  \url{https://www.theeconomyjournal.com/texto-diario/mostrar/1525487/gran-negocio-futbol}.
+\newblock Accessed: 2024-4-23.
+
+\bibitem{tfg-laguna}
+{\sc {Juan Diego Fernández García}}.
+\newblock {Modelos probabilísticos para la estimación de resultados
+  deportivos}, {julio} {2019}.
+\newblock {Trabajo de Fin de Grado, Universidad de La Laguna, Sección de
+  Matemáticas}.
+
+\bibitem{alemanes}
+{\sc {Julian Knoll, Johannes Stübinger}}.
+\newblock {Machine‑Learning‑Based Statistical Arbitrage Football Betting.
+  2019. Künstliche Intelligenz 34}.
+\newblock {69–80. \url{https://doi.org/10.1007/s13218--019--00610--4}}.
+
+\bibitem{scraping}
+{\sc {Kinsta}}.
+\newblock {¿Qué Es el Web Scraping? Cómo Extraer Legalmente el Contenido de
+  la Web}.
+\newblock
+  \url{https://kinsta.com/es/base-de-conocimiento/que-es-web-scraping/}.
+\newblock Accessed: 2024-4-23.
+
+\bibitem{ia2}
+{\sc {Kristalina Georgieva}}.
+\newblock {La economía mundial transformada por la inteligencia artificial ha
+  de beneficiar a la humanidad}.
+\newblock
+  \url{https://www.imf.org/es/Blogs/Articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity}.
+\newblock Accessed: 2024-4-23.
+
+\bibitem{beyondstats}
+{\sc {LaLiga}}.
+\newblock {LaLiga Beyond Stats}.
+\newblock \url{https://www.laliga.com/beyondstats}.
+\newblock Accessed: 2024-4-23.
+
+\bibitem{leeds}
+{\sc {Massaro, M., Mas, F.D., Bontis, N. and Gerrard, B.}}
+\newblock {Intellectual capital and performance in temporary teams. 2020.
+  Management Decision, 58 (3)}.
+\newblock {410--427. \url{https://doi.org/10.1108/MD--02--2019--0219}}.
+
+\bibitem{scikit}
+{\sc {master-data-scientist}}.
+\newblock {SCIKIT-LEARN, HERRAMIENTA BÁSICA PARA EL DATA SCIENCE EN PYTHON}.
+\newblock
+  \url{https://www.master-data-scientist.com/scikit-learn-data-science/}.
+\newblock Accessed: 2024-4-23.
+
+\bibitem{ingleses}
+{\sc {Mathew Hughes, Paul Hughes, Kamel Mellahi, Cherif Guermat}}.
+\newblock {Short-term versus Long-term Impact of Managers: Evidence from the
+  Football Industry. 2010. 21}.
+\newblock {571–589. \url{https://doi.org/10.1111/j.1467--8551.2009.00668.x}}.
+
+\bibitem{ia1}
+{\sc {MejorConSalud}}.
+\newblock {¿Cómo se usa la inteligencia artificial en el fútbol
+  profesional?}
+\newblock
+  \url{https://mejorconsalud.as.com/inteligencia-artificial-futbol-profesional/}.
+\newblock Accessed: 2024-4-23.
+
+\bibitem{scrum}
+{\sc {Miguel Ángel de Dios}}.
+\newblock {Scrum: qué es y cómo funciona este marco de trabajo}.
+\newblock
+  \url{https://www.wearemarketing.com/es/blog/metodologia-scrum-que-es-y-como-funciona.html}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{metricas}
+{\sc {Nagesh Singh Chauhan}}.
+\newblock {Métricas De Evaluación De Modelos En El Aprendizaje Automático}.
+\newblock
+  \url{https://www.datasource.ai/es/data-science-articles/metricas-de-evaluacion-de-modelos-en-el-aprendizaje-automatico}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{scrum-data-science}
+{\sc {Nick Hotz}}.
+\newblock {Scrum for Data Science}.
+\newblock \url{https://www.datascience-pm.com/scrum/}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{indios}
+{\sc {Nilay Zaveri, Shubham Tiwari, Pramila Shinde, Utkarsh Shah, Lalit Kumar
+  Teli}}.
+\newblock {Prediction of Football Match Score and Decision Making Process.
+  2018. International Journal on Recent and Innovation Trends in Computing and
+  Communication, 6(2)}.
+\newblock {162–165. \url{https://doi.org/10.17762/ijritcc.v6i2.1441}}.
+
+\bibitem{rusos}
+{\sc {Ondrej Hubácek, Gustav Sourek, Filip Zelezny}}.
+\newblock {Learning to predict soccer results from relational data with
+  gradient boosted trees. 2019. Mach Learn 108}.
+\newblock {29–47. \url{https://doi.org/10.1007/s10994--018--5704--6}}.
+
+\bibitem{opta}
+{\sc {Opta}}.
+\newblock {OPTA DATA}.
+\newblock \url{https://www.statsperform.com/opta/}.
+\newblock Accessed: 2024-4-23.
+
+\bibitem{oracle}
+{\sc {Oracle}}.
+\newblock {Premier League y Match Insights, con tecnología Oracle Cloud:
+  Reimaginando la experiencia de los aficionados}.
+\newblock \url{https://www.oracle.com/es/premier-league/}.
+\newblock Accessed: 2024-4-23.
+
+\bibitem{python}
+{\sc {Pablo Londoño}}.
+\newblock {Qué es Python, para qué sirve y cómo se usa (+ recursos para
+  aprender)}.
+\newblock \url{https://blog.hubspot.es/website/que-es-python}.
+\newblock Accessed: 2024-4-23.
+
+\bibitem{definicion-ia}
+{\sc {Plan de recuperacion del gobierno de España}}.
+\newblock {Qué es la Inteligencia Artificial}.
+\newblock
+  \url{https://planderecuperacion.gob.es/noticias/que-es-inteligencia-artificial-ia-prtr}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{algoritmos-supervisado}
+{\sc {Raona}}.
+\newblock {Los 10 Algoritmos esenciales en Machine Learning}.
+\newblock
+  \url{https://raona.com/los-10-algoritmos-esenciales-machine-learning/}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{tecnicas-ia}
+{\sc {Redacción APD}}.
+\newblock {Las ramas de la inteligencia artificial y sus diferentes
+  aplicaciones}.
+\newblock
+  \url{https://www.apd.es/tecnicas-de-la-inteligencia-artificial-cuales-son-y-para-que-se-utilizan/}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{resultadosfutbol}
+{\sc {ResultadosFutbol}}.
+\newblock {ResultadosFutbol}.
+\newblock \url{https://www.resultados-futbol.com/}.
+\newblock Accessed: 2024-4-23.
+
+\bibitem{deep-learning}
+{\sc {SAS}}.
+\newblock {Deep Learning Qué es y por qué es importante}.
+\newblock
+  \url{https://www.sas.com/es_es/insights/analytics/deep-learning.html}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{iaFutbol}
+{\sc {Somos Futboleros}}.
+\newblock {Inteligencia artificial predice el campeón de la Premier League}.
+\newblock
+  \url{https://onefootball.com/es/noticias/inteligencia-artificial-predice-el-campeon-de-la-premier-league-38801122}.
+\newblock Accessed: 2024-4-23.
+
+\bibitem{bernabeu}
+{\sc {SPORT}}.
+\newblock {El nuevo Santiago Bernabéu costará tres veces más de lo
+  previsto}.
+\newblock
+  \url{https://www.sport.es/es/noticias/real-madrid/nuevo-santiago-bernabeu-costara-tres-99960904}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{parametros-arquitectura}
+{\sc {Tensorflow}}.
+\newblock {Transferir el aprendizaje y la puesta a punto}.
+\newblock
+  \url{https://www.tensorflow.org/guide/keras/transfer_learning?hl=es-419}.
+\newblock Accessed: 2024-5-31.
+
+\bibitem{premier-tv}
+{\sc {Àlex Calaff}}.
+\newblock {¿Cuánto dinero ha ganado cada equipo de la Premier League?}
+\newblock
+  \url{https://www.sport.es/es/noticias/premier-league/dinero-ganado-equipo-premier-league-88825234}.
+\newblock Accessed: 2024-5-31.
+
+\end{thebibliography}
